@@ -1,0 +1,1850 @@
+Started GET "/upload" for 127.0.0.1 at 2018-04-29 20:14:03 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/upload"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/upload" for 127.0.0.1 at 2018-04-29 20:14:35 -0400
+  
+ArgumentError (You should not use the `match` method in your router without specifying an HTTP method.
+If you want to expose your action to both GET and POST, add `via: [:get, :post]` option.
+If you want to expose your action to GET, use `get` in the router:
+  Instead of: match "controller#action"
+  Do: get "controller#action"):
+  
+config/routes.rb:3:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started GET "/upload" for 127.0.0.1 at 2018-04-29 20:15:00 -0400
+  
+ArgumentError (Missing :action key on routes definition, please check your routes.):
+  
+config/routes.rb:3:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started GET "/upload" for 127.0.0.1 at 2018-04-29 20:16:13 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/upload"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/upload" for 127.0.0.1 at 2018-04-29 20:18:38 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/upload"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/upload" for 127.0.0.1 at 2018-04-29 20:18:40 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/upload"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/upload" for 127.0.0.1 at 2018-04-29 20:18:53 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 1309ms (Views: 1077.3ms)
+
+
+Started GET "/upload" for 127.0.0.1 at 2018-04-29 20:20:21 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 21ms (Views: 18.7ms)
+
+
+Started POST "/upload" for 127.0.0.1 at 2018-04-29 20:21:43 -0400
+  
+ActionController::RoutingError (No route matches [POST] "/upload"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started POST "/upload" for 127.0.0.1 at 2018-04-29 20:22:08 -0400
+Processing by UploadController#upload as HTML
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x00007fc2c0beebc0 @tempfile=#<Tempfile:/var/folders/pl/tmjmh5wn1519b1hrgy9z5k2m0000gn/T/RackMultipart20180429-4833-1ddwoy.png>, @original_filename="cleaner.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"cleaner.png\"\r\nContent-Type: image/png\r\n">}
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 2ms
+
+
+  
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+actionpack (5.1.6) lib/action_controller/metal/request_forgery_protection.rb:195:in `handle_unverified_request'
+actionpack (5.1.6) lib/action_controller/metal/request_forgery_protection.rb:227:in `handle_unverified_request'
+actionpack (5.1.6) lib/action_controller/metal/request_forgery_protection.rb:222:in `verify_authenticity_token'
+activesupport (5.1.6) lib/active_support/callbacks.rb:413:in `block in make_lambda'
+activesupport (5.1.6) lib/active_support/callbacks.rb:197:in `block (2 levels) in halting'
+actionpack (5.1.6) lib/abstract_controller/callbacks.rb:12:in `block (2 levels) in <module:Callbacks>'
+activesupport (5.1.6) lib/active_support/callbacks.rb:198:in `block in halting'
+activesupport (5.1.6) lib/active_support/callbacks.rb:507:in `block in invoke_before'
+activesupport (5.1.6) lib/active_support/callbacks.rb:507:in `each'
+activesupport (5.1.6) lib/active_support/callbacks.rb:507:in `invoke_before'
+activesupport (5.1.6) lib/active_support/callbacks.rb:130:in `run_callbacks'
+actionpack (5.1.6) lib/abstract_controller/callbacks.rb:19:in `process_action'
+actionpack (5.1.6) lib/action_controller/metal/rescue.rb:20:in `process_action'
+actionpack (5.1.6) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+activesupport (5.1.6) lib/active_support/notifications.rb:166:in `block in instrument'
+activesupport (5.1.6) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+activesupport (5.1.6) lib/active_support/notifications.rb:166:in `instrument'
+actionpack (5.1.6) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+actionpack (5.1.6) lib/action_controller/metal/params_wrapper.rb:252:in `process_action'
+activerecord (5.1.6) lib/active_record/railties/controller_runtime.rb:22:in `process_action'
+actionpack (5.1.6) lib/abstract_controller/base.rb:124:in `process'
+actionview (5.1.6) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.6) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.6) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.6) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.6) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.6) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.6) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.6) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.6) lib/action_dispatch/routing/route_set.rb:844:in `call'
+rack (2.0.5) lib/rack/etag.rb:25:in `call'
+rack (2.0.5) lib/rack/conditional_get.rb:38:in `call'
+rack (2.0.5) lib/rack/head.rb:12:in `call'
+rack (2.0.5) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.5) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.6) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.6) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.6) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/upload" for 127.0.0.1 at 2018-04-29 20:22:48 -0400
+  
+ArgumentError (wrong number of arguments (given 1, expected 0)):
+  
+app/controllers/upload_controller.rb:4:in `process'
+Started GET "/upload" for 127.0.0.1 at 2018-04-29 20:23:09 -0400
+  
+ArgumentError (wrong number of arguments (given 1, expected 0)):
+  
+app/controllers/upload_controller.rb:6:in `process'
+Started GET "/upload" for 127.0.0.1 at 2018-04-29 20:23:43 -0400
+  
+ArgumentError (wrong number of arguments (given 1, expected 0)):
+  
+app/controllers/upload_controller.rb:6:in `process'
+Started GET "/upload" for 127.0.0.1 at 2018-04-29 20:23:46 -0400
+  
+ArgumentError (wrong number of arguments (given 1, expected 0)):
+  
+app/controllers/upload_controller.rb:6:in `process'
+Started GET "/upload" for 127.0.0.1 at 2018-04-29 20:23:56 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 24ms (Views: 22.7ms)
+
+
+Started POST "/upload" for 127.0.0.1 at 2018-04-29 20:24:01 -0400
+Processing by UploadController#upload as HTML
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x00007fc2c6a5b140 @tempfile=#<Tempfile:/var/folders/pl/tmjmh5wn1519b1hrgy9z5k2m0000gn/T/RackMultipart20180429-4833-8ec60f.png>, @original_filename="cleaner.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"cleaner.png\"\r\nContent-Type: image/png\r\n">}
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 1ms
+
+
+  
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+actionpack (5.1.6) lib/action_controller/metal/request_forgery_protection.rb:195:in `handle_unverified_request'
+actionpack (5.1.6) lib/action_controller/metal/request_forgery_protection.rb:227:in `handle_unverified_request'
+actionpack (5.1.6) lib/action_controller/metal/request_forgery_protection.rb:222:in `verify_authenticity_token'
+activesupport (5.1.6) lib/active_support/callbacks.rb:413:in `block in make_lambda'
+activesupport (5.1.6) lib/active_support/callbacks.rb:197:in `block (2 levels) in halting'
+actionpack (5.1.6) lib/abstract_controller/callbacks.rb:12:in `block (2 levels) in <module:Callbacks>'
+activesupport (5.1.6) lib/active_support/callbacks.rb:198:in `block in halting'
+activesupport (5.1.6) lib/active_support/callbacks.rb:507:in `block in invoke_before'
+activesupport (5.1.6) lib/active_support/callbacks.rb:507:in `each'
+activesupport (5.1.6) lib/active_support/callbacks.rb:507:in `invoke_before'
+activesupport (5.1.6) lib/active_support/callbacks.rb:130:in `run_callbacks'
+actionpack (5.1.6) lib/abstract_controller/callbacks.rb:19:in `process_action'
+actionpack (5.1.6) lib/action_controller/metal/rescue.rb:20:in `process_action'
+actionpack (5.1.6) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+activesupport (5.1.6) lib/active_support/notifications.rb:166:in `block in instrument'
+activesupport (5.1.6) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+activesupport (5.1.6) lib/active_support/notifications.rb:166:in `instrument'
+actionpack (5.1.6) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+actionpack (5.1.6) lib/action_controller/metal/params_wrapper.rb:252:in `process_action'
+activerecord (5.1.6) lib/active_record/railties/controller_runtime.rb:22:in `process_action'
+actionpack (5.1.6) lib/abstract_controller/base.rb:124:in `process'
+actionview (5.1.6) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.6) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.6) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.6) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.6) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.6) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.6) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.6) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.6) lib/action_dispatch/routing/route_set.rb:844:in `call'
+rack (2.0.5) lib/rack/etag.rb:25:in `call'
+rack (2.0.5) lib/rack/conditional_get.rb:38:in `call'
+rack (2.0.5) lib/rack/head.rb:12:in `call'
+rack (2.0.5) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.5) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.6) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.6) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.6) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started POST "/upload" for 127.0.0.1 at 2018-04-29 20:24:47 -0400
+Processing by UploadController#upload as HTML
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x00007fc2c68e7d90 @tempfile=#<Tempfile:/var/folders/pl/tmjmh5wn1519b1hrgy9z5k2m0000gn/T/RackMultipart20180429-4833-109rffy.png>, @original_filename="cleaner.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"cleaner.png\"\r\nContent-Type: image/png\r\n">}
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 1ms
+
+
+  
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  
+actionpack (5.1.6) lib/action_controller/metal/request_forgery_protection.rb:195:in `handle_unverified_request'
+actionpack (5.1.6) lib/action_controller/metal/request_forgery_protection.rb:227:in `handle_unverified_request'
+actionpack (5.1.6) lib/action_controller/metal/request_forgery_protection.rb:222:in `verify_authenticity_token'
+activesupport (5.1.6) lib/active_support/callbacks.rb:413:in `block in make_lambda'
+activesupport (5.1.6) lib/active_support/callbacks.rb:197:in `block (2 levels) in halting'
+actionpack (5.1.6) lib/abstract_controller/callbacks.rb:12:in `block (2 levels) in <module:Callbacks>'
+activesupport (5.1.6) lib/active_support/callbacks.rb:198:in `block in halting'
+activesupport (5.1.6) lib/active_support/callbacks.rb:507:in `block in invoke_before'
+activesupport (5.1.6) lib/active_support/callbacks.rb:507:in `each'
+activesupport (5.1.6) lib/active_support/callbacks.rb:507:in `invoke_before'
+activesupport (5.1.6) lib/active_support/callbacks.rb:130:in `run_callbacks'
+actionpack (5.1.6) lib/abstract_controller/callbacks.rb:19:in `process_action'
+actionpack (5.1.6) lib/action_controller/metal/rescue.rb:20:in `process_action'
+actionpack (5.1.6) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+activesupport (5.1.6) lib/active_support/notifications.rb:166:in `block in instrument'
+activesupport (5.1.6) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+activesupport (5.1.6) lib/active_support/notifications.rb:166:in `instrument'
+actionpack (5.1.6) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+actionpack (5.1.6) lib/action_controller/metal/params_wrapper.rb:252:in `process_action'
+activerecord (5.1.6) lib/active_record/railties/controller_runtime.rb:22:in `process_action'
+actionpack (5.1.6) lib/abstract_controller/base.rb:124:in `process'
+actionview (5.1.6) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.6) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.6) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.6) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.6) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.6) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.6) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.6) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.6) lib/action_dispatch/routing/route_set.rb:844:in `call'
+rack (2.0.5) lib/rack/etag.rb:25:in `call'
+rack (2.0.5) lib/rack/conditional_get.rb:38:in `call'
+rack (2.0.5) lib/rack/head.rb:12:in `call'
+rack (2.0.5) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.5) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.6) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.6) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.6) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/upload" for 127.0.0.1 at 2018-04-29 20:24:51 -0400
+Processing by UploadController#upload as HTML
+Completed 500 Internal Server Error in 110ms
+
+
+  
+NoMethodError (undefined method `skip_before_action' for #<UploadController:0x00007fc2c0d04118>):
+  
+app/controllers/upload_controller.rb:3:in `upload'
+Started GET "/upload" for 127.0.0.1 at 2018-04-29 20:26:01 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (121.8ms)
+Completed 500 Internal Server Error in 127ms
+
+
+  
+ActionView::Template::Error (undefined method `skip_before_action' for #<#<Class:0x00007fc2c603a670>:0x00007fc2c6038aa0>):
+    1: <!DOCTYPE HTML>
+    2: <%  skip_before_action :verify_authenticity_token %>
+    3: <html>
+    4: <head>
+    5:   Upload a Resource
+  
+app/views/upload/upload.html.erb:2:in `_app_views_upload_upload_html_erb__2256312595012680927_70237261256500'
+Started GET "/upload" for 127.0.0.1 at 2018-04-29 20:26:38 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 34ms (Views: 30.8ms)
+
+
+Started POST "/upload" for 127.0.0.1 at 2018-04-29 20:26:43 -0400
+Processing by UploadController#upload as HTML
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x00007fc2c2636988 @tempfile=#<Tempfile:/var/folders/pl/tmjmh5wn1519b1hrgy9z5k2m0000gn/T/RackMultipart20180429-4833-81kk6z.png>, @original_filename="fullcircle.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"fullcircle.png\"\r\nContent-Type: image/png\r\n">}
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 29ms (Views: 26.1ms)
+
+
+Started POST "/upload" for 127.0.0.1 at 2018-04-29 20:26:45 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 23ms (Views: 19.8ms)
+
+
+Started POST "/upload" for 127.0.0.1 at 2018-04-29 20:26:45 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 19ms (Views: 15.5ms)
+
+
+Started POST "/upload" for 127.0.0.1 at 2018-04-29 20:26:45 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 27ms (Views: 24.4ms)
+
+
+Started GET "/upload" for 127.0.0.1 at 2018-04-29 20:29:23 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 37ms (Views: 35.1ms)
+
+
+Started GET "/upload" for 127.0.0.1 at 2018-04-29 20:29:47 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 20ms (Views: 18.0ms)
+
+
+Started POST "/upload" for 127.0.0.1 at 2018-04-29 20:29:55 -0400
+Processing by UploadController#upload as HTML
+  Parameters: {"file"=>#<ActionDispatch::Http::UploadedFile:0x00007fc2c69e3f00 @tempfile=#<Tempfile:/var/folders/pl/tmjmh5wn1519b1hrgy9z5k2m0000gn/T/RackMultipart20180429-4833-139bwpk.png>, @original_filename="cleaner.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"file\"; filename=\"cleaner.png\"\r\nContent-Type: image/png\r\n">}
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 24ms (Views: 21.6ms)
+
+
+Started GET "/upload" for 127.0.0.1 at 2018-04-29 20:30:23 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 17ms (Views: 15.9ms)
+
+
+Started GET "/upload" for 127.0.0.1 at 2018-04-29 20:43:22 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 8ms
+
+
+  
+SyntaxError (/Users/lukecrum/Documents/FullCircle-Main-Site/FullCircle-backend/FullCircle/app/views/upload/upload.html.erb:33: syntax error, unexpected keyword_ensure, expecting end-of-input
+          ensure
+          ^~~~~~):
+  
+app/views/upload/upload.html.erb:33: syntax error, unexpected keyword_ensure, expecting end-of-input
+Started PUT "/__web_console/repl_sessions/4fdaf4bad3b8b78b0750d47697609ac3" for 127.0.0.1 at 2018-04-29 20:44:13 -0400
+Started PUT "/__web_console/repl_sessions/4fdaf4bad3b8b78b0750d47697609ac3" for 127.0.0.1 at 2018-04-29 20:44:13 -0400
+Started PUT "/__web_console/repl_sessions/4fdaf4bad3b8b78b0750d47697609ac3" for 127.0.0.1 at 2018-04-29 20:44:25 -0400
+Started PUT "/__web_console/repl_sessions/4fdaf4bad3b8b78b0750d47697609ac3" for 127.0.0.1 at 2018-04-29 20:44:29 -0400
+Started PUT "/__web_console/repl_sessions/4fdaf4bad3b8b78b0750d47697609ac3" for 127.0.0.1 at 2018-04-29 20:44:31 -0400
+Started GET "/upload" for 127.0.0.1 at 2018-04-29 20:45:13 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 33ms (Views: 30.6ms)
+
+
+Started POST "/upload" for 127.0.0.1 at 2018-04-29 20:45:20 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 30ms (Views: 27.8ms)
+
+
+Started GET "/upload" for 127.0.0.1 at 2018-04-29 20:47:48 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (1.8ms)
+Completed 500 Internal Server Error in 18ms
+
+
+  
+SyntaxError (/Users/lukecrum/Documents/FullCircle-Main-Site/FullCircle-backend/FullCircle/app/views/upload/upload.html.erb:29: syntax error, unexpected keyword_end
+...eze;@output_buffer.append=( end );@output_buffer.safe_append...
+...                            ^~~
+/Users/lukecrum/Documents/FullCircle-Main-Site/FullCircle-backend/FullCircle/app/views/upload/upload.html.erb:34: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+          ^~~~~~
+/Users/lukecrum/Documents/FullCircle-Main-Site/FullCircle-backend/FullCircle/app/views/upload/upload.html.erb:36: syntax error, unexpected keyword_end, expecting ')'
+          end
+          ^~~):
+  
+app/views/upload/upload.html.erb:29: syntax error, unexpected keyword_end
+app/views/upload/upload.html.erb:34: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/upload/upload.html.erb:36: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/upload" for 127.0.0.1 at 2018-04-29 20:48:00 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (749.8ms)
+Completed 500 Internal Server Error in 772ms
+
+
+  
+ActionView::Template::Error (undefined local variable or method `f' for #<#<Class:0x00007fc2c4e67088>:0x00007fc2c49d39e0>):
+    25: <%= form_tag '/upload' do %>
+    26:   Upload Resource:
+    27:   <%= file_field_tag 'Resource' %>
+    28:   <%= f.select :desired_attribute, options_for_select([['Awards'], ['Fundraising'], ['Outreach'], ['Mechanical'], ['Programming'], ['Electrical']]) %>
+    29: <% end %>
+    30: </body>
+    31: </html>
+  
+app/views/upload/upload.html.erb:28:in `block in _app_views_upload_upload_html_erb__2256312595012680927_70237231245420'
+app/views/upload/upload.html.erb:25:in `_app_views_upload_upload_html_erb__2256312595012680927_70237231245420'
+Started GET "/upload" for 127.0.0.1 at 2018-04-29 20:48:59 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (11.1ms)
+Completed 500 Internal Server Error in 28ms
+
+
+  
+ActionView::Template::Error (undefined method `empty?' for nil:NilClass):
+    25: <%= form_tag '/upload' do %>
+    26:   Upload Resource:
+    27:   <%= file_field_tag 'Resource' %>
+    28:   <%= select :type_of_resource, options_for_select([['Awards'], ['Fundraising'], ['Outreach'], ['Mechanical'], ['Programming'], ['Electrical']]) %>
+    29: <% end %>
+    30: </body>
+    31: </html>
+  
+app/views/upload/upload.html.erb:28:in `block in _app_views_upload_upload_html_erb__2256312595012680927_70237250321120'
+app/views/upload/upload.html.erb:25:in `_app_views_upload_upload_html_erb__2256312595012680927_70237250321120'
+Started GET "/upload" for 127.0.0.1 at 2018-04-29 20:50:29 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (488.5ms)
+Completed 500 Internal Server Error in 505ms
+
+
+  
+ActionView::Template::Error (undefined local variable or method `upload' for #<#<Class:0x00007fc2c4e67088>:0x00007fc2c6108728>
+Did you mean?  load):
+    25: <%= form_tag '/upload' do %>
+    26:   Upload Resource:
+    27:   <%= file_field_tag 'Resource' %>
+    28:   <%= upload.select :type_of_resource, options_for_select([['Awards'], ['Fundraising'], ['Outreach'], ['Mechanical'], ['Programming'], ['Electrical']]) %>
+    29: <% end %>
+    30: </body>
+    31: </html>
+  
+app/views/upload/upload.html.erb:28:in `block in _app_views_upload_upload_html_erb__2256312595012680927_70237261678660'
+app/views/upload/upload.html.erb:25:in `_app_views_upload_upload_html_erb__2256312595012680927_70237261678660'
+Started GET "/upload" for 127.0.0.1 at 2018-04-29 20:52:46 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (703.0ms)
+Completed 500 Internal Server Error in 724ms
+
+
+  
+ActionView::Template::Error (undefined local variable or method `f' for #<#<Class:0x00007fc2c4e67088>:0x00007fc2c68337c8>):
+    25: <%= form_tag '/upload' do %>
+    26:   Upload Resource:
+    27:   <%= file_field_tag 'Resource' %>
+    28:   <%= f.collection_select :type_of_resource, options_for_select([['Awards'], ['Fundraising'], ['Outreach'], ['Mechanical'], ['Programming'], ['Electrical']]) %>
+    29: <% end %>
+    30: </body>
+    31: </html>
+  
+app/views/upload/upload.html.erb:28:in `block in _app_views_upload_upload_html_erb__2256312595012680927_70237250085040'
+app/views/upload/upload.html.erb:25:in `_app_views_upload_upload_html_erb__2256312595012680927_70237250085040'
+Started GET "/upload" for 127.0.0.1 at 2018-04-29 20:53:10 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (542.9ms)
+Completed 500 Internal Server Error in 567ms
+
+
+  
+ActionView::Template::Error (undefined method `collection_select_tag' for #<#<Class:0x00007fc2c4e67088>:0x00007fc2c1da93d8>
+Did you mean?  collection_select):
+    25: <%= form_tag '/upload' do %>
+    26:   Upload Resource:
+    27:   <%= file_field_tag 'Resource' %>
+    28:   <%= collection_select_tag :type_of_resource, options_for_select([['Awards'], ['Fundraising'], ['Outreach'], ['Mechanical'], ['Programming'], ['Electrical']]) %>
+    29: <% end %>
+    30: </body>
+    31: </html>
+  
+app/views/upload/upload.html.erb:28:in `block in _app_views_upload_upload_html_erb__2256312595012680927_70237226357780'
+app/views/upload/upload.html.erb:25:in `_app_views_upload_upload_html_erb__2256312595012680927_70237226357780'
+Started GET "/upload" for 127.0.0.1 at 2018-04-29 20:53:21 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (6.7ms)
+Completed 500 Internal Server Error in 27ms
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 2, expected 5..7)):
+    25: <%= form_tag '/upload' do %>
+    26:   Upload Resource:
+    27:   <%= file_field_tag 'Resource' %>
+    28:   <%= collection_select :type_of_resource, options_for_select([['Awards'], ['Fundraising'], ['Outreach'], ['Mechanical'], ['Programming'], ['Electrical']]) %>
+    29: <% end %>
+    30: </body>
+    31: </html>
+  
+app/views/upload/upload.html.erb:28:in `block in _app_views_upload_upload_html_erb__2256312595012680927_70237250877080'
+app/views/upload/upload.html.erb:25:in `_app_views_upload_upload_html_erb__2256312595012680927_70237250877080'
+Started GET "/upload" for 127.0.0.1 at 2018-04-29 20:55:13 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (5.1ms)
+Completed 500 Internal Server Error in 18ms
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 2, expected 5..7)):
+    25: <%= form_tag '/upload' do |f|%>
+    26:   Upload Resource:
+    27:   <%= file_field_tag 'Resource' %>
+    28:   <%= collection_select :type_of_resource, options_for_select([['Awards'], ['Fundraising'], ['Outreach'], ['Mechanical'], ['Programming'], ['Electrical']]) %>
+    29:   <%= f.submit %>
+    30: <% end %>
+    31: 
+  
+app/views/upload/upload.html.erb:28:in `block in _app_views_upload_upload_html_erb__2256312595012680927_70237266413740'
+app/views/upload/upload.html.erb:25:in `_app_views_upload_upload_html_erb__2256312595012680927_70237266413740'
+Started GET "/upload" for 127.0.0.1 at 2018-04-29 20:55:35 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (11.8ms)
+Completed 500 Internal Server Error in 27ms
+
+
+  
+ActionView::Template::Error (undefined method `collection_select' for nil:NilClass):
+    25: <%= form_tag '/upload' do |f|%>
+    26:   Upload Resource:
+    27:   <%= file_field_tag 'Resource' %>
+    28:   <%= f.collection_select :type_of_resource, options_for_select([['Awards'], ['Fundraising'], ['Outreach'], ['Mechanical'], ['Programming'], ['Electrical']]) %>
+    29:   <%= f.submit %>
+    30: <% end %>
+    31: 
+  
+app/views/upload/upload.html.erb:28:in `block in _app_views_upload_upload_html_erb__2256312595012680927_70237249849540'
+app/views/upload/upload.html.erb:25:in `_app_views_upload_upload_html_erb__2256312595012680927_70237249849540'
+Started GET "/upload" for 127.0.0.1 at 2018-04-29 20:55:48 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (10.2ms)
+Completed 500 Internal Server Error in 26ms
+
+
+  
+ActionView::Template::Error (undefined method `collection_select' for nil:NilClass):
+    25: <%= form_tag '/upload' do |f| %>
+    26:   Upload Resource:
+    27:   <%= file_field_tag 'Resource' %>
+    28:   <%= f.collection_select :type_of_resource, options_for_select([['Awards'], ['Fundraising'], ['Outreach'], ['Mechanical'], ['Programming'], ['Electrical']]) %>
+    29:   <%= f.submit %>
+    30: <% end %>
+    31: 
+  
+app/views/upload/upload.html.erb:28:in `block in _app_views_upload_upload_html_erb__2256312595012680927_70237262169360'
+app/views/upload/upload.html.erb:25:in `_app_views_upload_upload_html_erb__2256312595012680927_70237262169360'
+Started GET "/upload" for 127.0.0.1 at 2018-04-29 20:56:16 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (6.6ms)
+Completed 500 Internal Server Error in 20ms
+
+
+  
+ActionView::Template::Error (First argument in form cannot contain nil or be empty):
+    22:   <button>Submit</button>
+    23: </div>
+    24: </form>
+    25: <%= form_for @post do |f| %>
+    26:   Upload Resource:
+    27:   <%= file_field_tag 'Resource' %>
+    28:   <%= f.collection_select :type_of_resource, options_for_select([['Awards'], ['Fundraising'], ['Outreach'], ['Mechanical'], ['Programming'], ['Electrical']]) %>
+  
+app/views/upload/upload.html.erb:25:in `_app_views_upload_upload_html_erb__2256312595012680927_70237226488040'
+Started GET "/upload" for 127.0.0.1 at 2018-04-29 20:56:40 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (9.3ms)
+Completed 500 Internal Server Error in 24ms
+
+
+  
+ActionView::Template::Error (undefined method `collection_select' for nil:NilClass):
+    25: <%= form_tag '/upload' do |f| %>
+    26:   Upload Resource:
+    27:   <%= file_field_tag 'Resource' %>
+    28:   <%= f.collection_select :type_of_resource, options_for_select([['Awards'], ['Fundraising'], ['Outreach'], ['Mechanical'], ['Programming'], ['Electrical']]) %>
+    29:   <%= f.submit %>
+    30: <% end %>
+    31: 
+  
+app/views/upload/upload.html.erb:28:in `block in _app_views_upload_upload_html_erb__2256312595012680927_70237218806420'
+app/views/upload/upload.html.erb:25:in `_app_views_upload_upload_html_erb__2256312595012680927_70237218806420'
+Started GET "/upload" for 127.0.0.1 at 2018-04-29 20:56:53 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (13.9ms)
+Completed 500 Internal Server Error in 38ms
+
+
+  
+ActionView::Template::Error (undefined method `file_field_tag' for nil:NilClass):
+    24: </form>
+    25: <%= form_tag '/upload' do |f| %>
+    26:   Upload Resource:
+    27:   <%= f.file_field_tag 'Resource' %>
+    28:   <%= f.collection_select :type_of_resource, options_for_select([['Awards'], ['Fundraising'], ['Outreach'], ['Mechanical'], ['Programming'], ['Electrical']]) %>
+    29:   <%= f.submit %>
+    30: <% end %>
+  
+app/views/upload/upload.html.erb:27:in `block in _app_views_upload_upload_html_erb__2256312595012680927_70237216502800'
+app/views/upload/upload.html.erb:25:in `_app_views_upload_upload_html_erb__2256312595012680927_70237216502800'
+Started GET "/upload" for 127.0.0.1 at 2018-04-29 20:57:08 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (8.4ms)
+Completed 500 Internal Server Error in 32ms
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 2, expected 5..7)):
+    25: <%= form_tag '/upload' do |f| %>
+    26:   Upload Resource:
+    27:   <%= file_field_tag 'Resource' %>
+    28:   <%= collection_select :type_of_resource, options_for_select([['Awards'], ['Fundraising'], ['Outreach'], ['Mechanical'], ['Programming'], ['Electrical']]) %>
+    29:   <%= f.submit %>
+    30: <% end %>
+    31: 
+  
+app/views/upload/upload.html.erb:28:in `block in _app_views_upload_upload_html_erb__2256312595012680927_70237250691160'
+app/views/upload/upload.html.erb:25:in `_app_views_upload_upload_html_erb__2256312595012680927_70237250691160'
+Started GET "/upload" for 127.0.0.1 at 2018-04-29 20:58:10 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (10.9ms)
+Completed 500 Internal Server Error in 31ms
+
+
+  
+ActionView::Template::Error (private method `select' called for nil:NilClass):
+    25: <%= form_tag '/upload' do |f| %>
+    26:   Upload Resource:
+    27:   <%= file_field_tag 'Resource' %>
+    28:   <%= f.select :type_of_resource, options_for_select([['Awards'], ['Fundraising'], ['Outreach'], ['Mechanical'], ['Programming'], ['Electrical']]) %>
+    29:   <%= f.submit %>
+    30: <% end %>
+    31: 
+  
+app/views/upload/upload.html.erb:28:in `block in _app_views_upload_upload_html_erb__2256312595012680927_70237262468660'
+app/views/upload/upload.html.erb:25:in `_app_views_upload_upload_html_erb__2256312595012680927_70237262468660'
+Started GET "/upload" for 127.0.0.1 at 2018-04-29 20:58:43 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (8.3ms)
+Completed 500 Internal Server Error in 22ms
+
+
+  
+ActionView::Template::Error (undefined method `empty?' for nil:NilClass):
+    25: <%= form_tag '/upload' do |f| %>
+    26:   Upload Resource:
+    27:   <%= file_field_tag 'Resource' %>
+    28:   <%= select :type_of_resource, options_for_select([['Awards'], ['Fundraising'], ['Outreach'], ['Mechanical'], ['Programming'], ['Electrical']]) %>
+    29:   <%= f.submit %>
+    30: <% end %>
+    31: 
+  
+app/views/upload/upload.html.erb:28:in `block in _app_views_upload_upload_html_erb__2256312595012680927_70237226930540'
+app/views/upload/upload.html.erb:25:in `_app_views_upload_upload_html_erb__2256312595012680927_70237226930540'
+Started GET "/upload" for 127.0.0.1 at 2018-04-30 09:02:50 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (26.0ms)
+Completed 500 Internal Server Error in 51ms
+
+
+  
+ActionView::Template::Error (undefined method `empty?' for nil:NilClass):
+    25: <%= form_tag '/upload' do |f| %>
+    26:   Upload Resource:
+    27:   <%= file_field_tag 'Resource' %>
+    28:   <%= select :type_of_resource, options_for_select([['Awards'], ['Fundraising'], ['Outreach'], ['Mechanical'], ['Programming'], ['Electrical']]) %>
+    29:   <%= f.submit %>
+    30: <% end %>
+    31: 
+  
+app/views/upload/upload.html.erb:28:in `block in _app_views_upload_upload_html_erb__2256312595012680927_70237261229860'
+app/views/upload/upload.html.erb:25:in `_app_views_upload_upload_html_erb__2256312595012680927_70237261229860'
+Started GET "/upload" for 127.0.0.1 at 2018-04-30 09:03:02 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (5.0ms)
+Completed 500 Internal Server Error in 12ms
+
+
+  
+ActionView::Template::Error (private method `select' called for nil:NilClass):
+    25: <%= form_tag '/upload' do |f| %>
+    26:   Upload Resource:
+    27:   <%= file_field_tag 'Resource' %>
+    28:   <%= f.select :type_of_resource, options_for_select([['Awards'], ['Fundraising'], ['Outreach'], ['Mechanical'], ['Programming'], ['Electrical']]) %>
+    29:   <%= f.submit %>
+    30: <% end %>
+    31: 
+  
+app/views/upload/upload.html.erb:28:in `block in _app_views_upload_upload_html_erb__2256312595012680927_70237262135500'
+app/views/upload/upload.html.erb:25:in `_app_views_upload_upload_html_erb__2256312595012680927_70237262135500'
+Started GET "/upload" for 127.0.0.1 at 2018-04-30 09:04:03 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (5.1ms)
+Completed 500 Internal Server Error in 11ms
+
+
+  
+ActionView::Template::Error (undefined method `collection_select' for nil:NilClass):
+    25: <%= form_tag '/upload' do |f| %>
+    26:   Upload Resource:
+    27:   <%= file_field_tag 'Resource' %>
+    28:   <%= f.collection_select :type_of_resource, options_for_select([['Awards'], ['Fundraising'], ['Outreach'], ['Mechanical'], ['Programming'], ['Electrical']]) %>
+    29:   <%= f.submit %>
+    30: <% end %>
+    31: 
+  
+app/views/upload/upload.html.erb:28:in `block in _app_views_upload_upload_html_erb__2256312595012680927_70237230506320'
+app/views/upload/upload.html.erb:25:in `_app_views_upload_upload_html_erb__2256312595012680927_70237230506320'
+Started GET "/upload" for 127.0.0.1 at 2018-04-30 09:04:05 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (4.6ms)
+Completed 500 Internal Server Error in 10ms
+
+
+  
+ActionView::Template::Error (undefined method `collection_select' for nil:NilClass):
+    25: <%= form_tag '/upload' do |f| %>
+    26:   Upload Resource:
+    27:   <%= file_field_tag 'Resource' %>
+    28:   <%= f.collection_select :type_of_resource, options_for_select([['Awards'], ['Fundraising'], ['Outreach'], ['Mechanical'], ['Programming'], ['Electrical']]) %>
+    29:   <%= f.submit %>
+    30: <% end %>
+    31: 
+  
+app/views/upload/upload.html.erb:28:in `block in _app_views_upload_upload_html_erb__2256312595012680927_70237261559440'
+app/views/upload/upload.html.erb:25:in `_app_views_upload_upload_html_erb__2256312595012680927_70237261559440'
+Started GET "/upload" for 127.0.0.1 at 2018-04-30 09:04:18 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (1.6ms)
+Completed 500 Internal Server Error in 10ms
+
+
+  
+SyntaxError (/Users/lukecrum/Documents/FullCircle-Main-Site/FullCircle-backend/FullCircle/app/views/upload/upload.html.erb:36: syntax error, unexpected keyword_ensure, expecting end-of-input
+          ensure
+          ^~~~~~):
+  
+app/views/upload/upload.html.erb:36: syntax error, unexpected keyword_ensure, expecting end-of-input
+Started GET "/upload" for 127.0.0.1 at 2018-04-30 09:04:43 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (3.3ms)
+Completed 500 Internal Server Error in 12ms
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 2, expected 5..7)):
+    25: <%= form_tag '/upload' do |f| %>
+    26:   Upload Resource:
+    27:   <%= file_field_tag 'Resource' %>
+    28:   <%= collection_select :type_of_resource, options_for_select([['Awards'], ['Fundraising'], ['Outreach'], ['Mechanical'], ['Programming'], ['Electrical']]) %>
+    29:   <%= submit %>
+    30: <% end %>
+    31: 
+  
+app/views/upload/upload.html.erb:28:in `block in _app_views_upload_upload_html_erb__2256312595012680927_70237249505440'
+app/views/upload/upload.html.erb:25:in `_app_views_upload_upload_html_erb__2256312595012680927_70237249505440'
+Started GET "/upload" for 127.0.0.1 at 2018-04-30 09:05:46 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (288.6ms)
+Completed 500 Internal Server Error in 295ms
+
+
+  
+ActionView::Template::Error (undefined local variable or method `submit' for #<#<Class:0x00007fc2c4e67088>:0x00007fc2c61308b8>
+Did you mean?  submit_tag):
+    26:   Upload Resource:
+    27:   <%= file_field_tag 'Resource' %>
+    28:   <%= select_tag :type_of_resource, options_for_select([['Awards'], ['Fundraising'], ['Outreach'], ['Mechanical'], ['Programming'], ['Electrical']]) %>
+    29:   <%= submit %>
+    30: <% end %>
+    31: 
+    32: </body>
+  
+app/views/upload/upload.html.erb:29:in `block in _app_views_upload_upload_html_erb__2256312595012680927_70237261760740'
+app/views/upload/upload.html.erb:25:in `_app_views_upload_upload_html_erb__2256312595012680927_70237261760740'
+Started GET "/upload" for 127.0.0.1 at 2018-04-30 09:05:57 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 48ms (Views: 46.9ms)
+
+
+Started POST "/upload" for 127.0.0.1 at 2018-04-30 09:06:08 -0400
+Processing by UploadController#upload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"U+8t7+87dQ0fxqcwGVFzgdTh04DM1UmjIYYdJchwxR/E3buLgl6upWF+AfCH066m2Drao6v/P5zewjj/3yYcMw==", "Resource"=>"cleaner.png", "type_of_resource"=>"Electrical", "commit"=>"Save changes"}
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 16ms (Views: 13.1ms)
+
+
+Started GET "/upload" for 127.0.0.1 at 2018-04-30 09:06:27 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 21ms (Views: 19.6ms)
+
+
+Started GET "/upload" for 127.0.0.1 at 2018-04-30 09:07:12 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 22ms (Views: 20.3ms)
+
+
+Started POST "/upload" for 127.0.0.1 at 2018-04-30 09:07:15 -0400
+Processing by UploadController#upload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"Acb1kcCg1lGJGdGI9F7ms9oXo/wF5U12iFkxVzB/Yy6W9GP1rcUN+fehd0hq3DuU1syq32LPO0l3HRSNJym6Ag==", "Resource"=>"", "type_of_resource"=>"Awards", "commit"=>"Submit"}
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 26ms (Views: 23.2ms)
+
+
+Started GET "/upload" for 127.0.0.1 at 2018-04-30 09:08:19 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 9ms
+
+
+  
+SyntaxError (/Users/lukecrum/Documents/FullCircle-Main-Site/FullCircle-backend/FullCircle/app/views/upload/upload.html.erb:9: syntax error, unexpected tSTRING_BEG, expecting ')'
+...append=( file_field_tag :file 'Resource' );@output_buffer.sa...
+...                              ^):
+  
+app/views/upload/upload.html.erb:9: syntax error, unexpected tSTRING_BEG, expecting ')'
+Started GET "/upload" for 127.0.0.1 at 2018-04-30 09:09:37 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 17ms (Views: 15.3ms)
+
+
+Started GET "/upload" for 127.0.0.1 at 2018-04-30 09:13:06 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (3.7ms)
+Completed 500 Internal Server Error in 10ms
+
+
+  
+ActionView::Template::Error (undefined method `merge' for "Resource":String):
+     6: <body>
+     7: <%= form_tag '/upload', multipart: true do %>
+     8:   Upload Resource:
+     9:   <%= file_field_tag :file, 'Resource' %>
+    10:   <%= select_tag :type_of_resource, options_for_select([['Awards'], ['Fundraising'], ['Outreach'], ['Mechanical'], ['Programming'], ['Electrical']]) %>
+    11:   <%= submit_tag value="Submit" %>
+    12: <% end %>
+  
+app/views/upload/upload.html.erb:9:in `block in _app_views_upload_upload_html_erb__2256312595012680927_70237230012840'
+app/views/upload/upload.html.erb:7:in `_app_views_upload_upload_html_erb__2256312595012680927_70237230012840'
+Started GET "/upload" for 127.0.0.1 at 2018-04-30 09:13:16 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 40ms (Views: 37.4ms)
+
+
+Started GET "/upload" for 127.0.0.1 at 2018-04-30 09:14:56 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 19ms (Views: 17.0ms)
+
+
+Started GET "/upload" for 127.0.0.1 at 2018-04-30 09:15:12 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 17ms (Views: 15.6ms)
+
+
+Started GET "/upload" for 127.0.0.1 at 2018-04-30 09:15:29 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 21ms (Views: 19.6ms)
+
+
+Started GET "/upload" for 127.0.0.1 at 2018-04-30 09:15:41 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 17ms (Views: 15.8ms)
+
+
+Started GET "/upload" for 127.0.0.1 at 2018-04-30 09:16:22 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 25ms (Views: 22.9ms)
+
+
+Started GET "/upload" for 127.0.0.1 at 2018-04-30 09:16:42 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 18ms (Views: 16.1ms)
+
+
+Started GET "/upload" for 127.0.0.1 at 2018-04-30 09:17:44 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 16ms (Views: 14.4ms)
+
+
+Started GET "/upload" for 127.0.0.1 at 2018-04-30 09:20:29 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (2.9ms)
+Completed 500 Internal Server Error in 9ms
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 1, expected 2..3)):
+     6: <body>
+     7: <%= form_tag '/upload', multipart: true do %>
+     8:   <p></p>
+     9:   <%= file_field 'Resource' %>
+    10:   <p>Type of Resource: </p>
+    11:   <%= select_tag :type_of_resource, options_for_select([['Awards'], ['Fundraising'], ['Outreach'], ['Mechanical'], ['Programming'], ['Electrical']]) %>
+    12:   <p></p>
+  
+app/views/upload/upload.html.erb:9:in `block in _app_views_upload_upload_html_erb__2256312595012680927_70237251725320'
+app/views/upload/upload.html.erb:7:in `_app_views_upload_upload_html_erb__2256312595012680927_70237251725320'
+Started GET "/upload" for 127.0.0.1 at 2018-04-30 09:21:18 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 20ms (Views: 18.9ms)
+
+
+Started POST "/upload" for 127.0.0.1 at 2018-04-30 09:21:25 -0400
+Processing by UploadController#upload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"SFO4axlJhdHGGPD3v7Aj1Pj92l7SntDM76h+pWRlVurfYS4PdCxeebigVjchMv7z9CbTfbW0pvMQ7Ft/czOPxg==", "Resource"=>{"file"=>#<ActionDispatch::Http::UploadedFile:0x00007fc2c1b73078 @tempfile=#<Tempfile:/var/folders/pl/tmjmh5wn1519b1hrgy9z5k2m0000gn/T/RackMultipart20180430-4833-1gekmok.png>, @original_filename="cleaner.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"Resource[file]\"; filename=\"cleaner.png\"\r\nContent-Type: image/png\r\n">}, "type_of_resource"=>"Mechanical", "commit"=>"Submit"}
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 31ms (Views: 28.9ms)
+
+
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (1.1ms)[0m  [1m[35mCREATE TABLE "schema_migrations" ("version" varchar NOT NULL PRIMARY KEY)[0m
+  [1m[35m (1.4ms)[0m  [1m[35mCREATE TABLE "ar_internal_metadata" ("key" varchar NOT NULL PRIMARY KEY, "value" varchar, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateResources (20180430132625)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to CreateResources (20180430132625)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+  [1m[35m (0.6ms)[0m  [1m[35mCREATE TABLE "resources" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "filename" varchar, "content_type" varchar, "data" blob, "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL)[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20180430132625"]]
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (2.1ms)[0m  [1m[32mINSERT INTO "ar_internal_metadata" ("key", "value", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["key", "environment"], ["value", "development"], ["created_at", "2018-04-30 13:28:42.823784"], ["updated_at", "2018-04-30 13:28:42.823784"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.6ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/upload" for 127.0.0.1 at 2018-04-30 11:39:12 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 26ms (Views: 23.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/upload" for 127.0.0.1 at 2018-04-30 11:39:14 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 19ms (Views: 17.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload" for 127.0.0.1 at 2018-04-30 11:39:20 -0400
+Processing by UploadController#upload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"TeAjFquuAQQ8RbTTSghU28wm48C5411keYo6q4yXBAja0rVyxsvarEL9EhPUion8wP3q497JK1uGzh9xm8HdJA==", "Resource"=>{"file"=>#<ActionDispatch::Http::UploadedFile:0x00007fc2c25069a0 @tempfile=#<Tempfile:/var/folders/pl/tmjmh5wn1519b1hrgy9z5k2m0000gn/T/RackMultipart20180430-4833-1anxrub.png>, @original_filename="cleaner.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"Resource[file]\"; filename=\"cleaner.png\"\r\nContent-Type: image/png\r\n">}, "type_of_resource"=>"Mechanical", "commit"=>"Submit"}
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 38ms (Views: 35.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/upload" for 127.0.0.1 at 2018-04-30 17:59:08 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 1111ms (Views: 1099.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/upload" for 127.0.0.1 at 2018-04-30 17:59:58 -0400
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (13.4ms)
+Completed 200 OK in 262ms (Views: 251.9ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload" for 127.0.0.1 at 2018-04-30 18:00:11 -0400
+Processing by UploadController#upload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"kG8dJA1rAb6TnjHQQ4RFUzXPxgOH3/WqyaGTX3fVsyL4b5JmcSCf9rXAFYhqMN7t3aPayy5iTHGjngyXqxqlgw==", "Resource"=>{"file"=>#<ActionDispatch::Http::UploadedFile:0x00007fa961d8ee58 @tempfile=#<Tempfile:/var/folders/pl/tmjmh5wn1519b1hrgy9z5k2m0000gn/T/RackMultipart20180430-10260-c485cq.png>, @original_filename="cleaner.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"Resource[file]\"; filename=\"cleaner.png\"\r\nContent-Type: image/png\r\n">}, "type_of_resource"=>"Fundraising", "commit"=>"Submit"}
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 20ms (Views: 17.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/upload" for 127.0.0.1 at 2018-04-30 18:04:58 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 37ms (Views: 34.0ms)
+
+
+Started GET "/upload" for 127.0.0.1 at 2018-04-30 18:05:14 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 19ms (Views: 16.6ms)
+
+
+Started POST "/upload" for 127.0.0.1 at 2018-04-30 18:05:20 -0400
+Processing by UploadController#upload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PCrDm6YmGy8nOgo4yRZzKZWYDFwE/TnF/QgIhiJbv7VUKkzZ2m2FZwFkLmDgouiXffQQlK1AgB6XN5dO/pSpFA==", "Resource"=>{"file"=>#<ActionDispatch::Http::UploadedFile:0x00007fa95e2e50b8 @tempfile=#<Tempfile:/var/folders/pl/tmjmh5wn1519b1hrgy9z5k2m0000gn/T/RackMultipart20180430-10260-gzoc69.png>, @original_filename="cleaner.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"Resource[file]\"; filename=\"cleaner.png\"\r\nContent-Type: image/png\r\n">}, "type_of_resource"=>"Awards", "commit"=>"Submit"}
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 47ms (Views: 44.2ms)
+
+
+Started GET "/upload" for 127.0.0.1 at 2018-04-30 18:07:58 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 28ms (Views: 26.7ms)
+
+
+Started POST "/upload" for 127.0.0.1 at 2018-04-30 18:08:04 -0400
+Processing by UploadController#upload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"gAlIZoFapbMhZ5oc36OVByve41iUa1ipZNGK5mA1yKfoCcck/RE7+wc5vkT2Fw65w7L/kD3W4XIO7hUuvPreBg==", "Resource"=>{"file"=>#<ActionDispatch::Http::UploadedFile:0x00007fa961b60a28 @tempfile=#<Tempfile:/var/folders/pl/tmjmh5wn1519b1hrgy9z5k2m0000gn/T/RackMultipart20180430-10260-o0u1li.png>, @original_filename="cleaner.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"Resource[file]\"; filename=\"cleaner.png\"\r\nContent-Type: image/png\r\n">}, "type_of_resource"=>"Awards", "commit"=>"Submit"}
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 31ms (Views: 28.3ms)
+
+
+Started POST "/upload" for 127.0.0.1 at 2018-04-30 18:10:53 -0400
+Processing by UploadController#upload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VEpWyHEz6MHejFYiLibkl6hJNjB4HeRWjViIECuhHBE8StmKDXh2ifjScnoHkn8pQCUq+NGgXY3nZxfY924KsA==", "Resource"=>{"file"=>#<ActionDispatch::Http::UploadedFile:0x00007fa961dbdfa0 @tempfile=#<Tempfile:/var/folders/pl/tmjmh5wn1519b1hrgy9z5k2m0000gn/T/RackMultipart20180430-10260-5j56qq.png>, @original_filename="cleaner.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"Resource[file]\"; filename=\"cleaner.png\"\r\nContent-Type: image/png\r\n">}, "type_of_resource"=>"Awards", "commit"=>"Submit"}
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 25ms (Views: 22.8ms)
+
+
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddTypeOfResource (20180430221654)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddTypeOfResource (20180430221654)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (1.7ms)[0m  [1m[35mALTER TABLE "resources" ADD "type_of_resource" varchar[0m
+  [1m[35mSQL (0.2ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20180430221654"]]
+  [1m[35m (0.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.2ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.0ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started POST "/upload" for 127.0.0.1 at 2018-04-30 18:18:14 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UploadController#upload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"IQpYY5NlyNWa1glmT6QXCpquDtlq6RMsH1wCQrpNugZJCtch7y5WnbyILT5mEIy0csISEcNUqvd1Y52KZoKspw==", "Resource"=>{"file"=>#<ActionDispatch::Http::UploadedFile:0x00007fa95e33cea8 @tempfile=#<Tempfile:/var/folders/pl/tmjmh5wn1519b1hrgy9z5k2m0000gn/T/RackMultipart20180430-10260-1yepx94.png>, @original_filename="cleaner.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"Resource[file]\"; filename=\"cleaner.png\"\r\nContent-Type: image/png\r\n">}, "type_of_resource"=>"Fundraising", "commit"=>"Submit"}
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 27ms (Views: 23.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/upload" for 127.0.0.1 at 2018-04-30 18:21:34 -0400
+Processing by UploadController#upload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"79K9JXSSWcwY00mYWWTJHN31srFOd12tNfEOEfLNSxmH0jJnCNnHhD6NbcBw0FKiNZmueefK5HZfzpHZLgJduA==", "Resource"=>{"file"=>#<ActionDispatch::Http::UploadedFile:0x00007fa95e45daa8 @tempfile=#<Tempfile:/var/folders/pl/tmjmh5wn1519b1hrgy9z5k2m0000gn/T/RackMultipart20180430-10260-10igmp8.png>, @original_filename="cleaner.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"Resource[file]\"; filename=\"cleaner.png\"\r\nContent-Type: image/png\r\n">}, "type_of_resource"=>"Awards", "commit"=>"Submit"}
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 22ms (Views: 18.6ms)
+
+
+Started POST "/upload" for 127.0.0.1 at 2018-04-30 18:25:14 -0400
+Processing by UploadController#upload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4MAnzJyx1bS//l182gfMT9DLUk7SBVkUv4LgIRRHvSmIwKiO4PpL/JmgeSTzs1fxOKdOhnu44M/VvX/pyIiriA==", "Resource"=>{"file"=>#<ActionDispatch::Http::UploadedFile:0x00007fa962b5a7f8 @tempfile=#<Tempfile:/var/folders/pl/tmjmh5wn1519b1hrgy9z5k2m0000gn/T/RackMultipart20180430-10260-lai8pp.png>, @original_filename="cleaner.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"Resource[file]\"; filename=\"cleaner.png\"\r\nContent-Type: image/png\r\n">}, "type_of_resource"=>"Awards", "commit"=>"Submit"}
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 19ms (Views: 17.3ms)
+
+
+Started POST "/upload" for 127.0.0.1 at 2018-04-30 18:25:34 -0400
+Processing by UploadController#upload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"P6cjoPGqs2DoHH2HEQ0ITGyPIEGY54ay6s3Dcz3/oWJXp6zijeEtKM5CWd84uZPyhOM8iTFaP2mA8ly74TC3ww==", "type_of_resource"=>"Awards", "commit"=>"Submit"}
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 22ms (Views: 19.0ms)
+
+
+Started POST "/upload" for 127.0.0.1 at 2018-04-30 18:25:35 -0400
+Processing by UploadController#upload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PMEm4ZQSrcJGaFBEyEcYBvmMDf4TMDV55iEVecE5ruNUwamj6FkzimA2dBzh84O4EeARNrqNjKKMHoqxHfa4Qg==", "type_of_resource"=>"Awards", "commit"=>"Submit"}
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 29ms (Views: 25.9ms)
+
+
+Started POST "/upload" for 127.0.0.1 at 2018-04-30 18:25:44 -0400
+Processing by UploadController#upload as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LVf6lIdjjMubusIX70jkRnbynGXTz9MEvv71t7+AVPJFV3XW+ygSg73k5k/G/H/4np6ArXpyat/UwWp/Y09CUw==", "Resource"=>{"file"=>#<ActionDispatch::Http::UploadedFile:0x00007fa9619980d8 @tempfile=#<Tempfile:/var/folders/pl/tmjmh5wn1519b1hrgy9z5k2m0000gn/T/RackMultipart20180430-10260-1215isf.png>, @original_filename="cleaner.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"Resource[file]\"; filename=\"cleaner.png\"\r\nContent-Type: image/png\r\n">}, "type_of_resource"=>"Awards", "commit"=>"Submit"}
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 32ms (Views: 30.2ms)
+
+
+Started GET "/upload" for 127.0.0.1 at 2018-04-30 18:27:19 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (218.8ms)
+Completed 500 Internal Server Error in 228ms
+
+
+  
+ActionView::Template::Error (undefined local variable or method `multipart' for #<#<Class:0x00007fa961899ab0>:0x00007fa95d457ed8>):
+    4:   Upload a Resource
+    5: </head>
+    6: <body>
+    7: <%= form_tag '/upload', multipart => true do %>
+    8:   <p></p>
+    9:   <%= file_field 'Resource', :file %>
+   10:   <p>Type of Resource: </p>
+  
+app/views/upload/upload.html.erb:7:in `_app_views_upload_upload_html_erb___897914244696988496_70182731305420'
+Started GET "/upload" for 127.0.0.1 at 2018-04-30 18:27:25 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 22ms (Views: 20.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2018-05-03 10:03:50 -0400
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/lukecrum/.rvm/gems/ruby-2.5.0/gems/railties-5.1.6/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/lukecrum/.rvm/gems/ruby-2.5.0/gems/railties-5.1.6/lib/rails/templates/rails/welcome/index.html.erb (3.0ms)
+Completed 200 OK in 25ms (Views: 9.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/upload" for 127.0.0.1 at 2018-05-03 10:03:54 -0400
+Processing by UploadController#upload as HTML
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 0.8ms)
+
+
+  
+NoMethodError (undefined method `original_filename' for nil:NilClass):
+  
+app/controllers/upload_controller.rb:5:in `upload'
+Started GET "/upload" for 127.0.0.1 at 2018-05-03 10:04:14 -0400
+Processing by UploadController#upload as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `original_filename' for nil:NilClass):
+  
+app/controllers/upload_controller.rb:5:in `upload'
+Started GET "/upload" for 127.0.0.1 at 2018-05-03 10:04:19 -0400
+Processing by UploadController#upload as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `original_filename' for nil:NilClass):
+  
+app/controllers/upload_controller.rb:5:in `upload'
+Started GET "/upload" for 127.0.0.1 at 2018-05-03 10:10:04 -0400
+Processing by UploadController#upload as HTML
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.6ms)
+
+
+  
+NoMethodError (undefined method `original_filename' for nil:NilClass):
+  
+app/controllers/upload_controller.rb:5:in `upload'
+Started GET "/upload" for 127.0.0.1 at 2018-05-03 10:10:16 -0400
+Processing by UploadController#upload as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `original_filename' for nil:NilClass):
+  
+app/controllers/upload_controller.rb:5:in `upload'
+Started GET "/upload" for 127.0.0.1 at 2018-05-03 10:10:17 -0400
+Processing by UploadController#upload as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `original_filename' for nil:NilClass):
+  
+app/controllers/upload_controller.rb:5:in `upload'
+Started GET "/upload" for 127.0.0.1 at 2018-05-03 10:11:22 -0400
+Processing by UploadController#load as HTML
+Completed 406 Not Acceptable in 57ms
+
+
+  
+ActionController::UnknownFormat (UploadController#load is missing a template for this request format and variant.
+
+request.formats: ["text/html"]
+request.variant: []
+
+NOTE! For XHR/Ajax or API requests, this action would normally respond with 204 No Content: an empty white screen. Since you're loading it in a web browser, we assume that you expected to actually render a template, not nothing, so we're showing an error to be extra-clear. If you expect 204 No Content, carry on. That's what you'll get from an XHR or API request. Give it a shot.):
+  
+actionpack (5.1.6) lib/action_controller/metal/implicit_render.rb:53:in `default_render'
+actionpack (5.1.6) lib/action_controller/metal/basic_implicit_render.rb:4:in `block in send_action'
+actionpack (5.1.6) lib/action_controller/metal/basic_implicit_render.rb:4:in `tap'
+actionpack (5.1.6) lib/action_controller/metal/basic_implicit_render.rb:4:in `send_action'
+actionpack (5.1.6) lib/abstract_controller/base.rb:186:in `process_action'
+actionpack (5.1.6) lib/action_controller/metal/rendering.rb:30:in `process_action'
+actionpack (5.1.6) lib/abstract_controller/callbacks.rb:20:in `block in process_action'
+activesupport (5.1.6) lib/active_support/callbacks.rb:131:in `run_callbacks'
+actionpack (5.1.6) lib/abstract_controller/callbacks.rb:19:in `process_action'
+actionpack (5.1.6) lib/action_controller/metal/rescue.rb:20:in `process_action'
+actionpack (5.1.6) lib/action_controller/metal/instrumentation.rb:32:in `block in process_action'
+activesupport (5.1.6) lib/active_support/notifications.rb:166:in `block in instrument'
+activesupport (5.1.6) lib/active_support/notifications/instrumenter.rb:21:in `instrument'
+activesupport (5.1.6) lib/active_support/notifications.rb:166:in `instrument'
+actionpack (5.1.6) lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+actionpack (5.1.6) lib/action_controller/metal/params_wrapper.rb:252:in `process_action'
+activerecord (5.1.6) lib/active_record/railties/controller_runtime.rb:22:in `process_action'
+actionpack (5.1.6) lib/abstract_controller/base.rb:124:in `process'
+actionview (5.1.6) lib/action_view/rendering.rb:30:in `process'
+actionpack (5.1.6) lib/action_controller/metal.rb:189:in `dispatch'
+actionpack (5.1.6) lib/action_controller/metal.rb:253:in `dispatch'
+actionpack (5.1.6) lib/action_dispatch/routing/route_set.rb:49:in `dispatch'
+actionpack (5.1.6) lib/action_dispatch/routing/route_set.rb:31:in `serve'
+actionpack (5.1.6) lib/action_dispatch/journey/router.rb:50:in `block in serve'
+actionpack (5.1.6) lib/action_dispatch/journey/router.rb:33:in `each'
+actionpack (5.1.6) lib/action_dispatch/journey/router.rb:33:in `serve'
+actionpack (5.1.6) lib/action_dispatch/routing/route_set.rb:844:in `call'
+rack (2.0.5) lib/rack/etag.rb:25:in `call'
+rack (2.0.5) lib/rack/conditional_get.rb:25:in `call'
+rack (2.0.5) lib/rack/head.rb:12:in `call'
+rack (2.0.5) lib/rack/session/abstract/id.rb:232:in `context'
+rack (2.0.5) lib/rack/session/abstract/id.rb:226:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/cookies.rb:613:in `call'
+activerecord (5.1.6) lib/active_record/migration.rb:556:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/callbacks.rb:26:in `block in call'
+activesupport (5.1.6) lib/active_support/callbacks.rb:97:in `run_callbacks'
+actionpack (5.1.6) lib/action_dispatch/middleware/callbacks.rb:24:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:59:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/upload" for 127.0.0.1 at 2018-05-03 10:12:56 -0400
+  
+ArgumentError (wrong number of arguments (given 1, expected 0)):
+  
+app/controllers/upload_controller.rb:3:in `process'
+Started GET "/upload" for 127.0.0.1 at 2018-05-03 10:14:39 -0400
+  
+ArgumentError (wrong number of arguments (given 1, expected 0)):
+  
+app/controllers/upload_controller.rb:3:in `process'
+Started GET "/upload" for 127.0.0.1 at 2018-05-03 11:02:07 -0400
+  
+ArgumentError (wrong number of arguments (given 1, expected 0)):
+  
+app/controllers/upload_controller.rb:3:in `process'
+Started GET "/upload" for 127.0.0.1 at 2018-05-03 11:04:14 -0400
+  
+ArgumentError (wrong number of arguments (given 1, expected 0)):
+  
+app/controllers/upload_controller.rb:5:in `process'
+Started GET "/upload" for 127.0.0.1 at 2018-05-03 11:05:56 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 8ms
+
+
+  
+SyntaxError (/Users/lukecrum/Documents/FullCircle-Main-Site/FullCircle-backend/FullCircle/app/views/upload/upload.html.erb:7: syntax error, unexpected keyword_do_block, expecting =>
+...ltipart: true, method="post" do @output_buffer.safe_append='
+...                             ^~
+/Users/lukecrum/Documents/FullCircle-Main-Site/FullCircle-backend/FullCircle/app/views/upload/upload.html.erb:20: syntax error, unexpected keyword_ensure, expecting end-of-input
+          ensure
+          ^~~~~~):
+  
+app/views/upload/upload.html.erb:7: syntax error, unexpected keyword_do_block, expecting =>
+app/views/upload/upload.html.erb:20: syntax error, unexpected keyword_ensure, expecting end-of-input
+Started GET "/upload" for 127.0.0.1 at 2018-05-03 11:06:23 -0400
+  
+ArgumentError (wrong number of arguments (given 1, expected 0)):
+  
+app/controllers/upload_controller.rb:5:in `process'
+Started GET "/upload" for 127.0.0.1 at 2018-05-03 11:07:24 -0400
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/lukecrum/Documents/FullCircle-Main-Site/FullCircle-backend/FullCircle/app/views/upload/upload.html.erb:7: syntax error, unexpected keyword_do_block, expecting =>
+...ltipart: true, method="post" do @output_buffer.safe_append='
+...                             ^~
+/Users/lukecrum/Documents/FullCircle-Main-Site/FullCircle-backend/FullCircle/app/views/upload/upload.html.erb:20: syntax error, unexpected keyword_ensure, expecting end-of-input
+          ensure
+          ^~~~~~):
+  
+app/views/upload/upload.html.erb:7: syntax error, unexpected keyword_do_block, expecting =>
+app/views/upload/upload.html.erb:20: syntax error, unexpected keyword_ensure, expecting end-of-input
+Started GET "/upload" for 127.0.0.1 at 2018-05-03 11:08:21 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 339ms (Views: 337.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/process" for 127.0.0.1 at 2018-05-03 11:08:29 -0400
+  
+ArgumentError (wrong number of arguments (given 1, expected 0)):
+  
+app/controllers/process_controller.rb:2:in `process'
+Started POST "/process" for 127.0.0.1 at 2018-05-03 11:10:52 -0400
+Processing by ProcessController#process_resource as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pbPqw5IUUSQbDLwPGEgJccunYPQtAwuhrIW7eiUqfPhb0nBEFH2q4bk0xktE0ZYryUYeuzVxE9mUWwtcUQoPcA==", "Resource"=>{"file"=>#<ActionDispatch::Http::UploadedFile:0x00007fb86c25b300 @tempfile=#<Tempfile:/var/folders/pl/tmjmh5wn1519b1hrgy9z5k2m0000gn/T/RackMultipart20180503-15042-hdcwou.png>, @original_filename="cleaner.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"Resource[file]\"; filename=\"cleaner.png\"\r\nContent-Type: image/png\r\n">}, "type_of_resource"=>"Awards", "commit"=>"Submit"}
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 1.8ms)
+
+
+  
+NoMethodError (undefined method `original_filename' for nil:NilClass):
+  
+app/controllers/process_controller.rb:4:in `process_resource'
+Started POST "/process" for 127.0.0.1 at 2018-05-03 11:10:55 -0400
+Processing by ProcessController#process_resource as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pbPqw5IUUSQbDLwPGEgJccunYPQtAwuhrIW7eiUqfPhb0nBEFH2q4bk0xktE0ZYryUYeuzVxE9mUWwtcUQoPcA==", "Resource"=>{"file"=>#<ActionDispatch::Http::UploadedFile:0x00007fb8673f9798 @tempfile=#<Tempfile:/var/folders/pl/tmjmh5wn1519b1hrgy9z5k2m0000gn/T/RackMultipart20180503-15042-1204vv6.png>, @original_filename="cleaner.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"Resource[file]\"; filename=\"cleaner.png\"\r\nContent-Type: image/png\r\n">}, "type_of_resource"=>"Awards", "commit"=>"Submit"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `original_filename' for nil:NilClass):
+  
+app/controllers/process_controller.rb:4:in `process_resource'
+Started POST "/process" for 127.0.0.1 at 2018-05-03 11:10:58 -0400
+Processing by ProcessController#process_resource as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pbPqw5IUUSQbDLwPGEgJccunYPQtAwuhrIW7eiUqfPhb0nBEFH2q4bk0xktE0ZYryUYeuzVxE9mUWwtcUQoPcA==", "Resource"=>{"file"=>#<ActionDispatch::Http::UploadedFile:0x00007fb86664f228 @tempfile=#<Tempfile:/var/folders/pl/tmjmh5wn1519b1hrgy9z5k2m0000gn/T/RackMultipart20180503-15042-s07dwm.png>, @original_filename="cleaner.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"Resource[file]\"; filename=\"cleaner.png\"\r\nContent-Type: image/png\r\n">}, "type_of_resource"=>"Awards", "commit"=>"Submit"}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `original_filename' for nil:NilClass):
+  
+app/controllers/process_controller.rb:4:in `process_resource'
+Started POST "/process" for 127.0.0.1 at 2018-05-03 11:12:15 -0400
+Processing by ProcessController#process_resource as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pbPqw5IUUSQbDLwPGEgJccunYPQtAwuhrIW7eiUqfPhb0nBEFH2q4bk0xktE0ZYryUYeuzVxE9mUWwtcUQoPcA==", "Resource"=>{"file"=>#<ActionDispatch::Http::UploadedFile:0x00007fb86c94f5d0 @tempfile=#<Tempfile:/var/folders/pl/tmjmh5wn1519b1hrgy9z5k2m0000gn/T/RackMultipart20180503-15042-edqvjz.png>, @original_filename="cleaner.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"Resource[file]\"; filename=\"cleaner.png\"\r\nContent-Type: image/png\r\n">}, "type_of_resource"=>"Awards", "commit"=>"Submit"}
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 2.2ms)
+
+
+  
+NoMethodError (undefined method `original_filename' for nil:NilClass):
+  
+app/controllers/process_controller.rb:4:in `process_resource'
+Started POST "/process" for 127.0.0.1 at 2018-05-03 11:12:19 -0400
+Processing by ProcessController#process_resource as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pbPqw5IUUSQbDLwPGEgJccunYPQtAwuhrIW7eiUqfPhb0nBEFH2q4bk0xktE0ZYryUYeuzVxE9mUWwtcUQoPcA==", "Resource"=>{"file"=>#<ActionDispatch::Http::UploadedFile:0x00007fb86ae5bc88 @tempfile=#<Tempfile:/var/folders/pl/tmjmh5wn1519b1hrgy9z5k2m0000gn/T/RackMultipart20180503-15042-fnkav7.png>, @original_filename="cleaner.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"Resource[file]\"; filename=\"cleaner.png\"\r\nContent-Type: image/png\r\n">}, "type_of_resource"=>"Awards", "commit"=>"Submit"}
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `original_filename' for nil:NilClass):
+  
+app/controllers/process_controller.rb:4:in `process_resource'
+Started GET "/upload" for 127.0.0.1 at 2018-05-03 11:27:50 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 24ms (Views: 22.5ms)
+
+
+Started POST "/process" for 127.0.0.1 at 2018-05-03 11:27:58 -0400
+Processing by ProcessController#process_resource as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pzMKK9cmryyWp6etXCPvPlxsAqDzJGDK6y8mXwfSYE6vFOAfxNaG8+2wSMlLIzfk8AVgzNP1qMPmAviH2eQkDw==", "Resource"=>{"file"=>#<ActionDispatch::Http::UploadedFile:0x00007fb86aab4bc0 @tempfile=#<Tempfile:/var/folders/pl/tmjmh5wn1519b1hrgy9z5k2m0000gn/T/RackMultipart20180503-15042-1nrgr2.png>, @original_filename="cleaner.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"Resource[file]\"; filename=\"cleaner.png\"\r\nContent-Type: image/png\r\n">}, "type_of_resource"=>"Awards", "commit"=>"Submit"}
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 1.2ms)
+
+
+  
+NoMethodError (undefined method `original_filename' for nil:NilClass):
+  
+app/controllers/process_controller.rb:4:in `process_resource'
+Started POST "/process" for 127.0.0.1 at 2018-05-03 11:28:39 -0400
+Processing by ProcessController#process_resource as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pzMKK9cmryyWp6etXCPvPlxsAqDzJGDK6y8mXwfSYE6vFOAfxNaG8+2wSMlLIzfk8AVgzNP1qMPmAviH2eQkDw==", "Resource"=>{"file"=>#<ActionDispatch::Http::UploadedFile:0x00007fb86c495620 @tempfile=#<Tempfile:/var/folders/pl/tmjmh5wn1519b1hrgy9z5k2m0000gn/T/RackMultipart20180503-15042-1nvxiat.png>, @original_filename="cleaner.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"Resource[file]\"; filename=\"cleaner.png\"\r\nContent-Type: image/png\r\n">}, "type_of_resource"=>"Awards", "commit"=>"Submit"}
+Completed 500 Internal Server Error in 77ms (ActiveRecord: 0.9ms)
+
+
+  
+NoMethodError (undefined method `basename' for #<ProcessController:0x00007fb86c496ef8>):
+  
+app/controllers/process_controller.rb:4:in `process_resource'
+Started POST "/process" for 127.0.0.1 at 2018-05-03 11:28:42 -0400
+Processing by ProcessController#process_resource as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pzMKK9cmryyWp6etXCPvPlxsAqDzJGDK6y8mXwfSYE6vFOAfxNaG8+2wSMlLIzfk8AVgzNP1qMPmAviH2eQkDw==", "Resource"=>{"file"=>#<ActionDispatch::Http::UploadedFile:0x00007fb86af7bdc0 @tempfile=#<Tempfile:/var/folders/pl/tmjmh5wn1519b1hrgy9z5k2m0000gn/T/RackMultipart20180503-15042-1pjplj0.png>, @original_filename="cleaner.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"Resource[file]\"; filename=\"cleaner.png\"\r\nContent-Type: image/png\r\n">}, "type_of_resource"=>"Awards", "commit"=>"Submit"}
+Completed 500 Internal Server Error in 69ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `basename' for #<ProcessController:0x00007fb86af88598>):
+  
+app/controllers/process_controller.rb:4:in `process_resource'
+Started POST "/process" for 127.0.0.1 at 2018-05-03 11:28:55 -0400
+Processing by ProcessController#process_resource as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pzMKK9cmryyWp6etXCPvPlxsAqDzJGDK6y8mXwfSYE6vFOAfxNaG8+2wSMlLIzfk8AVgzNP1qMPmAviH2eQkDw==", "Resource"=>{"file"=>#<ActionDispatch::Http::UploadedFile:0x00007fb86aee09b0 @tempfile=#<Tempfile:/var/folders/pl/tmjmh5wn1519b1hrgy9z5k2m0000gn/T/RackMultipart20180503-15042-15m50li.png>, @original_filename="cleaner.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"Resource[file]\"; filename=\"cleaner.png\"\r\nContent-Type: image/png\r\n">}, "type_of_resource"=>"Awards", "commit"=>"Submit"}
+Completed 500 Internal Server Error in 162ms (ActiveRecord: 2.0ms)
+
+
+  
+NoMethodError (undefined method `basename' for #<ProcessController:0x00007fb86aee1bd0>):
+  
+app/controllers/process_controller.rb:4:in `process_resource'
+Started POST "/process" for 127.0.0.1 at 2018-05-03 11:29:11 -0400
+Processing by ProcessController#process_resource as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pzMKK9cmryyWp6etXCPvPlxsAqDzJGDK6y8mXwfSYE6vFOAfxNaG8+2wSMlLIzfk8AVgzNP1qMPmAviH2eQkDw==", "Resource"=>{"file"=>#<ActionDispatch::Http::UploadedFile:0x00007fb86c957500 @tempfile=#<Tempfile:/var/folders/pl/tmjmh5wn1519b1hrgy9z5k2m0000gn/T/RackMultipart20180503-15042-1dnd74n.png>, @original_filename="cleaner.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"Resource[file]\"; filename=\"cleaner.png\"\r\nContent-Type: image/png\r\n">}, "type_of_resource"=>"Awards", "commit"=>"Submit"}
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 1.1ms)
+
+
+  
+TypeError (no implicit conversion of nil into String):
+  
+app/controllers/process_controller.rb:4:in `basename'
+app/controllers/process_controller.rb:4:in `process_resource'
+Started POST "/process" for 127.0.0.1 at 2018-05-03 11:30:28 -0400
+Processing by ProcessController#process_resource as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pzMKK9cmryyWp6etXCPvPlxsAqDzJGDK6y8mXwfSYE6vFOAfxNaG8+2wSMlLIzfk8AVgzNP1qMPmAviH2eQkDw==", "Resource"=>{"file"=>#<ActionDispatch::Http::UploadedFile:0x00007fb8672eb608 @tempfile=#<Tempfile:/var/folders/pl/tmjmh5wn1519b1hrgy9z5k2m0000gn/T/RackMultipart20180503-15042-1gubo3z.png>, @original_filename="cleaner.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"Resource[file]\"; filename=\"cleaner.png\"\r\nContent-Type: image/png\r\n">}, "type_of_resource"=>"Awards", "commit"=>"Submit"}
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.6ms)
+
+
+  
+NoMethodError (undefined method `tempfile' for nil:NilClass):
+  
+app/controllers/process_controller.rb:4:in `process_resource'
+Started GET "/process" for 127.0.0.1 at 2018-05-03 19:11:56 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/process"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/process" for 127.0.0.1 at 2018-05-03 19:11:58 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/process"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/upload" for 127.0.0.1 at 2018-05-03 19:12:03 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 199ms (Views: 190.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/process" for 127.0.0.1 at 2018-05-03 19:12:12 -0400
+Processing by ProcessController#process_resource as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"YJ+roYvCJ5z9OAe01pwh/k2G9R9uynpScjrPY8WAErRouEGVmDIOQ4Yv6NDBnPkk4e+Xc04bslt/FxG7G7ZW9Q==", "Resource"=>{"file"=>#<ActionDispatch::Http::UploadedFile:0x00007fb86c92e3d0 @tempfile=#<Tempfile:/var/folders/pl/tmjmh5wn1519b1hrgy9z5k2m0000gn/T/RackMultipart20180503-15042-zw32c1.png>, @original_filename="cleaner.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"Resource[file]\"; filename=\"cleaner.png\"\r\nContent-Type: image/png\r\n">}, "type_of_resource"=>"Awards", "commit"=>"Submit"}
+Completed 500 Internal Server Error in 24ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `tempfile' for nil:NilClass):
+  
+app/controllers/process_controller.rb:4:in `process_resource'
+Started GET "/upload" for 127.0.0.1 at 2018-05-07 09:01:31 -0400
+  [1m[35m (0.4ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 281ms (Views: 272.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/process" for 127.0.0.1 at 2018-05-07 09:01:41 -0400
+Processing by ProcessController#process_resource as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QmdO0Se8sJaeD63XaGumgEWhMayXk0Y/6tIDV7GRsNzBJDFKbrwWY7163xKb3mUzcS8kpVs2TWkqFtCYPFlLEw==", "Resource"=>{"file"=>#<ActionDispatch::Http::UploadedFile:0x00007fd6dcb10e30 @tempfile=#<Tempfile:/var/folders/pl/tmjmh5wn1519b1hrgy9z5k2m0000gn/T/RackMultipart20180507-23478-kd29py.png>, @original_filename="cleaner.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"Resource[file]\"; filename=\"cleaner.png\"\r\nContent-Type: image/png\r\n">}, "type_of_resource"=>"Awards", "commit"=>"Submit"}
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.7ms)
+
+
+  
+NoMethodError (undefined method `tempfile' for nil:NilClass):
+  
+app/controllers/process_controller.rb:4:in `process_resource'
+Started POST "/process" for 127.0.0.1 at 2018-05-07 09:02:25 -0400
+Processing by ProcessController#process_resource as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"QmdO0Se8sJaeD63XaGumgEWhMayXk0Y/6tIDV7GRsNzBJDFKbrwWY7163xKb3mUzcS8kpVs2TWkqFtCYPFlLEw==", "Resource"=>{"file"=>#<ActionDispatch::Http::UploadedFile:0x00007fd6daedca20 @tempfile=#<Tempfile:/var/folders/pl/tmjmh5wn1519b1hrgy9z5k2m0000gn/T/RackMultipart20180507-23478-1hizbbe.png>, @original_filename="cleaner.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"Resource[file]\"; filename=\"cleaner.png\"\r\nContent-Type: image/png\r\n">}, "type_of_resource"=>"Awards", "commit"=>"Submit"}
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 2.1ms)
+
+
+  
+TypeError (no implicit conversion of nil into String):
+  
+app/controllers/process_controller.rb:4:in `basename'
+app/controllers/process_controller.rb:4:in `process_resource'
