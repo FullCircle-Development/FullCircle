@@ -1866,3 +1866,2164 @@ No template found for ProcessController#process_resource, rendering head :no_con
 Completed 204 No Content in 167ms (ActiveRecord: 3.7ms)
 
 
+Started GET "/upload" for 127.0.0.1 at 2018-05-07 09:46:19 -0400
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 222ms (Views: 211.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/process" for 127.0.0.1 at 2018-05-07 09:46:27 -0400
+Processing by ProcessController#process_resource as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"tzXtjSJzZ7nMwDFY0zRjZTBSjFwtjTDBlZsNQgDL/is0dpIWa3PBTO+1Q50ggaDWBNyZVeEoO5dVX96NjQMF5A==", "Resource"=>{"file"=>#<ActionDispatch::Http::UploadedFile:0x00007fe13a93af08 @tempfile=#<Tempfile:/var/folders/pl/tmjmh5wn1519b1hrgy9z5k2m0000gn/T/RackMultipart20180507-29728-1m39mtc.jpg>, @original_filename="seeds.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"Resource[file]\"; filename=\"seeds.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "type_of_resource"=>"Outreach", "commit"=>"Submit"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.5ms)[0m  [1m[32mINSERT INTO "resources" ("filename", "content_type", "data", "created_at", "updated_at", "type_of_resource") VALUES (?, ?, ?, ?, ?, ?)[0m  [["filename", "seeds.jpg"], ["content_type", "image/jpeg"], ["data", "<89930 bytes of binary data>"], ["created_at", "2018-05-07 13:46:27.996388"], ["updated_at", "2018-05-07 13:46:27.996388"], ["type_of_resource", "Outreach"]]
+  [1m[35m (2.8ms)[0m  [1m[36mcommit transaction[0m
+No template found for ProcessController#process_resource, rendering head :no_content
+Completed 204 No Content in 188ms (ActiveRecord: 7.3ms)
+
+
+Started GET "/upload" for 127.0.0.1 at 2018-05-07 09:46:39 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 17ms (Views: 15.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/upload" for 127.0.0.1 at 2018-05-07 09:46:41 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 40ms (Views: 36.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/upload" for 127.0.0.1 at 2018-05-07 09:47:28 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 28ms (Views: 26.3ms)
+
+
+Started POST "/process" for 127.0.0.1 at 2018-05-07 09:47:34 -0400
+Processing by ProcessController#process_resource as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9tevoH4/hORR6ArjohGMXqeWaszp7hw2MDb48UVISqR1lNA7Nz8iEXKdeCZRpE/tkxh/xSVLF2Dw8is+yICxaw==", "Resource"=>{"file"=>#<ActionDispatch::Http::UploadedFile:0x00007fe1367aff70 @tempfile=#<Tempfile:/var/folders/pl/tmjmh5wn1519b1hrgy9z5k2m0000gn/T/RackMultipart20180507-29728-1a6nzdi.png>, @original_filename="cleaner.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"Resource[file]\"; filename=\"cleaner.png\"\r\nContent-Type: image/png\r\n">}, "type_of_resource"=>"Awards", "commit"=>"Submit"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.9ms)[0m  [1m[32mINSERT INTO "resources" ("filename", "content_type", "data", "created_at", "updated_at", "type_of_resource") VALUES (?, ?, ?, ?, ?, ?)[0m  [["filename", "cleaner.png"], ["content_type", "image/png"], ["data", "<26192 bytes of binary data>"], ["created_at", "2018-05-07 13:47:34.438744"], ["updated_at", "2018-05-07 13:47:34.438744"], ["type_of_resource", "Awards"]]
+  [1m[35m (2.2ms)[0m  [1m[36mcommit transaction[0m
+Completed 500 Internal Server Error in 220ms (ActiveRecord: 5.6ms)
+
+
+  
+NameError (undefined local variable or method `fallback_location' for #<ProcessController:0x00007fe13af64618>):
+  
+app/controllers/process_controller.rb:15:in `process_resource'
+Started POST "/process" for 127.0.0.1 at 2018-05-07 09:48:50 -0400
+Processing by ProcessController#process_resource as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9tevoH4/hORR6ArjohGMXqeWaszp7hw2MDb48UVISqR1lNA7Nz8iEXKdeCZRpE/tkxh/xSVLF2Dw8is+yICxaw==", "Resource"=>{"file"=>#<ActionDispatch::Http::UploadedFile:0x00007fe13c0c8ff8 @tempfile=#<Tempfile:/var/folders/pl/tmjmh5wn1519b1hrgy9z5k2m0000gn/T/RackMultipart20180507-29728-10kjjlw.png>, @original_filename="cleaner.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"Resource[file]\"; filename=\"cleaner.png\"\r\nContent-Type: image/png\r\n">}, "type_of_resource"=>"Awards", "commit"=>"Submit"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (5131.5ms)[0m  [1m[32mINSERT INTO "resources" ("filename", "content_type", "data", "created_at", "updated_at", "type_of_resource") VALUES (?, ?, ?, ?, ?, ?)[0m  [["filename", "cleaner.png"], ["content_type", "image/png"], ["data", "<26192 bytes of binary data>"], ["created_at", "2018-05-07 13:48:50.520896"], ["updated_at", "2018-05-07 13:48:50.520896"], ["type_of_resource", "Awards"]]
+  [1m[35m (0.2ms)[0m  [1m[31mrollback transaction[0m
+Completed 500 Internal Server Error in 5181ms (ActiveRecord: 5138.4ms)
+
+
+  
+ActiveRecord::StatementInvalid (SQLite3::BusyException: database is locked: INSERT INTO "resources" ("filename", "content_type", "data", "created_at", "updated_at", "type_of_resource") VALUES (?, ?, ?, ?, ?, ?)):
+  
+app/controllers/process_controller.rb:14:in `process_resource'
+Started POST "/process" for 127.0.0.1 at 2018-05-07 09:49:04 -0400
+Processing by ProcessController#process_resource as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9tevoH4/hORR6ArjohGMXqeWaszp7hw2MDb48UVISqR1lNA7Nz8iEXKdeCZRpE/tkxh/xSVLF2Dw8is+yICxaw==", "Resource"=>{"file"=>#<ActionDispatch::Http::UploadedFile:0x00007fe135e27250 @tempfile=#<Tempfile:/var/folders/pl/tmjmh5wn1519b1hrgy9z5k2m0000gn/T/RackMultipart20180507-29728-g0e79p.png>, @original_filename="cleaner.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"Resource[file]\"; filename=\"cleaner.png\"\r\nContent-Type: image/png\r\n">}, "type_of_resource"=>"Awards", "commit"=>"Submit"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (5107.4ms)[0m  [1m[32mINSERT INTO "resources" ("filename", "content_type", "data", "created_at", "updated_at", "type_of_resource") VALUES (?, ?, ?, ?, ?, ?)[0m  [["filename", "cleaner.png"], ["content_type", "image/png"], ["data", "<26192 bytes of binary data>"], ["created_at", "2018-05-07 13:49:04.012925"], ["updated_at", "2018-05-07 13:49:04.012925"], ["type_of_resource", "Awards"]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Completed 500 Internal Server Error in 5112ms (ActiveRecord: 5107.6ms)
+
+
+  
+ActiveRecord::StatementInvalid (SQLite3::BusyException: database is locked: INSERT INTO "resources" ("filename", "content_type", "data", "created_at", "updated_at", "type_of_resource") VALUES (?, ?, ?, ?, ?, ?)):
+  
+app/controllers/process_controller.rb:14:in `process_resource'
+Started POST "/process" for 127.0.0.1 at 2018-05-07 09:49:19 -0400
+Processing by ProcessController#process_resource as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9tevoH4/hORR6ArjohGMXqeWaszp7hw2MDb48UVISqR1lNA7Nz8iEXKdeCZRpE/tkxh/xSVLF2Dw8is+yICxaw==", "Resource"=>{"file"=>#<ActionDispatch::Http::UploadedFile:0x00007fe13a2d9010 @tempfile=#<Tempfile:/var/folders/pl/tmjmh5wn1519b1hrgy9z5k2m0000gn/T/RackMultipart20180507-29728-e08jfk.png>, @original_filename="cleaner.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"Resource[file]\"; filename=\"cleaner.png\"\r\nContent-Type: image/png\r\n">}, "type_of_resource"=>"Awards", "commit"=>"Submit"}
+  [1m[35m (0.2ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (5136.8ms)[0m  [1m[32mINSERT INTO "resources" ("filename", "content_type", "data", "created_at", "updated_at", "type_of_resource") VALUES (?, ?, ?, ?, ?, ?)[0m  [["filename", "cleaner.png"], ["content_type", "image/png"], ["data", "<26192 bytes of binary data>"], ["created_at", "2018-05-07 13:49:19.694694"], ["updated_at", "2018-05-07 13:49:19.694694"], ["type_of_resource", "Awards"]]
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+Completed 500 Internal Server Error in 5141ms (ActiveRecord: 5137.1ms)
+
+
+  
+ActiveRecord::StatementInvalid (SQLite3::BusyException: database is locked: INSERT INTO "resources" ("filename", "content_type", "data", "created_at", "updated_at", "type_of_resource") VALUES (?, ?, ?, ?, ?, ?)):
+  
+app/controllers/process_controller.rb:14:in `process_resource'
+Started POST "/process" for 127.0.0.1 at 2018-05-07 09:49:34 -0400
+Processing by ProcessController#process_resource as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9tevoH4/hORR6ArjohGMXqeWaszp7hw2MDb48UVISqR1lNA7Nz8iEXKdeCZRpE/tkxh/xSVLF2Dw8is+yICxaw==", "Resource"=>{"file"=>#<ActionDispatch::Http::UploadedFile:0x00007fe135e8cc68 @tempfile=#<Tempfile:/var/folders/pl/tmjmh5wn1519b1hrgy9z5k2m0000gn/T/RackMultipart20180507-29728-f1jdql.png>, @original_filename="cleaner.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"Resource[file]\"; filename=\"cleaner.png\"\r\nContent-Type: image/png\r\n">}, "type_of_resource"=>"Awards", "commit"=>"Submit"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  [1m[32mINSERT INTO "resources" ("filename", "content_type", "data", "created_at", "updated_at", "type_of_resource") VALUES (?, ?, ?, ?, ?, ?)[0m  [["filename", "cleaner.png"], ["content_type", "image/png"], ["data", "<26192 bytes of binary data>"], ["created_at", "2018-05-07 13:49:34.822036"], ["updated_at", "2018-05-07 13:49:34.822036"], ["type_of_resource", "Awards"]]
+  [1m[35m (0.8ms)[0m  [1m[36mcommit transaction[0m
+No template found for ProcessController#process_resource, rendering head :no_content
+Completed 204 No Content in 134ms (ActiveRecord: 1.2ms)
+
+
+Started POST "/process" for 127.0.0.1 at 2018-05-07 09:49:37 -0400
+Processing by ProcessController#process_resource as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9tevoH4/hORR6ArjohGMXqeWaszp7hw2MDb48UVISqR1lNA7Nz8iEXKdeCZRpE/tkxh/xSVLF2Dw8is+yICxaw==", "Resource"=>{"file"=>#<ActionDispatch::Http::UploadedFile:0x00007fe135e64da8 @tempfile=#<Tempfile:/var/folders/pl/tmjmh5wn1519b1hrgy9z5k2m0000gn/T/RackMultipart20180507-29728-16xjz82.png>, @original_filename="cleaner.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"Resource[file]\"; filename=\"cleaner.png\"\r\nContent-Type: image/png\r\n">}, "type_of_resource"=>"Awards", "commit"=>"Submit"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  [1m[32mINSERT INTO "resources" ("filename", "content_type", "data", "created_at", "updated_at", "type_of_resource") VALUES (?, ?, ?, ?, ?, ?)[0m  [["filename", "cleaner.png"], ["content_type", "image/png"], ["data", "<26192 bytes of binary data>"], ["created_at", "2018-05-07 13:49:37.531488"], ["updated_at", "2018-05-07 13:49:37.531488"], ["type_of_resource", "Awards"]]
+  [1m[35m (1.6ms)[0m  [1m[36mcommit transaction[0m
+No template found for ProcessController#process_resource, rendering head :no_content
+Completed 204 No Content in 171ms (ActiveRecord: 2.0ms)
+
+
+Started POST "/process" for 127.0.0.1 at 2018-05-07 09:49:40 -0400
+Processing by ProcessController#process_resource as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9tevoH4/hORR6ArjohGMXqeWaszp7hw2MDb48UVISqR1lNA7Nz8iEXKdeCZRpE/tkxh/xSVLF2Dw8is+yICxaw==", "Resource"=>{"file"=>#<ActionDispatch::Http::UploadedFile:0x00007fe13ae80558 @tempfile=#<Tempfile:/var/folders/pl/tmjmh5wn1519b1hrgy9z5k2m0000gn/T/RackMultipart20180507-29728-1duozdh.png>, @original_filename="cleaner.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"Resource[file]\"; filename=\"cleaner.png\"\r\nContent-Type: image/png\r\n">}, "type_of_resource"=>"Awards", "commit"=>"Submit"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "resources" ("filename", "content_type", "data", "created_at", "updated_at", "type_of_resource") VALUES (?, ?, ?, ?, ?, ?)[0m  [["filename", "cleaner.png"], ["content_type", "image/png"], ["data", "<26192 bytes of binary data>"], ["created_at", "2018-05-07 13:49:40.067816"], ["updated_at", "2018-05-07 13:49:40.067816"], ["type_of_resource", "Awards"]]
+  [1m[35m (4.8ms)[0m  [1m[36mcommit transaction[0m
+No template found for ProcessController#process_resource, rendering head :no_content
+Completed 204 No Content in 162ms (ActiveRecord: 5.5ms)
+
+
+Started GET "/upload" for 127.0.0.1 at 2018-05-07 09:49:53 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 19ms (Views: 17.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/process" for 127.0.0.1 at 2018-05-07 09:49:59 -0400
+Processing by ProcessController#process_resource as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3xQln4sCe/+8dKYX/1wr1+n2ZntLaLxbm6ZFyLe9hKZcV1oEwgLdCp8B1NIM6ehk3XhzcofNtw1bYpYHOnV/aQ==", "Resource"=>{"file"=>#<ActionDispatch::Http::UploadedFile:0x00007fe13a2f3618 @tempfile=#<Tempfile:/var/folders/pl/tmjmh5wn1519b1hrgy9z5k2m0000gn/T/RackMultipart20180507-29728-s60ori.png>, @original_filename="fullcircle.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"Resource[file]\"; filename=\"fullcircle.png\"\r\nContent-Type: image/png\r\n">}, "type_of_resource"=>"Awards", "commit"=>"Submit"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.3ms)[0m  [1m[32mINSERT INTO "resources" ("filename", "content_type", "data", "created_at", "updated_at", "type_of_resource") VALUES (?, ?, ?, ?, ?, ?)[0m  [["filename", "fullcircle.png"], ["content_type", "image/png"], ["data", "<28212 bytes of binary data>"], ["created_at", "2018-05-07 13:49:59.798941"], ["updated_at", "2018-05-07 13:49:59.798941"], ["type_of_resource", "Awards"]]
+  [1m[35m (3.3ms)[0m  [1m[36mcommit transaction[0m
+No template found for ProcessController#process_resource, rendering head :no_content
+Completed 204 No Content in 165ms (ActiveRecord: 4.6ms)
+
+
+Started GET "/upload" for 127.0.0.1 at 2018-05-07 09:50:17 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 19ms (Views: 17.6ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/process" for 127.0.0.1 at 2018-05-07 09:50:25 -0400
+Processing by ProcessController#process_resource as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4XaBolP6Xl5VQHcYBa1l3pqlMTeKbXYKAlIdZG4UYiJiNf45Gvr4q3Y1Bd32GKZtriskPkbIfVzCls6r49yZ7Q==", "Resource"=>{"file"=>#<ActionDispatch::Http::UploadedFile:0x00007fe13a130dd0 @tempfile=#<Tempfile:/var/folders/pl/tmjmh5wn1519b1hrgy9z5k2m0000gn/T/RackMultipart20180507-29728-1xdxey.png>, @original_filename="Screen Shot 2018-04-23 at 10.31.11 AM.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"Resource[file]\"; filename=\"Screen Shot 2018-04-23 at 10.31.11 AM.png\"\r\nContent-Type: image/png\r\n">}, "type_of_resource"=>"Awards", "commit"=>"Submit"}
+  [1m[35m (0.7ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (2.4ms)[0m  [1m[32mINSERT INTO "resources" ("filename", "content_type", "data", "created_at", "updated_at", "type_of_resource") VALUES (?, ?, ?, ?, ?, ?)[0m  [["filename", "Screen Shot 2018-04-23 at 10.31.11 AM.png"], ["content_type", "image/png"], ["data", "<703810 bytes of binary data>"], ["created_at", "2018-05-07 13:50:25.480009"], ["updated_at", "2018-05-07 13:50:25.480009"], ["type_of_resource", "Awards"]]
+  [1m[35m (2.8ms)[0m  [1m[36mcommit transaction[0m
+No template found for ProcessController#process_resource, rendering head :no_content
+Completed 204 No Content in 134ms (ActiveRecord: 5.9ms)
+
+
+Started GET "/upload" for 127.0.0.1 at 2018-05-07 09:52:28 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 77ms (Views: 74.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/upload" for 127.0.0.1 at 2018-05-07 09:52:30 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 45ms (Views: 42.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/upload" for 127.0.0.1 at 2018-05-07 09:52:40 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 33ms (Views: 28.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/upload" for 127.0.0.1 at 2018-05-07 10:01:50 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 125ms (Views: 122.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/upload" for 127.0.0.1 at 2018-05-07 10:01:59 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 29ms (Views: 27.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/upload" for 127.0.0.1 at 2018-05-07 10:02:16 -0400
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 258ms (Views: 248.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/upload" for 127.0.0.1 at 2018-05-07 10:02:49 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 38ms (Views: 34.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/upload" for 127.0.0.1 at 2018-05-07 10:03:16 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (138.9ms)
+Completed 500 Internal Server Error in 156ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `stylesheed_link_tag' for #<#<Class:0x00007fc0bb584570>:0x00007fc0bac8d7f0>
+Did you mean?  stylesheet_link_tag):
+    1: <html>
+    2: <%= stylesheed_link_tag "upload", :media => "all" %>
+    3: <head>
+    4:   <nav>
+    5:     <li class="dropdown">
+  
+app/views/upload/upload.html.erb:2:in `_app_views_upload_upload_html_erb__4558940961744537690_70232872089120'
+Started GET "/upload" for 127.0.0.1 at 2018-05-07 10:03:28 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (42.5ms)
+Completed 500 Internal Server Error in 53ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( upload.css )` to `config/initializers/assets.rb` and restart your server):
+    1: <html>
+    2: <%= stylesheet_link_tag "upload", :media => "all" %>
+    3: <head>
+    4:   <nav>
+    5:     <li class="dropdown">
+  
+app/views/upload/upload.html.erb:2:in `_app_views_upload_upload_html_erb__4558940961744537690_70232914025840'
+Started GET "/upload" for 127.0.0.1 at 2018-05-07 10:04:05 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (12.1ms)
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( upload.css )` to `config/initializers/assets.rb` and restart your server):
+    1: <html>
+    2: <%= stylesheet_link_tag "upload", :media => "all" %>
+    3: <head>
+    4:   <nav>
+    5:     <li class="dropdown">
+  
+app/views/upload/upload.html.erb:2:in `_app_views_upload_upload_html_erb__4558940961744537690_70232914421140'
+Started GET "/upload" for 127.0.0.1 at 2018-05-07 10:04:09 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (15.3ms)
+Completed 500 Internal Server Error in 25ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( upload.css )` to `config/initializers/assets.rb` and restart your server):
+    1: <html>
+    2: <%= stylesheet_link_tag "upload", :media => "all" %>
+    3: <head>
+    4:   <nav>
+    5:     <li class="dropdown">
+  
+app/views/upload/upload.html.erb:2:in `_app_views_upload_upload_html_erb__4558940961744537690_70232916925420'
+Started GET "/upload" for 127.0.0.1 at 2018-05-07 10:04:19 -0400
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (195.9ms)
+Completed 200 OK in 245ms (Views: 235.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/Upload.html" for 127.0.0.1 at 2018-05-07 10:04:22 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/Upload.html"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/upload" for 127.0.0.1 at 2018-05-07 10:04:24 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 96ms (Views: 93.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/upload" for 127.0.0.1 at 2018-05-07 10:04:52 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 97ms (Views: 92.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/upload" for 127.0.0.1 at 2018-05-07 10:07:23 -0400
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/lukecrum/Documents/FullCircle/FullCircle-backend/FullCircle/app/views/upload/upload.html.erb:32: syntax error, unexpected ',', expecting ')'
+....append=( submit_tag("Submit"), :class => '' );@output_buffe...
+...                              ^):
+  
+app/views/upload/upload.html.erb:32: syntax error, unexpected ',', expecting ')'
+Started GET "/upload" for 127.0.0.1 at 2018-05-07 10:10:04 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/lukecrum/Documents/FullCircle/FullCircle-backend/FullCircle/app/views/upload/upload.html.erb:32: syntax error, unexpected ',', expecting ')'
+....append=( submit_tag("Submit"), :class => 'submit' );@output...
+...                              ^):
+  
+app/views/upload/upload.html.erb:32: syntax error, unexpected ',', expecting ')'
+Started GET "/upload" for 127.0.0.1 at 2018-05-07 10:10:07 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (2.3ms)
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/lukecrum/Documents/FullCircle/FullCircle-backend/FullCircle/app/views/upload/upload.html.erb:32: syntax error, unexpected ',', expecting ')'
+....append=( submit_tag("Submit"), :class => 'submit' );@output...
+...                              ^):
+  
+app/views/upload/upload.html.erb:32: syntax error, unexpected ',', expecting ')'
+Started GET "/upload" for 127.0.0.1 at 2018-05-07 10:10:34 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (223.3ms)
+Completed 200 OK in 312ms (Views: 309.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/upload" for 127.0.0.1 at 2018-05-07 10:11:13 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 39ms (Views: 34.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/upload" for 127.0.0.1 at 2018-05-07 10:12:59 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (12.6ms)
+Completed 200 OK in 43ms (Views: 40.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/upload" for 127.0.0.1 at 2018-05-07 10:13:23 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (17.3ms)
+Completed 200 OK in 48ms (Views: 45.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/upload" for 127.0.0.1 at 2018-05-07 10:14:38 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (10.8ms)
+Completed 200 OK in 36ms (Views: 34.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/upload" for 127.0.0.1 at 2018-05-07 13:08:05 -0400
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (220.6ms)
+Completed 200 OK in 321ms (Views: 311.1ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/process" for 127.0.0.1 at 2018-05-07 13:08:39 -0400
+Processing by ProcessController#process_resource as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"0KtN+Y/DfCH5YlClyGeX7o4CVV6XORvTahmxUU+Wdt5T6DJixsPa1NoXImA70lRduoxAV1ucEIWq3WKewl6NEQ==", "Resource"=>{"file"=>#<ActionDispatch::Http::UploadedFile:0x00007ff6a2ab93e8 @tempfile=#<Tempfile:/var/folders/pl/tmjmh5wn1519b1hrgy9z5k2m0000gn/T/RackMultipart20180507-30911-1ei4if9.docx>, @original_filename="ballad thing.docx", @content_type="application/vnd.openxmlformats-officedocument.wordprocessingml.document", @headers="Content-Disposition: form-data; name=\"Resource[file]\"; filename=\"ballad thing.docx\"\r\nContent-Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document\r\n">}, "type_of_resource"=>"Outreach", "commit"=>"Submit"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "resources" ("filename", "content_type", "data", "created_at", "updated_at", "type_of_resource") VALUES (?, ?, ?, ?, ?, ?)[0m  [["filename", "ballad thing.docx"], ["content_type", "application/vnd.openxmlformats-officedocument.wordprocessingml.document"], ["data", "<68105 bytes of binary data>"], ["created_at", "2018-05-07 17:08:39.092950"], ["updated_at", "2018-05-07 17:08:39.092950"], ["type_of_resource", "Outreach"]]
+  [1m[35m (1.8ms)[0m  [1m[36mcommit transaction[0m
+No template found for ProcessController#process_resource, rendering head :no_content
+Completed 204 No Content in 168ms (ActiveRecord: 3.9ms)
+
+
+Started GET "/Mechanical.html" for 127.0.0.1 at 2018-05-07 13:09:07 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/Mechanical.html"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/upload" for 127.0.0.1 at 2018-05-07 13:09:11 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 34ms (Views: 32.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/programming" for 127.0.0.1 at 2018-05-09 10:03:58 -0400
+  [1m[35m (0.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  Rendered programming/programming.html.erb within layouts/application (296.4ms)
+Completed 200 OK in 450ms (Views: 433.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/Upload.html" for 127.0.0.1 at 2018-05-09 10:04:05 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/Upload.html"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/programming" for 127.0.0.1 at 2018-05-09 10:04:07 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  Rendered programming/programming.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 58ms (Views: 55.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/Upload.html" for 127.0.0.1 at 2018-05-09 10:04:25 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/Upload.html"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/programming" for 127.0.0.1 at 2018-05-09 10:04:28 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  Rendered programming/programming.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 41ms (Views: 37.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/programming" for 127.0.0.1 at 2018-05-09 10:04:37 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  Rendered programming/programming.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 30ms (Views: 27.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/upload" for 127.0.0.1 at 2018-05-09 10:04:38 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (14.3ms)
+Completed 200 OK in 51ms (Views: 47.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/Programming.html" for 127.0.0.1 at 2018-05-09 10:04:42 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/Programming.html"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/Programming.html" for 127.0.0.1 at 2018-05-09 10:05:29 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/Programming.html"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/upload" for 127.0.0.1 at 2018-05-09 10:05:35 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 37ms (Views: 35.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/programming" for 127.0.0.1 at 2018-05-09 10:05:38 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  Rendered programming/programming.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 35ms (Views: 33.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/upload" for 127.0.0.1 at 2018-05-09 10:05:39 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 57ms (Views: 50.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/programming" for 127.0.0.1 at 2018-05-09 10:05:41 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  Rendered programming/programming.html.erb within layouts/application (17.3ms)
+Completed 200 OK in 62ms (Views: 58.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/programming" for 127.0.0.1 at 2018-05-09 10:13:56 -0400
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  [1m[36mResource Load (3.9ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered programming/programming.html.erb within layouts/application (565.1ms)
+Completed 500 Internal Server Error in 584ms (ActiveRecord: 4.9ms)
+
+
+  
+ActionView::Template::Error (undefined method `item_download_path' for #<#<Class:0x00007fe887d39650>:0x00007fe8887c3e90>):
+    24: </head>
+    25: <body>
+    26:   <%= Resource.all.each do |resource| %>
+    27:     <%= link_to 'Download', item_download_path(resource), disable_with: 'Downloading...', id: resource.id %>
+    28:   <% end %>
+    29: </body>
+    30: </html>
+  
+app/views/programming/programming.html.erb:27:in `block in _app_views_programming_programming_html_erb__1351665595440009797_70318343969520'
+app/views/programming/programming.html.erb:26:in `_app_views_programming_programming_html_erb__1351665595440009797_70318343969520'
+Started GET "/programming" for 127.0.0.1 at 2018-05-09 10:15:03 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  [1m[36mResource Load (0.5ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered programming/programming.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 56ms (Views: 53.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/programming?disable_with=Downloading...&id=9" for 127.0.0.1 at 2018-05-09 10:15:10 -0400
+Processing by ProgrammingController#programming as HTML
+  Parameters: {"disable_with"=>"Downloading...", "id"=>"9"}
+  Rendering programming/programming.html.erb within layouts/application
+  [1m[36mResource Load (0.3ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered programming/programming.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 51ms (Views: 48.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/programming?disable_with=Downloading...&id=9" for 127.0.0.1 at 2018-05-09 10:15:12 -0400
+Processing by ProgrammingController#programming as HTML
+  Parameters: {"disable_with"=>"Downloading...", "id"=>"9"}
+  Rendering programming/programming.html.erb within layouts/application
+  [1m[36mResource Load (0.3ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered programming/programming.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 45ms (Views: 42.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/programming?disable_with=Downloading...&id=9" for 127.0.0.1 at 2018-05-09 10:15:34 -0400
+Processing by ProgrammingController#programming as HTML
+  Parameters: {"disable_with"=>"Downloading...", "id"=>"9"}
+  Rendering programming/programming.html.erb within layouts/application
+  [1m[36mResource Load (0.4ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered programming/programming.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 30ms (Views: 28.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/programming?disable_with=Downloading...&id=9" for 127.0.0.1 at 2018-05-09 10:15:35 -0400
+Processing by ProgrammingController#programming as HTML
+  Parameters: {"disable_with"=>"Downloading...", "id"=>"9"}
+  Rendering programming/programming.html.erb within layouts/application
+  [1m[36mResource Load (0.4ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered programming/programming.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 42ms (Views: 38.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/programming?disable_with=Downloading...&id=9" for 127.0.0.1 at 2018-05-09 10:22:32 -0400
+Processing by ProgrammingController#programming as HTML
+  Parameters: {"disable_with"=>"Downloading...", "id"=>"9"}
+  Rendering programming/programming.html.erb within layouts/application
+  [1m[36mResource Load (0.2ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered programming/programming.html.erb within layouts/application (16.9ms)
+Completed 200 OK in 54ms (Views: 52.4ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/programming?disable_with=Downloading...&id=9" for 127.0.0.1 at 2018-05-09 10:22:34 -0400
+Processing by ProgrammingController#programming as HTML
+  Parameters: {"disable_with"=>"Downloading...", "id"=>"9"}
+  Rendering programming/programming.html.erb within layouts/application
+  [1m[36mResource Load (0.6ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered programming/programming.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 35ms (Views: 32.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/programming?disable_with=Downloading...&id=9" for 127.0.0.1 at 2018-05-09 10:22:38 -0400
+Processing by ProgrammingController#programming as HTML
+  Parameters: {"disable_with"=>"Downloading...", "id"=>"9"}
+  Rendering programming/programming.html.erb within layouts/application
+  [1m[36mResource Load (0.4ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered programming/programming.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 57ms (Views: 53.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/programming?disable_with=Downloading...&id=9" for 127.0.0.1 at 2018-05-09 10:22:59 -0400
+Processing by ProgrammingController#programming as HTML
+  Parameters: {"disable_with"=>"Downloading...", "id"=>"9"}
+  Rendering programming/programming.html.erb within layouts/application
+  [1m[36mResource Load (0.3ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered programming/programming.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 53ms (Views: 50.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/programming?disable_with=Downloading...&id=9" for 127.0.0.1 at 2018-05-09 10:22:59 -0400
+Processing by ProgrammingController#programming as HTML
+  Parameters: {"disable_with"=>"Downloading...", "id"=>"9"}
+  Rendering programming/programming.html.erb within layouts/application
+  [1m[36mResource Load (0.3ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered programming/programming.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 38ms (Views: 34.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/programming?disable_with=Downloading...&id=ballad+thing.docx" for 127.0.0.1 at 2018-05-09 10:23:18 -0400
+Processing by ProgrammingController#programming as HTML
+  Parameters: {"disable_with"=>"Downloading...", "id"=>"ballad thing.docx"}
+  Rendering programming/programming.html.erb within layouts/application
+  [1m[36mResource Load (0.3ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered programming/programming.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 43ms (Views: 39.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/programming?disable_with=Downloading...&id=ballad+thing.docx" for 127.0.0.1 at 2018-05-09 10:23:24 -0400
+Processing by ProgrammingController#programming as HTML
+  Parameters: {"disable_with"=>"Downloading...", "id"=>"ballad thing.docx"}
+  Rendering programming/programming.html.erb within layouts/application
+  [1m[36mResource Load (0.2ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered programming/programming.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 33ms (Views: 30.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/programming?disable_with=Downloading...&id=ballad+thing.docx" for 127.0.0.1 at 2018-05-09 10:23:26 -0400
+Processing by ProgrammingController#programming as HTML
+  Parameters: {"disable_with"=>"Downloading...", "id"=>"ballad thing.docx"}
+  Rendering programming/programming.html.erb within layouts/application
+  [1m[36mResource Load (0.2ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered programming/programming.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 35ms (Views: 33.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/programming?disable_with=Downloading...&id=9" for 127.0.0.1 at 2018-05-09 10:23:27 -0400
+Processing by ProgrammingController#programming as HTML
+  Parameters: {"disable_with"=>"Downloading...", "id"=>"9"}
+  Rendering programming/programming.html.erb within layouts/application
+  [1m[36mResource Load (0.3ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered programming/programming.html.erb within layouts/application (14.2ms)
+Completed 200 OK in 55ms (Views: 52.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/programming" for 127.0.0.1 at 2018-05-09 10:23:29 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  [1m[36mResource Load (0.3ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered programming/programming.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 59ms (Views: 55.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/programming?disable_with=Downloading...&id=ballad+thing.docx" for 127.0.0.1 at 2018-05-09 10:23:31 -0400
+Processing by ProgrammingController#programming as HTML
+  Parameters: {"disable_with"=>"Downloading...", "id"=>"ballad thing.docx"}
+  Rendering programming/programming.html.erb within layouts/application
+  [1m[36mResource Load (0.8ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered programming/programming.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 50ms (Views: 46.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/programming?disable_with=Downloading...&id=ballad+thing.docx" for 127.0.0.1 at 2018-05-09 10:23:39 -0400
+Processing by ProgrammingController#programming as HTML
+  Parameters: {"disable_with"=>"Downloading...", "id"=>"ballad thing.docx"}
+  Rendering programming/programming.html.erb within layouts/application
+  [1m[36mResource Load (0.4ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered programming/programming.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 40ms (Views: 38.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/programming" for 127.0.0.1 at 2018-05-09 10:23:41 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  [1m[36mResource Load (0.4ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered programming/programming.html.erb within layouts/application (8.5ms)
+Completed 200 OK in 53ms (Views: 50.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/programming" for 127.0.0.1 at 2018-05-09 10:24:32 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  [1m[36mResource Load (0.2ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered programming/programming.html.erb within layouts/application (20.9ms)
+Completed 200 OK in 52ms (Views: 49.6ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/programming?disable_with=Downloading...&id=ballad+thing.docx" for 127.0.0.1 at 2018-05-09 10:24:34 -0400
+Processing by ProgrammingController#programming as HTML
+  Parameters: {"disable_with"=>"Downloading...", "id"=>"ballad thing.docx"}
+  Rendering programming/programming.html.erb within layouts/application
+  [1m[36mResource Load (0.8ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered programming/programming.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 55ms (Views: 50.7ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/programming" for 127.0.0.1 at 2018-05-09 10:24:37 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  [1m[36mResource Load (0.3ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered programming/programming.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 34ms (Views: 29.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/programming?disable_with=Downloading...&id=ballad+thing.docx" for 127.0.0.1 at 2018-05-09 10:24:39 -0400
+Processing by ProgrammingController#programming as HTML
+  Parameters: {"disable_with"=>"Downloading...", "id"=>"ballad thing.docx"}
+  Rendering programming/programming.html.erb within layouts/application
+  [1m[36mResource Load (0.4ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered programming/programming.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 53ms (Views: 49.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/programming" for 127.0.0.1 at 2018-05-09 10:25:23 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  [1m[36mResource Load (0.1ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered programming/programming.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 31ms (Views: 28.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/download" for 127.0.0.1 at 2018-05-09 10:25:25 -0400
+Processing by DownloadController#download_file as HTML
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant DownloadController::Resoucre):
+  
+app/controllers/download_controller.rb:3:in `download_file'
+Started GET "/download" for 127.0.0.1 at 2018-05-09 10:25:57 -0400
+Processing by DownloadController#download_file as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant DownloadController::Resoucre):
+  
+app/controllers/download_controller.rb:3:in `download_file'
+Started GET "/download" for 127.0.0.1 at 2018-05-09 10:26:05 -0400
+Processing by DownloadController#download_file as HTML
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant DownloadController::Resoucre):
+  
+app/controllers/download_controller.rb:3:in `download_file'
+Started GET "/download" for 127.0.0.1 at 2018-05-09 10:27:10 -0400
+Processing by DownloadController#download_file as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant DownloadController::Resoucre):
+  
+app/controllers/download_controller.rb:3:in `download_file'
+Started GET "/download" for 127.0.0.1 at 2018-05-09 10:27:14 -0400
+Processing by DownloadController#download_file as HTML
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant DownloadController::Resoucre):
+  
+app/controllers/download_controller.rb:3:in `download_file'
+Started GET "/" for 127.0.0.1 at 2018-05-09 10:27:17 -0400
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/lukecrum/.rvm/gems/ruby-2.5.0/gems/railties-5.1.6/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/lukecrum/.rvm/gems/ruby-2.5.0/gems/railties-5.1.6/lib/rails/templates/rails/welcome/index.html.erb (2.3ms)
+Completed 200 OK in 8ms (Views: 5.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/download" for 127.0.0.1 at 2018-05-09 10:27:20 -0400
+Processing by DownloadController#download_file as HTML
+Completed 500 Internal Server Error in 1ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant DownloadController::Resoucre):
+  
+app/controllers/download_controller.rb:3:in `download_file'
+Started GET "/download" for 127.0.0.1 at 2018-05-09 10:28:41 -0400
+Processing by DownloadController#download_file as HTML
+Completed 500 Internal Server Error in 1ms
+
+
+  
+NameError (uninitialized constant DownloadController::Resoucre):
+  
+app/controllers/download_controller.rb:3:in `download_file'
+Started GET "/upload" for 127.0.0.1 at 2018-05-09 10:28:48 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (24.7ms)
+Completed 200 OK in 90ms (Views: 86.2ms)
+
+
+Started GET "/download" for 127.0.0.1 at 2018-05-09 10:28:50 -0400
+Processing by DownloadController#download_file as HTML
+Completed 500 Internal Server Error in 2ms
+
+
+  
+NameError (uninitialized constant DownloadController::Resoucre):
+  
+app/controllers/download_controller.rb:3:in `download_file'
+Started GET "/programming" for 127.0.0.1 at 2018-05-09 10:28:56 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  [1m[36mResource Load (0.2ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered programming/programming.html.erb within layouts/application (17.4ms)
+Completed 200 OK in 56ms (Views: 53.9ms | ActiveRecord: 1.0ms)
+
+
+Started POST "/download" for 127.0.0.1 at 2018-05-09 10:28:59 -0400
+  
+ActionController::RoutingError (No route matches [POST] "/download"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started POST "/download" for 127.0.0.1 at 2018-05-09 10:31:06 -0400
+Processing by DownloadController#download_file as HTML
+  Parameters: {"authenticity_token"=>"YTnm2YldHMluQPFVgEubw5U9xJ4EuGB3s5Rvcuz8SX/ieplCwF26PE01g5Bz/lhwobPRl8gdayFzULy9YTSysA=="}
+Completed 500 Internal Server Error in 5ms
+
+
+  
+NameError (uninitialized constant DownloadController::Resoucre):
+  
+app/controllers/download_controller.rb:3:in `download_file'
+Started POST "/download" for 127.0.0.1 at 2018-05-09 10:33:07 -0400
+Processing by DownloadController#download_file as HTML
+  Parameters: {"authenticity_token"=>"YTnm2YldHMluQPFVgEubw5U9xJ4EuGB3s5Rvcuz8SX/ieplCwF26PE01g5Bz/lhwobPRl8gdayFzULy9YTSysA=="}
+Completed 500 Internal Server Error in 3ms
+
+
+  
+NameError (uninitialized constant DownloadController::Resoucre):
+  
+app/controllers/download_controller.rb:4:in `download_file'
+Started GET "/programming" for 127.0.0.1 at 2018-05-09 10:33:12 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  [1m[36mResource Load (0.2ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered programming/programming.html.erb within layouts/application (18.3ms)
+Completed 200 OK in 50ms (Views: 48.1ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/download" for 127.0.0.1 at 2018-05-09 10:33:15 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/download"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/programming" for 127.0.0.1 at 2018-05-09 10:33:19 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  [1m[36mResource Load (0.6ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered programming/programming.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 34ms (Views: 31.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/programming" for 127.0.0.1 at 2018-05-09 10:33:31 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  [1m[36mResource Load (0.2ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered programming/programming.html.erb within layouts/application (18.1ms)
+Completed 200 OK in 67ms (Views: 63.3ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/download" for 127.0.0.1 at 2018-05-09 10:33:33 -0400
+Processing by DownloadController#download_file as HTML
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.0ms)
+
+
+  
+NameError (uninitialized constant DownloadController::Resoucre):
+  
+app/controllers/download_controller.rb:4:in `download_file'
+Started GET "/programming" for 127.0.0.1 at 2018-05-09 10:33:42 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  [1m[36mResource Load (0.2ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered programming/programming.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 35ms (Views: 33.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/download" for 127.0.0.1 at 2018-05-09 10:33:52 -0400
+Processing by DownloadController#download_file as HTML
+  [1m[36mResource Load (0.4ms)[0m  [1m[34mSELECT  "resources".* FROM "resources" WHERE "resources"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+Completed 404 Not Found in 16ms (ActiveRecord: 1.7ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Resource with 'id'=):
+  
+app/controllers/download_controller.rb:4:in `download_file'
+Started GET "/programming" for 127.0.0.1 at 2018-05-09 11:06:09 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  Rendered programming/programming.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 40ms (Views: 38.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/programming" for 127.0.0.1 at 2018-05-09 11:06:33 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  Rendered programming/programming.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 27ms (Views: 25.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/programming" for 127.0.0.1 at 2018-05-09 11:06:41 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  Rendered programming/programming.html.erb within layouts/application (21.8ms)
+Completed 500 Internal Server Error in 35ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (undefined method `each' for #<Class:0x00007fe888bb4d60>):
+    23:   </nav>
+    24: </head>
+    25: <body>
+    26:   <%= Resource.each do |resource| %>
+    27:     <%= link_to 'Download', "/download", disable_with: 'Downloading...' %>
+    28:   <% end %>
+    29: </body>
+  
+app/views/programming/programming.html.erb:26:in `_app_views_programming_programming_html_erb__1351665595440009797_70318352350540'
+Started GET "/programming" for 127.0.0.1 at 2018-05-09 11:06:50 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  [1m[36mResource Load (0.2ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered programming/programming.html.erb within layouts/application (12.4ms)
+Completed 200 OK in 61ms (Views: 58.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/download" for 127.0.0.1 at 2018-05-09 11:06:53 -0400
+Processing by DownloadController#download_file as HTML
+  [1m[36mResource Load (0.1ms)[0m  [1m[34mSELECT  "resources".* FROM "resources" WHERE "resources"."id" = ? LIMIT ?[0m  [["id", nil], ["LIMIT", 1]]
+Completed 404 Not Found in 3ms (ActiveRecord: 0.1ms)
+
+
+  
+ActiveRecord::RecordNotFound (Couldn't find Resource with 'id'=):
+  
+app/controllers/download_controller.rb:4:in `download_file'
+Started GET "/programming" for 127.0.0.1 at 2018-05-09 11:06:56 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  [1m[36mResource Load (0.2ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered programming/programming.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 40ms (Views: 34.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/download" for 127.0.0.1 at 2018-05-09 11:09:06 -0400
+Processing by DownloadController#download_file as HTML
+  [1m[36mResource Load (0.5ms)[0m  [1m[34mSELECT  "resources".* FROM "resources" WHERE "resources"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+Completed 500 Internal Server Error in 12ms (ActiveRecord: 1.0ms)
+
+
+  
+NoMethodError (undefined method `file' for nil:NilClass):
+  
+app/controllers/download_controller.rb:5:in `download_file'
+Started PUT "/__web_console/repl_sessions/abf0fe4706a44e80d6817d5478024a68" for 127.0.0.1 at 2018-05-09 11:09:16 -0400
+Started PUT "/__web_console/repl_sessions/abf0fe4706a44e80d6817d5478024a68" for 127.0.0.1 at 2018-05-09 11:09:17 -0400
+Started PUT "/__web_console/repl_sessions/abf0fe4706a44e80d6817d5478024a68" for 127.0.0.1 at 2018-05-09 11:09:21 -0400
+Started PUT "/__web_console/repl_sessions/abf0fe4706a44e80d6817d5478024a68" for 127.0.0.1 at 2018-05-09 11:09:28 -0400
+Started PUT "/__web_console/repl_sessions/abf0fe4706a44e80d6817d5478024a68" for 127.0.0.1 at 2018-05-09 11:09:31 -0400
+  [1m[36mResource Load (0.2ms)[0m  [1m[34mSELECT  "resources".* FROM "resources" WHERE "resources"."id" = ? LIMIT ?[0m  [["id", 9], ["LIMIT", 1]]
+Started PUT "/__web_console/repl_sessions/abf0fe4706a44e80d6817d5478024a68" for 127.0.0.1 at 2018-05-09 11:09:38 -0400
+  [1m[36mResource Load (0.2ms)[0m  [1m[34mSELECT  "resources".* FROM "resources" WHERE "resources"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+Started PUT "/__web_console/repl_sessions/abf0fe4706a44e80d6817d5478024a68" for 127.0.0.1 at 2018-05-09 11:09:43 -0400
+Started PUT "/__web_console/repl_sessions/abf0fe4706a44e80d6817d5478024a68" for 127.0.0.1 at 2018-05-09 11:09:45 -0400
+Started GET "/programming" for 127.0.0.1 at 2018-05-09 11:12:29 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  [1m[36mResource Load (0.2ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered programming/programming.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 46ms (Views: 42.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/download" for 127.0.0.1 at 2018-05-09 11:12:32 -0400
+Processing by DownloadController#download_file as HTML
+  [1m[36mResource Load (0.2ms)[0m  [1m[34mSELECT  "resources".* FROM "resources" WHERE "resources"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.2ms)
+
+
+  
+NoMethodError (undefined method `file' for nil:NilClass):
+  
+app/controllers/download_controller.rb:5:in `download_file'
+Started PUT "/__web_console/repl_sessions/a190aeb98f7b97ef453769fa5a2e90d9" for 127.0.0.1 at 2018-05-09 11:12:35 -0400
+Started PUT "/__web_console/repl_sessions/a190aeb98f7b97ef453769fa5a2e90d9" for 127.0.0.1 at 2018-05-09 11:12:39 -0400
+Started PUT "/__web_console/repl_sessions/a190aeb98f7b97ef453769fa5a2e90d9" for 127.0.0.1 at 2018-05-09 11:12:41 -0400
+Started PUT "/__web_console/repl_sessions/a190aeb98f7b97ef453769fa5a2e90d9" for 127.0.0.1 at 2018-05-09 11:12:52 -0400
+Started GET "/programming" for 127.0.0.1 at 2018-05-09 11:13:22 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  [1m[36mResource Load (0.4ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered programming/programming.html.erb within layouts/application (4.7ms)
+Completed 200 OK in 45ms (Views: 42.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/download" for 127.0.0.1 at 2018-05-09 11:13:24 -0400
+Processing by DownloadController#download_file as HTML
+  [1m[36mResource Load (0.3ms)[0m  [1m[34mSELECT  "resources".* FROM "resources" WHERE "resources"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.3ms)
+
+
+  
+NoMethodError (undefined method `file' for nil:NilClass):
+  
+app/controllers/download_controller.rb:5:in `download_file'
+Started PUT "/__web_console/repl_sessions/e203e715ad18dae05cc3682c48e1d75a" for 127.0.0.1 at 2018-05-09 11:13:35 -0400
+Started PUT "/__web_console/repl_sessions/e203e715ad18dae05cc3682c48e1d75a" for 127.0.0.1 at 2018-05-09 11:13:36 -0400
+Started GET "/programming" for 127.0.0.1 at 2018-05-09 11:14:59 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  [1m[36mResource Load (0.2ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered programming/programming.html.erb within layouts/application (5.8ms)
+Completed 500 Internal Server Error in 15ms (ActiveRecord: 0.2ms)
+
+
+  
+ActionView::Template::Error (wrong number of arguments (given 4, expected 0..3)):
+    24: </head>
+    25: <body>
+    26:   <%= Resource.all.each do |resource| %>
+    27:     <%= link_to 'Download', "/download", {id: resource.id}, disable_with: 'Downloading...' %>
+    28:   <% end %>
+    29: </body>
+    30: </html>
+  
+app/views/programming/programming.html.erb:27:in `block in _app_views_programming_programming_html_erb__1351665595440009797_70318339911780'
+app/views/programming/programming.html.erb:26:in `_app_views_programming_programming_html_erb__1351665595440009797_70318339911780'
+Started GET "/download" for 127.0.0.1 at 2018-05-09 11:15:24 -0400
+Processing by DownloadController#download_file as HTML
+  [1m[36mResource Load (0.2ms)[0m  [1m[34mSELECT  "resources".* FROM "resources" WHERE "resources"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.2ms)
+
+
+  
+NoMethodError (undefined method `file' for nil:NilClass):
+  
+app/controllers/download_controller.rb:5:in `download_file'
+Started GET "/programming" for 127.0.0.1 at 2018-05-09 11:15:30 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  [1m[36mResource Load (0.3ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered programming/programming.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 35ms (Views: 32.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/download" for 127.0.0.1 at 2018-05-09 11:15:33 -0400
+Processing by DownloadController#download_file as HTML
+  [1m[36mResource Load (0.4ms)[0m  [1m[34mSELECT  "resources".* FROM "resources" WHERE "resources"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.4ms)
+
+
+  
+NoMethodError (undefined method `file' for nil:NilClass):
+  
+app/controllers/download_controller.rb:5:in `download_file'
+Started PUT "/__web_console/repl_sessions/01223123ebe9e72b9fac7f476864539c" for 127.0.0.1 at 2018-05-09 11:15:36 -0400
+Started PUT "/__web_console/repl_sessions/01223123ebe9e72b9fac7f476864539c" for 127.0.0.1 at 2018-05-09 11:15:37 -0400
+Started GET "/programming" for 127.0.0.1 at 2018-05-09 11:16:13 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  Rendered programming/programming.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 8ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/lukecrum/Documents/FullCircle/FullCircle-backend/FullCircle/app/views/programming/programming.html.erb:27: syntax error, unexpected tIDENTIFIER, expecting =>
+...ad', "/download", {:id resource.id} );@output_buffer.safe_ap...
+...                       ^~~~~~~~
+/Users/lukecrum/Documents/FullCircle/FullCircle-backend/FullCircle/app/views/programming/programming.html.erb:27: syntax error, unexpected '}', expecting ')'
+... "/download", {:id resource.id} );@output_buffer.safe_append...
+...                              ^
+/Users/lukecrum/Documents/FullCircle/FullCircle-backend/FullCircle/app/views/programming/programming.html.erb:28: syntax error, unexpected keyword_end, expecting ')'
+'.freeze;   end 
+            ^~~
+/Users/lukecrum/Documents/FullCircle/FullCircle-backend/FullCircle/app/views/programming/programming.html.erb:33: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+          ^~~~~~
+/Users/lukecrum/Documents/FullCircle/FullCircle-backend/FullCircle/app/views/programming/programming.html.erb:35: syntax error, unexpected keyword_end, expecting ')'
+          end
+          ^~~):
+  
+app/views/programming/programming.html.erb:27: syntax error, unexpected tIDENTIFIER, expecting =>
+app/views/programming/programming.html.erb:27: syntax error, unexpected '}', expecting ')'
+app/views/programming/programming.html.erb:28: syntax error, unexpected keyword_end, expecting ')'
+app/views/programming/programming.html.erb:33: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/programming/programming.html.erb:35: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/programming" for 127.0.0.1 at 2018-05-09 11:16:30 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  [1m[36mResource Load (0.2ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered programming/programming.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 30ms (Views: 28.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/download" for 127.0.0.1 at 2018-05-09 11:16:32 -0400
+Processing by DownloadController#download_file as HTML
+  [1m[36mResource Load (0.3ms)[0m  [1m[34mSELECT  "resources".* FROM "resources" WHERE "resources"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+Completed 500 Internal Server Error in 4ms (ActiveRecord: 0.3ms)
+
+
+  
+NoMethodError (undefined method `file' for nil:NilClass):
+  
+app/controllers/download_controller.rb:5:in `download_file'
+Started PUT "/__web_console/repl_sessions/aef3ba361ee93e06d081d6074f553fc5" for 127.0.0.1 at 2018-05-09 11:16:36 -0400
+Started PUT "/__web_console/repl_sessions/aef3ba361ee93e06d081d6074f553fc5" for 127.0.0.1 at 2018-05-09 11:16:37 -0400
+Started PUT "/__web_console/repl_sessions/aef3ba361ee93e06d081d6074f553fc5" for 127.0.0.1 at 2018-05-09 11:16:41 -0400
+Started GET "/download" for 127.0.0.1 at 2018-05-09 11:19:02 -0400
+Processing by DownloadController#download_file as HTML
+  [1m[36mResource Load (0.2ms)[0m  [1m[34mSELECT  "resources".* FROM "resources" WHERE "resources"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.2ms)
+
+
+  
+NoMethodError (undefined method `file' for nil:NilClass):
+  
+app/controllers/download_controller.rb:5:in `download_file'
+Started GET "/programming" for 127.0.0.1 at 2018-05-09 11:19:05 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  [1m[36mResource Load (0.2ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered programming/programming.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 28ms (Views: 26.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/download" for 127.0.0.1 at 2018-05-09 11:19:07 -0400
+Processing by DownloadController#download_file as HTML
+  [1m[36mResource Load (0.2ms)[0m  [1m[34mSELECT  "resources".* FROM "resources" WHERE "resources"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.2ms)
+
+
+  
+NoMethodError (undefined method `file' for nil:NilClass):
+  
+app/controllers/download_controller.rb:5:in `download_file'
+Started PUT "/__web_console/repl_sessions/c92c0d1d8475427b07a4d6af0f382ce5" for 127.0.0.1 at 2018-05-09 11:19:10 -0400
+Started PUT "/__web_console/repl_sessions/c92c0d1d8475427b07a4d6af0f382ce5" for 127.0.0.1 at 2018-05-09 11:19:11 -0400
+Started GET "/download" for 127.0.0.1 at 2018-05-09 11:21:19 -0400
+Processing by DownloadController#download_file as HTML
+  [1m[36mResource Load (0.2ms)[0m  [1m[34mSELECT  "resources".* FROM "resources" WHERE "resources"."id" IS NULL LIMIT ?[0m  [["LIMIT", 1]]
+Completed 500 Internal Server Error in 3ms (ActiveRecord: 0.2ms)
+
+
+  
+NoMethodError (undefined method `file' for nil:NilClass):
+  
+app/controllers/download_controller.rb:5:in `download_file'
+Started GET "/programming" for 127.0.0.1 at 2018-05-09 11:21:22 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  [1m[36mResource Load (0.2ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered programming/programming.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 31ms (Views: 29.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/download/resource?id=9" for 127.0.0.1 at 2018-05-09 11:21:24 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/download/resource"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/programming" for 127.0.0.1 at 2018-05-09 11:21:30 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  [1m[36mResource Load (0.6ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered programming/programming.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 38ms (Views: 34.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/programming" for 127.0.0.1 at 2018-05-09 11:21:37 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  [1m[36mResource Load (0.4ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered programming/programming.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 43ms (Views: 40.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/download?id=9" for 127.0.0.1 at 2018-05-09 11:21:39 -0400
+Processing by DownloadController#download_file as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mResource Load (0.5ms)[0m  [1m[34mSELECT  "resources".* FROM "resources" WHERE "resources"."id" = ? LIMIT ?[0m  [["id", 9], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 11ms (ActiveRecord: 0.5ms)
+
+
+  
+NoMethodError (undefined method `file' for #<Resource:0x00007fe887e9faf8>):
+  
+app/controllers/download_controller.rb:5:in `download_file'
+Started PUT "/__web_console/repl_sessions/e2c6b13cc60246f5f13d57bf85070fb4" for 127.0.0.1 at 2018-05-09 11:21:44 -0400
+Started PUT "/__web_console/repl_sessions/e2c6b13cc60246f5f13d57bf85070fb4" for 127.0.0.1 at 2018-05-09 11:21:44 -0400
+Started GET "/programming" for 127.0.0.1 at 2018-05-09 11:22:20 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  Rendered programming/programming.html.erb within layouts/application (1.2ms)
+Completed 500 Internal Server Error in 12ms
+
+
+  
+SyntaxError (/Users/lukecrum/Documents/FullCircle/FullCircle-backend/FullCircle/app/views/programming/programming.html.erb:27: syntax error, unexpected tSTRING_DEND, expecting '('
+..., "/download?id=#{resource.id.}" );@output_buffer.safe_appen...
+...                              ^
+/Users/lukecrum/Documents/FullCircle/FullCircle-backend/FullCircle/app/views/programming/programming.html.erb:35: unterminated string meets end of file
+          end
+             ^
+/Users/lukecrum/Documents/FullCircle/FullCircle-backend/FullCircle/app/views/programming/programming.html.erb:35: syntax error, unexpected end-of-input, expecting tSTRING_DEND
+          end
+             ^):
+  
+app/views/programming/programming.html.erb:27: syntax error, unexpected tSTRING_DEND, expecting '('
+app/views/programming/programming.html.erb:35: unterminated string meets end of file
+app/views/programming/programming.html.erb:35: syntax error, unexpected end-of-input, expecting tSTRING_DEND
+Started GET "/programming" for 127.0.0.1 at 2018-05-09 11:22:22 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  Rendered programming/programming.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 11ms
+
+
+  
+SyntaxError (/Users/lukecrum/Documents/FullCircle/FullCircle-backend/FullCircle/app/views/programming/programming.html.erb:27: syntax error, unexpected tSTRING_DEND, expecting '('
+..., "/download?id=#{resource.id.}" );@output_buffer.safe_appen...
+...                              ^
+/Users/lukecrum/Documents/FullCircle/FullCircle-backend/FullCircle/app/views/programming/programming.html.erb:35: unterminated string meets end of file
+          end
+             ^
+/Users/lukecrum/Documents/FullCircle/FullCircle-backend/FullCircle/app/views/programming/programming.html.erb:35: syntax error, unexpected end-of-input, expecting tSTRING_DEND
+          end
+             ^):
+  
+app/views/programming/programming.html.erb:27: syntax error, unexpected tSTRING_DEND, expecting '('
+app/views/programming/programming.html.erb:35: unterminated string meets end of file
+app/views/programming/programming.html.erb:35: syntax error, unexpected end-of-input, expecting tSTRING_DEND
+Started GET "/programming" for 127.0.0.1 at 2018-05-09 11:22:24 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  Rendered programming/programming.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 8ms
+
+
+  
+SyntaxError (/Users/lukecrum/Documents/FullCircle/FullCircle-backend/FullCircle/app/views/programming/programming.html.erb:27: syntax error, unexpected tSTRING_DEND, expecting '('
+..., "/download?id=#{resource.id.}" );@output_buffer.safe_appen...
+...                              ^
+/Users/lukecrum/Documents/FullCircle/FullCircle-backend/FullCircle/app/views/programming/programming.html.erb:35: unterminated string meets end of file
+          end
+             ^
+/Users/lukecrum/Documents/FullCircle/FullCircle-backend/FullCircle/app/views/programming/programming.html.erb:35: syntax error, unexpected end-of-input, expecting tSTRING_DEND
+          end
+             ^):
+  
+app/views/programming/programming.html.erb:27: syntax error, unexpected tSTRING_DEND, expecting '('
+app/views/programming/programming.html.erb:35: unterminated string meets end of file
+app/views/programming/programming.html.erb:35: syntax error, unexpected end-of-input, expecting tSTRING_DEND
+Started GET "/programming" for 127.0.0.1 at 2018-05-09 11:22:34 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  Rendered programming/programming.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 7ms
+
+
+  
+SyntaxError (/Users/lukecrum/Documents/FullCircle/FullCircle-backend/FullCircle/app/views/programming/programming.html.erb:27: syntax error, unexpected tSTRING_DEND, expecting '('
+..., "/download?id=#{resource.id.}" );@output_buffer.safe_appen...
+...                              ^
+/Users/lukecrum/Documents/FullCircle/FullCircle-backend/FullCircle/app/views/programming/programming.html.erb:35: unterminated string meets end of file
+          end
+             ^
+/Users/lukecrum/Documents/FullCircle/FullCircle-backend/FullCircle/app/views/programming/programming.html.erb:35: syntax error, unexpected end-of-input, expecting tSTRING_DEND
+          end
+             ^):
+  
+app/views/programming/programming.html.erb:27: syntax error, unexpected tSTRING_DEND, expecting '('
+app/views/programming/programming.html.erb:35: unterminated string meets end of file
+app/views/programming/programming.html.erb:35: syntax error, unexpected end-of-input, expecting tSTRING_DEND
+Started GET "/programming" for 127.0.0.1 at 2018-05-09 11:22:43 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  [1m[36mResource Load (0.3ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered programming/programming.html.erb within layouts/application (34.9ms)
+Completed 200 OK in 77ms (Views: 75.0ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/download?id=9" for 127.0.0.1 at 2018-05-09 11:22:45 -0400
+Processing by DownloadController#download_file as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mResource Load (0.3ms)[0m  [1m[34mSELECT  "resources".* FROM "resources" WHERE "resources"."id" = ? LIMIT ?[0m  [["id", 9], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 10ms (ActiveRecord: 0.3ms)
+
+
+  
+NoMethodError (undefined method `file' for #<Resource:0x00007fe88c9b3a30>):
+  
+app/controllers/download_controller.rb:6:in `download_file'
+Started GET "/download?id=9" for 127.0.0.1 at 2018-05-09 11:24:38 -0400
+Processing by DownloadController#download_file as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mResource Load (0.2ms)[0m  [1m[34mSELECT  "resources".* FROM "resources" WHERE "resources"."id" = ? LIMIT ?[0m  [["id", 9], ["LIMIT", 1]]
+Completed 500 Internal Server Error in 20ms (ActiveRecord: 0.9ms)
+
+
+  
+NoMethodError (undefined method `name' for #<Resource:0x00007fe8873f7bc8>):
+  
+app/controllers/download_controller.rb:6:in `download_file'
+Started GET "/download?id=9" for 127.0.0.1 at 2018-05-09 11:24:47 -0400
+Processing by DownloadController#download_file as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mResource Load (0.2ms)[0m  [1m[34mSELECT  "resources".* FROM "resources" WHERE "resources"."id" = ? LIMIT ?[0m  [["id", 9], ["LIMIT", 1]]
+  Rendering text template
+  Rendered text template (0.0ms)
+Sent data ballad thing.docx (2.5ms)
+Completed 200 OK in 17ms (Views: 2.3ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/programming" for 127.0.0.1 at 2018-05-09 11:24:52 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  [1m[36mResource Load (0.2ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered programming/programming.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 48ms (Views: 45.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/download?id=9" for 127.0.0.1 at 2018-05-09 11:24:56 -0400
+Processing by DownloadController#download_file as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mResource Load (0.1ms)[0m  [1m[34mSELECT  "resources".* FROM "resources" WHERE "resources"."id" = ? LIMIT ?[0m  [["id", 9], ["LIMIT", 1]]
+  Rendering text template
+  Rendered text template (0.0ms)
+Sent data ballad thing.docx (0.7ms)
+Completed 200 OK in 2ms (Views: 0.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/download?id=9" for 127.0.0.1 at 2018-05-09 11:24:56 -0400
+Processing by DownloadController#download_file as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mResource Load (0.2ms)[0m  [1m[34mSELECT  "resources".* FROM "resources" WHERE "resources"."id" = ? LIMIT ?[0m  [["id", 9], ["LIMIT", 1]]
+  Rendering text template
+  Rendered text template (0.1ms)
+Sent data ballad thing.docx (0.8ms)
+Completed 200 OK in 3ms (Views: 0.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/download?id=9" for 127.0.0.1 at 2018-05-09 11:26:31 -0400
+Processing by DownloadController#download_file as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mResource Load (0.2ms)[0m  [1m[34mSELECT  "resources".* FROM "resources" WHERE "resources"."id" = ? LIMIT ?[0m  [["id", 9], ["LIMIT", 1]]
+  Rendering text template
+  Rendered text template (0.0ms)
+Sent data ballad thing.docx (0.6ms)
+Completed 200 OK in 2ms (Views: 0.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/download?id=9" for 127.0.0.1 at 2018-05-09 11:26:33 -0400
+Processing by DownloadController#download_file as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mResource Load (0.1ms)[0m  [1m[34mSELECT  "resources".* FROM "resources" WHERE "resources"."id" = ? LIMIT ?[0m  [["id", 9], ["LIMIT", 1]]
+  Rendering text template
+  Rendered text template (0.1ms)
+Sent data ballad thing.docx (2.7ms)
+Completed 200 OK in 4ms (Views: 2.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/download?id=9" for 127.0.0.1 at 2018-05-09 11:26:38 -0400
+Processing by DownloadController#download_file as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mResource Load (0.2ms)[0m  [1m[34mSELECT  "resources".* FROM "resources" WHERE "resources"."id" = ? LIMIT ?[0m  [["id", 9], ["LIMIT", 1]]
+  Rendering text template
+  Rendered text template (0.0ms)
+Sent data ballad thing.docx (0.6ms)
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/programming" for 127.0.0.1 at 2018-05-09 11:26:42 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  Rendered programming/programming.html.erb within layouts/application (1.5ms)
+Completed 500 Internal Server Error in 13ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/lukecrum/Documents/FullCircle/FullCircle-backend/FullCircle/app/views/programming/programming.html.erb:27: syntax error, unexpected ')', expecting keyword_then or ';' or '\n'
+..._of_resource == "programming" );@output_buffer.safe_append='
+...                              ^
+/Users/lukecrum/Documents/FullCircle/FullCircle-backend/FullCircle/app/views/programming/programming.html.erb:29: syntax error, unexpected keyword_end, expecting ')'
+'.freeze;     end 
+              ^~~
+/Users/lukecrum/Documents/FullCircle/FullCircle-backend/FullCircle/app/views/programming/programming.html.erb:35: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+          ^~~~~~
+/Users/lukecrum/Documents/FullCircle/FullCircle-backend/FullCircle/app/views/programming/programming.html.erb:37: syntax error, unexpected keyword_end, expecting ')'
+          end
+          ^~~):
+  
+app/views/programming/programming.html.erb:27: syntax error, unexpected ')', expecting keyword_then or ';' or '\n'
+app/views/programming/programming.html.erb:29: syntax error, unexpected keyword_end, expecting ')'
+app/views/programming/programming.html.erb:35: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/programming/programming.html.erb:37: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/programming" for 127.0.0.1 at 2018-05-09 11:27:59 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  [1m[36mResource Load (0.8ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered programming/programming.html.erb within layouts/application (38.6ms)
+Completed 500 Internal Server Error in 72ms (ActiveRecord: 0.8ms)
+
+
+  
+ActionView::Template::Error (undefined method `find_by_type_of_resource' for #<Enumerator:0x00007fe8874f5368>):
+    23:   </nav>
+    24: </head>
+    25: <body>
+    26:   <%= Resource.all.each.find_by_type_of_resource "Programming" do |resource| %>
+    27:     <%= link_to 'Download', "/download?id=#{resource.id}" %>
+    28:   <% end %>
+    29: </body>
+  
+app/views/programming/programming.html.erb:26:in `_app_views_programming_programming_html_erb__1351665595440009797_70318383794400'
+Started GET "/programming" for 127.0.0.1 at 2018-05-09 11:28:50 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  Rendered programming/programming.html.erb within layouts/application (2.0ms)
+Completed 500 Internal Server Error in 22ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/lukecrum/Documents/FullCircle/FullCircle-backend/FullCircle/app/views/programming/programming.html.erb:26: syntax error, unexpected tSTRING_BEG, expecting keyword_end
+...ach.find_by(type_of_resource) "Programming" do |resource| @o...
+...                              ^
+/Users/lukecrum/Documents/FullCircle/FullCircle-backend/FullCircle/app/views/programming/programming.html.erb:26: syntax error, unexpected keyword_do_block, expecting keyword_end
+...e_of_resource) "Programming" do |resource| @output_buffer.sa...
+...                             ^~
+/Users/lukecrum/Documents/FullCircle/FullCircle-backend/FullCircle/app/views/programming/programming.html.erb:33: syntax error, unexpected keyword_ensure, expecting end-of-input
+          ensure
+          ^~~~~~):
+  
+app/views/programming/programming.html.erb:26: syntax error, unexpected tSTRING_BEG, expecting keyword_end
+app/views/programming/programming.html.erb:26: syntax error, unexpected keyword_do_block, expecting keyword_end
+app/views/programming/programming.html.erb:33: syntax error, unexpected keyword_ensure, expecting end-of-input
+Started GET "/programming" for 127.0.0.1 at 2018-05-09 11:29:38 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  [1m[36mResource Load (0.5ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered programming/programming.html.erb within layouts/application (49.7ms)
+Completed 500 Internal Server Error in 74ms (ActiveRecord: 0.5ms)
+
+
+  
+ActionView::Template::Error (undefined method `find_by' for #<Enumerator:0x00007fe88cae2910>
+Did you mean?  min_by):
+    23:   </nav>
+    24: </head>
+    25: <body>
+    26:   <%= Resource.all.each.find_by type_of_resource: "Programming" do |resource| %>
+    27:     <%= link_to 'Download', "/download?id=#{resource.id}" %>
+    28:   <% end %>
+    29: </body>
+  
+app/views/programming/programming.html.erb:26:in `_app_views_programming_programming_html_erb__1351665595440009797_70318384725560'
+Started GET "/programming" for 127.0.0.1 at 2018-05-09 11:29:56 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  [1m[36mResource Load (0.5ms)[0m  [1m[34mSELECT  "resources".* FROM "resources" WHERE "resources"."type_of_resource" = ? LIMIT ?[0m  [["type_of_resource", "Programming"], ["LIMIT", 1]]
+  Rendered programming/programming.html.erb within layouts/application (16.6ms)
+Completed 200 OK in 148ms (Views: 141.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/programming" for 127.0.0.1 at 2018-05-09 11:30:13 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  [1m[36mResource Load (0.4ms)[0m  [1m[34mSELECT  "resources".* FROM "resources" WHERE "resources"."type_of_resource" = ? LIMIT ?[0m  [["type_of_resource", "Outreach"], ["LIMIT", 1]]
+  Rendered programming/programming.html.erb within layouts/application (13.9ms)
+Completed 200 OK in 121ms (Views: 115.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/programming" for 127.0.0.1 at 2018-05-09 11:30:27 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  [1m[36mResource Load (0.3ms)[0m  [1m[34mSELECT  "resources".* FROM "resources" WHERE "resources"."type_of_resource" = ? LIMIT ?[0m  [["type_of_resource", "Outreach"], ["LIMIT", 1]]
+  Rendered programming/programming.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 89ms (Views: 84.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/programming" for 127.0.0.1 at 2018-05-09 12:23:53 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  [1m[36mResource Load (0.2ms)[0m  [1m[34mSELECT  "resources".* FROM "resources" WHERE "resources"."type_of_resource" = ? LIMIT ?[0m  [["type_of_resource", "Outreach"], ["LIMIT", 1]]
+  Rendered programming/programming.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 42ms (Views: 39.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/programming" for 127.0.0.1 at 2018-05-09 12:24:31 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  [1m[36mResource Load (0.2ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered programming/programming.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 44ms (Views: 41.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/upload" for 127.0.0.1 at 2018-05-09 12:24:38 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 53ms (Views: 51.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/process" for 127.0.0.1 at 2018-05-09 12:24:48 -0400
+Processing by ProcessController#process_resource as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"dyeTdCgHio8QTOAqoN1OogvgLeSsNub0h/vX58JJ/0s0umZQ0a+fHwvfJAGmET8sh1l/XvG6YP6eyFuZQy3O9A==", "Resource"=>{"file"=>#<ActionDispatch::Http::UploadedFile:0x00007fe887602d78 @tempfile=#<Tempfile:/var/folders/pl/tmjmh5wn1519b1hrgy9z5k2m0000gn/T/RackMultipart20180509-36280-138s7uu.jpg>, @original_filename="seeds.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"Resource[file]\"; filename=\"seeds.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "type_of_resource"=>"Awards", "commit"=>"Submit"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (2.3ms)[0m  [1m[32mINSERT INTO "resources" ("filename", "content_type", "data", "created_at", "updated_at", "type_of_resource") VALUES (?, ?, ?, ?, ?, ?)[0m  [["filename", "seeds.jpg"], ["content_type", "image/jpeg"], ["data", "<89930 bytes of binary data>"], ["created_at", "2018-05-09 16:24:48.174837"], ["updated_at", "2018-05-09 16:24:48.174837"], ["type_of_resource", "Awards"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+No template found for ProcessController#process_resource, rendering head :no_content
+Completed 204 No Content in 175ms (ActiveRecord: 3.4ms)
+
+
+Started GET "/programming" for 127.0.0.1 at 2018-05-09 12:24:50 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  [1m[36mResource Load (0.4ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered programming/programming.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 68ms (Views: 59.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/download?id=10" for 127.0.0.1 at 2018-05-09 12:24:54 -0400
+Processing by DownloadController#download_file as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mResource Load (0.5ms)[0m  [1m[34mSELECT  "resources".* FROM "resources" WHERE "resources"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  Rendering text template
+  Rendered text template (0.0ms)
+Sent data seeds.jpg (0.5ms)
+Completed 200 OK in 3ms (Views: 0.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/download?id=10" for 127.0.0.1 at 2018-05-09 12:24:54 -0400
+Processing by DownloadController#download_file as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mResource Load (0.3ms)[0m  [1m[34mSELECT  "resources".* FROM "resources" WHERE "resources"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  Rendering text template
+  Rendered text template (0.1ms)
+Sent data seeds.jpg (1.1ms)
+Completed 200 OK in 3ms (Views: 0.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/download?id=10" for 127.0.0.1 at 2018-05-09 12:25:11 -0400
+Processing by DownloadController#download_file as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mResource Load (0.2ms)[0m  [1m[34mSELECT  "resources".* FROM "resources" WHERE "resources"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  Rendering text template
+  Rendered text template (0.0ms)
+Sent data seeds.jpg (0.8ms)
+Completed 200 OK in 2ms (Views: 0.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/programming" for 127.0.0.1 at 2018-05-09 12:25:15 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  [1m[36mResource Load (0.9ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered programming/programming.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 85ms (Views: 81.0ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/programming" for 127.0.0.1 at 2018-05-09 12:25:28 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  [1m[36mResource Load (0.3ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered programming/programming.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 35ms (Views: 32.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/programming" for 127.0.0.1 at 2018-05-09 12:26:00 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  [1m[36mResource Load (0.3ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered programming/programming.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 40ms (Views: 38.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/programming" for 127.0.0.1 at 2018-05-09 12:26:10 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  [1m[36mResource Load (0.3ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered programming/programming.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 36ms (Views: 34.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/programming" for 127.0.0.1 at 2018-05-09 12:26:46 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  [1m[36mResource Load (0.5ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered programming/programming.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 37ms (Views: 34.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/programming" for 127.0.0.1 at 2018-05-09 12:27:13 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  [1m[36mResource Load (0.2ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered programming/programming.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 38ms (Views: 35.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/programming" for 127.0.0.1 at 2018-05-09 12:34:10 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  Rendered programming/programming.html.erb within layouts/application (12.4ms)
+Completed 200 OK in 63ms (Views: 58.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/programming" for 127.0.0.1 at 2018-05-09 12:34:23 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  Rendered programming/programming.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 57ms (Views: 54.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/programming" for 127.0.0.1 at 2018-05-09 12:34:24 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  Rendered programming/programming.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 33ms (Views: 31.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/programming" for 127.0.0.1 at 2018-05-09 12:34:25 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  Rendered programming/programming.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 46ms (Views: 42.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/programming" for 127.0.0.1 at 2018-05-09 12:34:26 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  Rendered programming/programming.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 40ms (Views: 37.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/programming" for 127.0.0.1 at 2018-05-09 12:34:27 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  Rendered programming/programming.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 36ms (Views: 34.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/programming" for 127.0.0.1 at 2018-05-09 12:34:27 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  Rendered programming/programming.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 52ms (Views: 49.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/programming" for 127.0.0.1 at 2018-05-09 12:34:27 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  Rendered programming/programming.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 51ms (Views: 49.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/programming" for 127.0.0.1 at 2018-05-09 12:34:28 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  Rendered programming/programming.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 36ms (Views: 34.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/programming" for 127.0.0.1 at 2018-05-09 12:34:58 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  Rendered programming/programming.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 30ms (Views: 27.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/programming" for 127.0.0.1 at 2018-05-09 12:39:40 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  [1m[36mResource Load (0.3ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered programming/programming.html.erb within layouts/application (17.9ms)
+Completed 200 OK in 52ms (Views: 49.4ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/download?id=10" for 127.0.0.1 at 2018-05-09 12:39:42 -0400
+Processing by DownloadController#download_file as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mResource Load (0.4ms)[0m  [1m[34mSELECT  "resources".* FROM "resources" WHERE "resources"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  Rendering text template
+  Rendered text template (0.1ms)
+Sent data seeds.jpg (2.4ms)
+Completed 200 OK in 7ms (Views: 2.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/download?id=10" for 127.0.0.1 at 2018-05-09 12:39:42 -0400
+Processing by DownloadController#download_file as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mResource Load (1.0ms)[0m  [1m[34mSELECT  "resources".* FROM "resources" WHERE "resources"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  Rendering text template
+  Rendered text template (0.0ms)
+Sent data seeds.jpg (0.9ms)
+Completed 200 OK in 5ms (Views: 0.6ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/programming" for 127.0.0.1 at 2018-05-09 12:43:28 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  [1m[36mResource Load (0.2ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered programming/programming.html.erb within layouts/application (17.9ms)
+Completed 200 OK in 45ms (Views: 43.7ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/download?id=10" for 127.0.0.1 at 2018-05-09 12:45:15 -0400
+Processing by DownloadController#download_file as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mResource Load (0.3ms)[0m  [1m[34mSELECT  "resources".* FROM "resources" WHERE "resources"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  Rendering text template
+  Rendered text template (0.0ms)
+Sent data seeds.jpg (1.0ms)
+Completed 200 OK in 18ms (Views: 0.7ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/programming" for 127.0.0.1 at 2018-05-09 12:45:21 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  [1m[36mResource Load (0.6ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered programming/programming.html.erb within layouts/application (11.3ms)
+Completed 200 OK in 97ms (Views: 92.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/programming" for 127.0.0.1 at 2018-05-09 12:45:23 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  [1m[36mResource Load (0.2ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered programming/programming.html.erb within layouts/application (15.9ms)
+Completed 200 OK in 46ms (Views: 43.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/programming" for 127.0.0.1 at 2018-05-10 09:45:47 -0400
+  [1m[35m (1.7ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  [1m[36mResource Load (6.9ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered programming/programming.html.erb within layouts/application (242.3ms)
+Completed 200 OK in 345ms (Views: 319.5ms | ActiveRecord: 7.6ms)
+
+
+Started GET "/programming" for 127.0.0.1 at 2018-05-10 09:46:28 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  [1m[36mResource Load (0.5ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered programming/programming.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 29ms (Views: 27.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/programming" for 127.0.0.1 at 2018-05-10 09:46:37 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  [1m[36mResource Load (0.3ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered programming/programming.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 29ms (Views: 27.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/programming" for 127.0.0.1 at 2018-05-10 09:50:38 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  [1m[36mResource Load (0.4ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered programming/programming.html.erb within layouts/application (13.2ms)
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.4ms)
+
+
+  
+ActionView::Template::Error (undefined method `type_of_resource' for #<Enumerator:0x00007fd4b8cda9d0>):
+    23:   </nav>
+    24: </head>
+    25: <body>
+    26:   <% Resource.all.each.type_of_resource('Programming') do |resource| %>
+    27:     <%= link_to resource.filename, "/download?id=#{resource.id}" %>
+    28:     <p>
+    29:     </p>
+  
+app/views/programming/programming.html.erb:26:in `_app_views_programming_programming_html_erb__994851323739535388_70275821407800'
+Started GET "/programming" for 127.0.0.1 at 2018-05-10 09:50:50 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  Rendered programming/programming.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/lukecrum/Documents/FullCircle/FullCircle-backend/FullCircle/app/views/programming/programming.html.erb:26: syntax error, unexpected '(', expecting keyword_end
+...rce.all.each :type_of_resource('Programming') do |resource| 
+...                              ^
+/Users/lukecrum/Documents/FullCircle/FullCircle-backend/FullCircle/app/views/programming/programming.html.erb:26: syntax error, unexpected ')', expecting keyword_end
+...type_of_resource('Programming') do |resource| 
+...                              ^
+/Users/lukecrum/Documents/FullCircle/FullCircle-backend/FullCircle/app/views/programming/programming.html.erb:35: syntax error, unexpected keyword_ensure, expecting end-of-input
+          ensure
+          ^~~~~~):
+  
+app/views/programming/programming.html.erb:26: syntax error, unexpected '(', expecting keyword_end
+app/views/programming/programming.html.erb:26: syntax error, unexpected ')', expecting keyword_end
+app/views/programming/programming.html.erb:35: syntax error, unexpected keyword_ensure, expecting end-of-input
+Started GET "/programming" for 127.0.0.1 at 2018-05-10 09:51:21 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  Rendered programming/programming.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/lukecrum/Documents/FullCircle/FullCircle-backend/FullCircle/app/views/programming/programming.html.erb:26: syntax error, unexpected keyword_do_block, expecting keyword_end
+..._of_resource = 'Programming' do |resource| 
+...                             ^~
+/Users/lukecrum/Documents/FullCircle/FullCircle-backend/FullCircle/app/views/programming/programming.html.erb:35: syntax error, unexpected keyword_ensure, expecting end-of-input
+          ensure
+          ^~~~~~):
+  
+app/views/programming/programming.html.erb:26: syntax error, unexpected keyword_do_block, expecting keyword_end
+app/views/programming/programming.html.erb:35: syntax error, unexpected keyword_ensure, expecting end-of-input
+Started GET "/programming" for 127.0.0.1 at 2018-05-10 09:51:30 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  Rendered programming/programming.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 5ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/lukecrum/Documents/FullCircle/FullCircle-backend/FullCircle/app/views/programming/programming.html.erb:26: syntax error, unexpected '=', expecting &. or :: or '[' or '.'
+...rce.all.each.type_of_resource = 'Programming' do |resource| 
+...                              ^
+/Users/lukecrum/Documents/FullCircle/FullCircle-backend/FullCircle/app/views/programming/programming.html.erb:26: syntax error, unexpected keyword_do_block, expecting keyword_end
+..._of_resource = 'Programming' do |resource| 
+...                             ^~
+/Users/lukecrum/Documents/FullCircle/FullCircle-backend/FullCircle/app/views/programming/programming.html.erb:35: syntax error, unexpected keyword_ensure, expecting end-of-input
+          ensure
+          ^~~~~~):
+  
+app/views/programming/programming.html.erb:26: syntax error, unexpected '=', expecting &. or :: or '[' or '.'
+app/views/programming/programming.html.erb:26: syntax error, unexpected keyword_do_block, expecting keyword_end
+app/views/programming/programming.html.erb:35: syntax error, unexpected keyword_ensure, expecting end-of-input
+Started GET "/programming" for 127.0.0.1 at 2018-05-10 09:53:45 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  [1m[36mResource Load (1.1ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered programming/programming.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 28ms (Views: 24.9ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/upload" for 127.0.0.1 at 2018-05-10 09:53:56 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (17.3ms)
+Completed 200 OK in 41ms (Views: 38.2ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/process" for 127.0.0.1 at 2018-05-10 09:54:07 -0400
+Processing by ProcessController#process_resource as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ZSOq0kBUjAWzTgYheZ59O4IY9Orgq50eUmYATsjzn64mvl/2ufyZlajdwgp/Ugy1DqGmUL0nGxRLVYwwSZeuEQ==", "Resource"=>{"file"=>#<ActionDispatch::Http::UploadedFile:0x00007fd4bcb0ed00 @tempfile=#<Tempfile:/var/folders/pl/tmjmh5wn1519b1hrgy9z5k2m0000gn/T/RackMultipart20180510-38027-1ea8brs.png>, @original_filename="fullcircle.png", @content_type="image/png", @headers="Content-Disposition: form-data; name=\"Resource[file]\"; filename=\"fullcircle.png\"\r\nContent-Type: image/png\r\n">}, "type_of_resource"=>"Programming", "commit"=>"Submit"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.1ms)[0m  [1m[32mINSERT INTO "resources" ("filename", "content_type", "data", "created_at", "updated_at", "type_of_resource") VALUES (?, ?, ?, ?, ?, ?)[0m  [["filename", "fullcircle.png"], ["content_type", "image/png"], ["data", "<28212 bytes of binary data>"], ["created_at", "2018-05-10 13:54:07.541113"], ["updated_at", "2018-05-10 13:54:07.541113"], ["type_of_resource", "Programming"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+No template found for ProcessController#process_resource, rendering head :no_content
+Completed 204 No Content in 125ms (ActiveRecord: 2.2ms)
+
+
+Started GET "/programming" for 127.0.0.1 at 2018-05-10 09:54:09 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  [1m[36mResource Load (0.9ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered programming/programming.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 55ms (Views: 51.5ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/programming" for 127.0.0.1 at 2018-05-10 09:54:11 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  [1m[36mResource Load (0.6ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered programming/programming.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 30ms (Views: 27.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/programming" for 127.0.0.1 at 2018-05-10 09:54:35 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  [1m[36mResource Load (1.6ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered programming/programming.html.erb within layouts/application (5.5ms)
+Completed 200 OK in 47ms (Views: 44.3ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/programming" for 127.0.0.1 at 2018-05-10 09:54:44 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  [1m[36mResource Load (0.7ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered programming/programming.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 63ms (Views: 60.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/programming" for 127.0.0.1 at 2018-05-10 09:56:02 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  Rendered programming/programming.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 6ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/lukecrum/Documents/FullCircle/FullCircle-backend/FullCircle/app/views/programming/programming.html.erb:27: syntax error, unexpected ')', expecting keyword_end
+...nload?id=#{resource.id}; end" );@output_buffer.safe_append='
+...                              ^
+/Users/lukecrum/Documents/FullCircle/FullCircle-backend/FullCircle/app/views/programming/programming.html.erb:35: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+          ^~~~~~
+/Users/lukecrum/Documents/FullCircle/FullCircle-backend/FullCircle/app/views/programming/programming.html.erb:37: syntax error, unexpected keyword_end, expecting ')'
+          end
+          ^~~):
+  
+app/views/programming/programming.html.erb:27: syntax error, unexpected ')', expecting keyword_end
+app/views/programming/programming.html.erb:35: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/programming/programming.html.erb:37: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/programming" for 127.0.0.1 at 2018-05-10 09:56:27 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  [1m[36mResource Load (1.0ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered programming/programming.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 41ms (Views: 37.2ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/programming" for 127.0.0.1 at 2018-05-10 09:56:44 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  [1m[36mResource Load (0.3ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered programming/programming.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 31ms (Views: 27.7ms | ActiveRecord: 0.3ms)
+
+
