@@ -4027,3 +4027,315 @@ Processing by ProgrammingController#programming as HTML
 Completed 200 OK in 31ms (Views: 27.7ms | ActiveRecord: 0.3ms)
 
 
+Started GET "/programming" for 127.0.0.1 at 2018-05-10 10:00:40 -0400
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  [1m[36mResource Load (0.8ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered programming/programming.html.erb within layouts/application (204.3ms)
+Completed 200 OK in 259ms (Views: 245.7ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/programming" for 127.0.0.1 at 2018-05-10 10:17:41 -0400
+Started GET "/awards" for 127.0.0.1 at 2018-05-10 10:17:51 -0400
+  
+ArgumentError (You should not use the `match` method in your router without specifying an HTTP method.
+If you want to expose your action to both GET and POST, add `via: [:get, :post]` option.
+If you want to expose your action to GET, use `get` in the router:
+  Instead of: match "controller#action"
+  Do: get "controller#action"):
+  
+config/routes.rb:4:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+  
+ActionController::RoutingError (No route matches [GET] "/awards"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/programming" for 127.0.0.1 at 2018-05-10 10:19:08 -0400
+  
+ArgumentError (You should not use the `match` method in your router without specifying an HTTP method.
+If you want to expose your action to both GET and POST, add `via: [:get, :post]` option.
+If you want to expose your action to GET, use `get` in the router:
+  Instead of: match "controller#action"
+  Do: get "controller#action"):
+  
+config/routes.rb:4:in `block in <top (required)>'
+config/routes.rb:1:in `<top (required)>'
+Started GET "/programming" for 127.0.0.1 at 2018-05-10 10:19:25 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  [1m[36mResource Load (0.7ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered programming/programming.html.erb within layouts/application (33.9ms)
+Completed 200 OK in 102ms (Views: 98.8ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/awards" for 127.0.0.1 at 2018-05-10 10:19:28 -0400
+Processing by AwardsController#awards as HTML
+  Rendering awards/awards.html.erb within layouts/application
+  [1m[36mResource Load (0.3ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered awards/awards.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 38ms (Views: 35.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/fundraising" for 127.0.0.1 at 2018-05-10 10:19:29 -0400
+Processing by FundraisingController#fundraising as HTML
+  Rendering fundraising/fundraising.html.erb within layouts/application
+  [1m[36mResource Load (0.6ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered fundraising/fundraising.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 61ms (Views: 56.9ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/outreach" for 127.0.0.1 at 2018-05-10 10:19:31 -0400
+Processing by OutreachController#outreach as HTML
+  Rendering outreach/outreach.html.erb within layouts/application
+  [1m[36mResource Load (0.4ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered outreach/outreach.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 41ms (Views: 36.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/mechanical" for 127.0.0.1 at 2018-05-10 10:19:33 -0400
+Processing by MechanicalController#mechanical as HTML
+  Rendering mechanical/mechanical.html.erb within layouts/application
+  [1m[36mResource Load (0.4ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered mechanical/mechanical.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 44ms (Views: 40.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/programming" for 127.0.0.1 at 2018-05-10 10:19:34 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  [1m[36mResource Load (0.5ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered programming/programming.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 52ms (Views: 48.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/electrical" for 127.0.0.1 at 2018-05-10 10:19:35 -0400
+Processing by ElectricalController#electrical as HTML
+  Rendering electrical/electrical.html.erb within layouts/application
+  [1m[36mResource Load (0.4ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered electrical/electrical.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 44ms (Views: 40.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/about_us" for 127.0.0.1 at 2018-05-10 10:19:36 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/about_us"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/about_us" for 127.0.0.1 at 2018-05-10 10:35:27 -0400
+  
+ActionController::RoutingError (No route matches [GET] "/about_us"):
+  
+actionpack (5.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.6.2) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.6.2) lib/web_console/middleware.rb:30:in `block in call'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `catch'
+web-console (3.6.2) lib/web_console/middleware.rb:20:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.6) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.6) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.6) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.5) lib/rack/method_override.rb:22:in `call'
+rack (2.0.5) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.6) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.5) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.6) lib/rails/engine.rb:522:in `call'
+puma (3.11.4) lib/puma/configuration.rb:225:in `call'
+puma (3.11.4) lib/puma/server.rb:632:in `handle_request'
+puma (3.11.4) lib/puma/server.rb:446:in `process_client'
+puma (3.11.4) lib/puma/server.rb:306:in `block in run'
+puma (3.11.4) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/programming" for 127.0.0.1 at 2018-05-10 10:35:31 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  [1m[36mResource Load (0.3ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered programming/programming.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 25ms (Views: 22.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/awards" for 127.0.0.1 at 2018-05-10 10:35:33 -0400
+Processing by AwardsController#awards as HTML
+  Rendering awards/awards.html.erb within layouts/application
+  [1m[36mResource Load (0.8ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered awards/awards.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 43ms (Views: 39.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/fundraising" for 127.0.0.1 at 2018-05-10 10:35:33 -0400
+Processing by FundraisingController#fundraising as HTML
+  Rendering fundraising/fundraising.html.erb within layouts/application
+  [1m[36mResource Load (0.3ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered fundraising/fundraising.html.erb within layouts/application (7.3ms)
+Completed 200 OK in 45ms (Views: 42.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/outreach" for 127.0.0.1 at 2018-05-10 10:35:35 -0400
+Processing by OutreachController#outreach as HTML
+  Rendering outreach/outreach.html.erb within layouts/application
+  [1m[36mResource Load (0.5ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered outreach/outreach.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 43ms (Views: 40.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/mechanical" for 127.0.0.1 at 2018-05-10 10:35:36 -0400
+Processing by MechanicalController#mechanical as HTML
+  Rendering mechanical/mechanical.html.erb within layouts/application
+  [1m[36mResource Load (0.3ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered mechanical/mechanical.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 41ms (Views: 38.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/programming" for 127.0.0.1 at 2018-05-10 10:35:37 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  [1m[36mResource Load (0.4ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered programming/programming.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 45ms (Views: 40.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/electrical" for 127.0.0.1 at 2018-05-10 10:35:38 -0400
+Processing by ElectricalController#electrical as HTML
+  Rendering electrical/electrical.html.erb within layouts/application
+  [1m[36mResource Load (0.4ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered electrical/electrical.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 43ms (Views: 40.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/upload" for 127.0.0.1 at 2018-05-10 10:35:39 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 37ms (Views: 34.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/electrical" for 127.0.0.1 at 2018-05-10 10:37:02 -0400
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by ElectricalController#electrical as HTML
+  Rendering electrical/electrical.html.erb within layouts/application
+  [1m[36mResource Load (1.5ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered electrical/electrical.html.erb within layouts/application (292.8ms)
+Completed 200 OK in 414ms (Views: 400.1ms | ActiveRecord: 3.3ms)
+
+
+Started GET "/about_us" for 127.0.0.1 at 2018-05-10 10:37:04 -0400
+Processing by AboutController#about as HTML
+  Rendering about/about.html.erb within layouts/application
+  Rendered about/about.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 50ms (Views: 47.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/upload" for 127.0.0.1 at 2018-05-10 10:37:05 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (22.2ms)
+Completed 200 OK in 86ms (Views: 83.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mechanical" for 127.0.0.1 at 2018-05-10 10:37:06 -0400
+Processing by MechanicalController#mechanical as HTML
+  Rendering mechanical/mechanical.html.erb within layouts/application
+  [1m[36mResource Load (0.6ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered mechanical/mechanical.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 49ms (Views: 45.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/programming" for 127.0.0.1 at 2018-05-10 10:37:07 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  [1m[36mResource Load (0.5ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered programming/programming.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 55ms (Views: 52.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/electrical" for 127.0.0.1 at 2018-05-10 10:37:08 -0400
+Processing by ElectricalController#electrical as HTML
+  Rendering electrical/electrical.html.erb within layouts/application
+  [1m[36mResource Load (0.6ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered electrical/electrical.html.erb within layouts/application (49.5ms)
+Completed 200 OK in 86ms (Views: 83.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/awards" for 127.0.0.1 at 2018-05-10 10:37:09 -0400
+Processing by AwardsController#awards as HTML
+  Rendering awards/awards.html.erb within layouts/application
+  [1m[36mResource Load (0.3ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered awards/awards.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 51ms (Views: 49.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/fundraising" for 127.0.0.1 at 2018-05-10 10:37:10 -0400
+Processing by FundraisingController#fundraising as HTML
+  Rendering fundraising/fundraising.html.erb within layouts/application
+  [1m[36mResource Load (0.5ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered fundraising/fundraising.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 63ms (Views: 60.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/outreach" for 127.0.0.1 at 2018-05-10 10:37:12 -0400
+Processing by OutreachController#outreach as HTML
+  Rendering outreach/outreach.html.erb within layouts/application
+  [1m[36mResource Load (0.6ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered outreach/outreach.html.erb within layouts/application (19.0ms)
+Completed 200 OK in 68ms (Views: 62.8ms | ActiveRecord: 0.6ms)
+
+

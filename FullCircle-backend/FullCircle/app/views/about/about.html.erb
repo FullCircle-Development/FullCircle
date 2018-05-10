@@ -23,12 +23,6 @@
   </nav>
 </head>
 <body>
-  <% Resource.all.each do |resource| %>
-  <%=if resource.type_of_resource == 'Outreach'
-      button_to resource.filename, "/download?id=#{resource.id}"
-    end %>
-    <p>
-    </p>
-  <% end %>
+
 </body>
 </html>

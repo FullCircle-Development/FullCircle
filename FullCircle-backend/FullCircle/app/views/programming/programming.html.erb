@@ -25,7 +25,7 @@
 <body>
   <% Resource.all.each do |resource| %>
   <%=if resource.type_of_resource == 'Programming'
-      link_to resource.filename, "/download?id=#{resource.id}"
+      button_to resource.filename, "/download?id=#{resource.id}"
     end %>
     <p>
     </p>
