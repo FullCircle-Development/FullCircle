@@ -4976,3 +4976,74 @@ Processing by UploadController#upload as HTML
 Completed 200 OK in 31ms (Views: 28.5ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/awards" for 127.0.0.1 at 2018-05-11 10:31:02 -0400
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AwardsController#awards as HTML
+  Rendering awards/awards.html.erb within layouts/application
+  [1m[36mResource Load (0.5ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered awards/awards.html.erb within layouts/application (242.4ms)
+Completed 200 OK in 320ms (Views: 308.2ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/awards" for 127.0.0.1 at 2018-05-11 10:31:06 -0400
+Processing by AwardsController#awards as HTML
+  Rendering awards/awards.html.erb within layouts/application
+  [1m[36mResource Load (0.3ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered awards/awards.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 39ms (Views: 36.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/fundraising" for 127.0.0.1 at 2018-05-11 10:31:08 -0400
+Processing by FundraisingController#fundraising as HTML
+  Rendering fundraising/fundraising.html.erb within layouts/application
+  [1m[36mResource Load (0.3ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered fundraising/fundraising.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 45ms (Views: 42.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/outreach" for 127.0.0.1 at 2018-05-11 10:31:09 -0400
+Processing by OutreachController#outreach as HTML
+  Rendering outreach/outreach.html.erb within layouts/application
+  [1m[36mResource Load (0.5ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered outreach/outreach.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 48ms (Views: 44.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/mechanical" for 127.0.0.1 at 2018-05-11 10:31:10 -0400
+Processing by MechanicalController#mechanical as HTML
+  Rendering mechanical/mechanical.html.erb within layouts/application
+  [1m[36mResource Load (0.7ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered mechanical/mechanical.html.erb within layouts/application (11.3ms)
+Completed 200 OK in 60ms (Views: 52.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/programming" for 127.0.0.1 at 2018-05-11 10:31:11 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  [1m[36mResource Load (0.5ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered programming/programming.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 48ms (Views: 45.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/electrical" for 127.0.0.1 at 2018-05-11 10:31:12 -0400
+Processing by ElectricalController#electrical as HTML
+  Rendering electrical/electrical.html.erb within layouts/application
+  [1m[36mResource Load (0.7ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered electrical/electrical.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 46ms (Views: 42.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/about_us" for 127.0.0.1 at 2018-05-11 10:31:13 -0400
+Processing by AboutController#about as HTML
+  Rendering about/about.html.erb within layouts/application
+  Rendered about/about.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 53ms (Views: 50.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/upload" for 127.0.0.1 at 2018-05-11 10:31:14 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (23.4ms)
+Completed 200 OK in 67ms (Views: 63.2ms | ActiveRecord: 0.0ms)
+
+

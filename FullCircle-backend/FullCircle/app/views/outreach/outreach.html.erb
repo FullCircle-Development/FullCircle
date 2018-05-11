@@ -24,9 +24,10 @@
 </head>
 <body>
   <% Resource.all.each do |resource| %>
-  <%=if resource.type_of_resource == 'Outreach'
-      button_to resource.filename, "/download?id=#{resource.id}"
-    end %>
+  <% if resource.type_of_resource == 'Outreach' %>
+      <%= button_to resource.filename, "/download?id=#{resource.id}" %>
+      <%= resource.description %>
+     <% end %>
     <p>
     </p>
   <% end %>
