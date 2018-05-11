@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
+  
   match '/programming' => 'programming#programming', via: :get
   match '/awards' => 'awards#awards', via: :get
   match '/electrical' => 'electrical#electrical', via: :get
@@ -9,7 +10,7 @@ Rails.application.routes.draw do
   match '/about_us' => 'about#about', via: :get
 
   post '/process' => 'process#process_resource'
-  get '/download' => 'download#download_file'
+  post '/download' => 'download#download_file'
   match '/upload' => 'upload#upload', via: :get
 
   get '/filter/:type' => 'download#find_by'

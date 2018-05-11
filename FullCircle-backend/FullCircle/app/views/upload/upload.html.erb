@@ -29,6 +29,10 @@
   <p>Type of Resource: </p>
   <%= select_tag :type_of_resource, options_for_select([['Awards'], ['Fundraising'], ['Outreach'], ['Mechanical'], ['Programming'], ['Electrical']]) %>
   <p></p>
+  Descripton:
+  <p></p>
+  <%= text_area_tag :description %>
+  <p></p>
   <%= submit_tag "Submit", class: "submit" %>
 <% end %>
 </body>
