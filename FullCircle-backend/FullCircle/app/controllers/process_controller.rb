@@ -8,6 +8,7 @@ class ProcessController < ApplicationController
     @resource.data = uploaded_file.read
     @resource.content_type = uploaded_file.content_type
     @resource.description = description
+    @resource.basename = File.basename(uploaded_file.original_filename, ".*")
     @resource.save
   end
 end

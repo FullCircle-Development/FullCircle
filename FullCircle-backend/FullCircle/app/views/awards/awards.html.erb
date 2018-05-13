@@ -2,6 +2,9 @@
 <html>
 <%= stylesheet_link_tag "application", :media => "all" %>
 <head>
+  <div>
+    <%= image_tag "fullcircle.png", :class => "logo" %>
+  </div>
   <nav>
     <li class="dropdown">
       <a href="javascript:void(0)" class="dropbtn">Team Building</a>
@@ -23,9 +26,10 @@
   </nav>
 </head>
 <body>
+  <p></p>
   <% Resource.all.each do |resource| %>
   <% if resource.type_of_resource == 'Awards' %>
-      <%= button_to resource.filename, "/download?id=#{resource.id}" %>
+      <%= button_to resource.basename, "/download?id=#{resource.id}", class: "download" %>
       <%= resource.description %>
      <% end %>
     <p>

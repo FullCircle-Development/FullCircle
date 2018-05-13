@@ -5047,3 +5047,995 @@ Processing by UploadController#upload as HTML
 Completed 200 OK in 67ms (Views: 63.2ms | ActiveRecord: 0.0ms)
 
 
+Started GET "/upload" for 127.0.0.1 at 2018-05-11 10:33:32 -0400
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (238.0ms)
+Completed 200 OK in 361ms (Views: 347.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_us" for 127.0.0.1 at 2018-05-11 10:33:37 -0400
+Processing by AboutController#about as HTML
+  Rendering about/about.html.erb within layouts/application
+  Rendered about/about.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 45ms (Views: 43.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_us" for 127.0.0.1 at 2018-05-11 10:40:40 -0400
+Processing by AboutController#about as HTML
+  Rendering about/about.html.erb within layouts/application
+  Rendered about/about.html.erb within layouts/application (133.0ms)
+Completed 500 Internal Server Error in 140ms (ActiveRecord: 0.0ms)
+
+
+  
+ActionView::Template::Error (Asset was not declared to be precompiled in production.
+Add `Rails.application.config.assets.precompile += %w( about.css )` to `config/initializers/assets.rb` and restart your server):
+    1: <!DOCTYPE HTML>
+    2: <html>
+    3: <% stylesheet_link_tag "application", :media => "all" %>
+    4: <% stylesheet_link_tag "about", :media => "all" %>
+    5: <head>
+    6:   <nav>
+    7:     <li><%= image_tag "fullcircle.png" %></li>
+  
+app/views/about/about.html.erb:4:in `_app_views_about_about_html_erb__946084496219554577_70358755471060'
+Started GET "/about_us" for 127.0.0.1 at 2018-05-11 10:41:13 -0400
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AboutController#about as HTML
+  Rendering about/about.html.erb within layouts/application
+  Rendered about/about.html.erb within layouts/application (210.8ms)
+Completed 200 OK in 321ms (Views: 308.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_us" for 127.0.0.1 at 2018-05-11 10:42:48 -0400
+Processing by AboutController#about as HTML
+  Rendering about/about.html.erb within layouts/application
+  Rendered about/about.html.erb within layouts/application (11.6ms)
+Completed 200 OK in 38ms (Views: 36.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_us" for 127.0.0.1 at 2018-05-11 10:42:48 -0400
+Processing by AboutController#about as HTML
+  Rendering about/about.html.erb within layouts/application
+  Rendered about/about.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 57ms (Views: 55.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_us" for 127.0.0.1 at 2018-05-11 10:43:42 -0400
+Processing by AboutController#about as HTML
+  Rendering about/about.html.erb within layouts/application
+  Rendered about/about.html.erb within layouts/application (15.7ms)
+Completed 200 OK in 54ms (Views: 51.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_us" for 127.0.0.1 at 2018-05-11 10:44:04 -0400
+Processing by AboutController#about as HTML
+  Rendering about/about.html.erb within layouts/application
+  Rendered about/about.html.erb within layouts/application (14.4ms)
+Completed 200 OK in 47ms (Views: 45.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_us" for 127.0.0.1 at 2018-05-11 10:44:52 -0400
+Processing by AboutController#about as HTML
+  Rendering about/about.html.erb within layouts/application
+  Rendered about/about.html.erb within layouts/application (13.2ms)
+Completed 200 OK in 39ms (Views: 37.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_us" for 127.0.0.1 at 2018-05-11 10:48:41 -0400
+Processing by AboutController#about as HTML
+  Rendering about/about.html.erb within layouts/application
+  Rendered about/about.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 31ms (Views: 28.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_us" for 127.0.0.1 at 2018-05-11 10:49:41 -0400
+Processing by AboutController#about as HTML
+  Rendering about/about.html.erb within layouts/application
+  Rendered about/about.html.erb within layouts/application (13.9ms)
+Completed 200 OK in 38ms (Views: 36.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_us" for 127.0.0.1 at 2018-05-11 10:50:33 -0400
+Processing by AboutController#about as HTML
+  Rendering about/about.html.erb within layouts/application
+  Rendered about/about.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 34ms (Views: 32.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_us" for 127.0.0.1 at 2018-05-11 10:52:24 -0400
+Processing by AboutController#about as HTML
+  Rendering about/about.html.erb within layouts/application
+  Rendered about/about.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 57ms (Views: 54.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_us" for 127.0.0.1 at 2018-05-11 10:52:48 -0400
+Processing by AboutController#about as HTML
+  Rendering about/about.html.erb within layouts/application
+  Rendered about/about.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 46ms (Views: 44.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_us" for 127.0.0.1 at 2018-05-11 10:53:28 -0400
+Processing by AboutController#about as HTML
+  Rendering about/about.html.erb within layouts/application
+  Rendered about/about.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 36ms (Views: 34.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_us" for 127.0.0.1 at 2018-05-11 10:55:03 -0400
+Processing by AboutController#about as HTML
+  Rendering about/about.html.erb within layouts/application
+  Rendered about/about.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 29ms (Views: 27.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_us" for 127.0.0.1 at 2018-05-11 10:55:24 -0400
+Processing by AboutController#about as HTML
+  Rendering about/about.html.erb within layouts/application
+  Rendered about/about.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 54ms (Views: 51.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/awards" for 127.0.0.1 at 2018-05-11 10:55:25 -0400
+Processing by AwardsController#awards as HTML
+  Rendering awards/awards.html.erb within layouts/application
+  [1m[36mResource Load (0.5ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered awards/awards.html.erb within layouts/application (31.7ms)
+Completed 200 OK in 71ms (Views: 66.2ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/fundraising" for 127.0.0.1 at 2018-05-11 10:55:26 -0400
+Processing by FundraisingController#fundraising as HTML
+  Rendering fundraising/fundraising.html.erb within layouts/application
+  [1m[36mResource Load (0.4ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered fundraising/fundraising.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 62ms (Views: 59.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/outreach" for 127.0.0.1 at 2018-05-11 10:55:28 -0400
+Processing by OutreachController#outreach as HTML
+  Rendering outreach/outreach.html.erb within layouts/application
+  [1m[36mResource Load (0.4ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered outreach/outreach.html.erb within layouts/application (10.5ms)
+Completed 200 OK in 55ms (Views: 50.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/mechanical" for 127.0.0.1 at 2018-05-11 10:55:29 -0400
+Processing by MechanicalController#mechanical as HTML
+  Rendering mechanical/mechanical.html.erb within layouts/application
+  [1m[36mResource Load (0.3ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered mechanical/mechanical.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 50ms (Views: 47.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/programming" for 127.0.0.1 at 2018-05-11 10:55:29 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  [1m[36mResource Load (0.6ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered programming/programming.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 39ms (Views: 35.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/electrical" for 127.0.0.1 at 2018-05-11 10:55:31 -0400
+Processing by ElectricalController#electrical as HTML
+  Rendering electrical/electrical.html.erb within layouts/application
+  [1m[36mResource Load (0.5ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered electrical/electrical.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 41ms (Views: 38.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/about_us" for 127.0.0.1 at 2018-05-11 10:55:31 -0400
+Processing by AboutController#about as HTML
+  Rendering about/about.html.erb within layouts/application
+  Rendered about/about.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 48ms (Views: 44.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/upload" for 127.0.0.1 at 2018-05-11 10:55:32 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (25.1ms)
+Completed 200 OK in 60ms (Views: 57.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/fundraising" for 127.0.0.1 at 2018-05-11 10:55:34 -0400
+Processing by FundraisingController#fundraising as HTML
+  Rendering fundraising/fundraising.html.erb within layouts/application
+  [1m[36mResource Load (0.4ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered fundraising/fundraising.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 42ms (Views: 38.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/outreach" for 127.0.0.1 at 2018-05-11 10:55:35 -0400
+Processing by OutreachController#outreach as HTML
+  Rendering outreach/outreach.html.erb within layouts/application
+  [1m[36mResource Load (0.4ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered outreach/outreach.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 46ms (Views: 43.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/programming" for 127.0.0.1 at 2018-05-11 10:55:36 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  [1m[36mResource Load (0.4ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered programming/programming.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 48ms (Views: 45.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/mechanical" for 127.0.0.1 at 2018-05-11 10:55:38 -0400
+Processing by MechanicalController#mechanical as HTML
+  Rendering mechanical/mechanical.html.erb within layouts/application
+  [1m[36mResource Load (0.3ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered mechanical/mechanical.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 51ms (Views: 48.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/awards" for 127.0.0.1 at 2018-05-11 10:55:38 -0400
+Processing by AwardsController#awards as HTML
+  Rendering awards/awards.html.erb within layouts/application
+  [1m[36mResource Load (0.4ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered awards/awards.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 50ms (Views: 46.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/awards" for 127.0.0.1 at 2018-05-11 10:55:46 -0400
+Processing by AwardsController#awards as HTML
+  Rendering awards/awards.html.erb within layouts/application
+  [1m[36mResource Load (0.4ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered awards/awards.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 58ms (Views: 54.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/about_us" for 127.0.0.1 at 2018-05-11 10:55:47 -0400
+Processing by AboutController#about as HTML
+  Rendering about/about.html.erb within layouts/application
+  Rendered about/about.html.erb within layouts/application (20.2ms)
+Completed 200 OK in 50ms (Views: 47.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_us" for 127.0.0.1 at 2018-05-11 10:57:25 -0400
+Processing by AboutController#about as HTML
+  Rendering about/about.html.erb within layouts/application
+  Rendered about/about.html.erb within layouts/application (11.3ms)
+Completed 200 OK in 37ms (Views: 34.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_us" for 127.0.0.1 at 2018-05-11 10:57:49 -0400
+Processing by AboutController#about as HTML
+  Rendering about/about.html.erb within layouts/application
+  Rendered about/about.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 50ms (Views: 48.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/upload" for 127.0.0.1 at 2018-05-11 13:08:25 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 39ms (Views: 37.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/awards" for 127.0.0.1 at 2018-05-11 13:08:29 -0400
+Processing by AwardsController#awards as HTML
+  Rendering awards/awards.html.erb within layouts/application
+  [1m[36mResource Load (0.3ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered awards/awards.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 34ms (Views: 30.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/upload" for 127.0.0.1 at 2018-05-11 13:08:31 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 46ms (Views: 42.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/awards" for 127.0.0.1 at 2018-05-11 13:09:05 -0400
+Processing by AwardsController#awards as HTML
+  Rendering awards/awards.html.erb within layouts/application
+  [1m[36mResource Load (0.7ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered awards/awards.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 42ms (Views: 39.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/upload" for 127.0.0.1 at 2018-05-11 13:09:07 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 61ms (Views: 57.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/electrical" for 127.0.0.1 at 2018-05-11 13:09:24 -0400
+Processing by ElectricalController#electrical as HTML
+  Rendering electrical/electrical.html.erb within layouts/application
+  [1m[36mResource Load (0.3ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered electrical/electrical.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 35ms (Views: 31.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/awards" for 127.0.0.1 at 2018-05-11 13:09:26 -0400
+Processing by AwardsController#awards as HTML
+  Rendering awards/awards.html.erb within layouts/application
+  [1m[36mResource Load (0.8ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered awards/awards.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 38ms (Views: 34.3ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/fundraising" for 127.0.0.1 at 2018-05-11 13:09:27 -0400
+Processing by FundraisingController#fundraising as HTML
+  Rendering fundraising/fundraising.html.erb within layouts/application
+  [1m[36mResource Load (0.2ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered fundraising/fundraising.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 41ms (Views: 37.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/upload" for 127.0.0.1 at 2018-05-11 13:09:28 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 54ms (Views: 51.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/upload" for 127.0.0.1 at 2018-05-11 13:09:52 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (23.1ms)
+Completed 200 OK in 68ms (Views: 59.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_us" for 127.0.0.1 at 2018-05-11 13:10:25 -0400
+Processing by AboutController#about as HTML
+  Rendering about/about.html.erb within layouts/application
+  Rendered about/about.html.erb within layouts/application (17.3ms)
+Completed 200 OK in 49ms (Views: 45.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about_us" for 127.0.0.1 at 2018-05-11 13:10:53 -0400
+Processing by AboutController#about as HTML
+  Rendering about/about.html.erb within layouts/application
+  Rendered about/about.html.erb within layouts/application (12.7ms)
+Completed 200 OK in 48ms (Views: 44.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/upload" for 127.0.0.1 at 2018-05-11 14:02:38 -0400
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (201.1ms)
+Completed 200 OK in 301ms (Views: 290.3ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/process" for 127.0.0.1 at 2018-05-11 14:02:55 -0400
+Processing by ProcessController#process_resource as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eZiGVpQ6aT7pxm14PA+clBrOLpiqIJDKo2lxFJccF//aXxQzp/uQnkrvaH9chChLo0AwtoFxHc/ALXgFHBEe1g==", "Resource"=>{"file"=>#<ActionDispatch::Http::UploadedFile:0x00007f90a462a250 @tempfile=#<Tempfile:/var/folders/pl/tmjmh5wn1519b1hrgy9z5k2m0000gn/T/RackMultipart20180511-44447-127enuh.nes>, @original_filename="Super Mario Bros (E).nes", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"Resource[file]\"; filename=\"Super Mario Bros (E).nes\"\r\nContent-Type: application/octet-stream\r\n">}, "type_of_resource"=>"Electrical", "description"=>"it cool", "commit"=>"Submit"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "resources" ("filename", "content_type", "data", "created_at", "updated_at", "type_of_resource", "description") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["filename", "Super Mario Bros (E).nes"], ["content_type", "application/octet-stream"], ["data", "<40976 bytes of binary data>"], ["created_at", "2018-05-11 18:02:55.119192"], ["updated_at", "2018-05-11 18:02:55.119192"], ["type_of_resource", "Electrical"], ["description", "it cool"]]
+  [1m[35m (1.1ms)[0m  [1m[36mcommit transaction[0m
+No template found for ProcessController#process_resource, rendering head :no_content
+Completed 204 No Content in 131ms (ActiveRecord: 3.5ms)
+
+
+Started GET "/electrical" for 127.0.0.1 at 2018-05-11 14:02:57 -0400
+Processing by ElectricalController#electrical as HTML
+  Rendering electrical/electrical.html.erb within layouts/application
+  [1m[36mResource Load (0.6ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered electrical/electrical.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 55ms (Views: 52.4ms | ActiveRecord: 0.6ms)
+
+
+Started POST "/download?id=18" for 127.0.0.1 at 2018-05-11 14:02:58 -0400
+Processing by DownloadController#download_file as HTML
+  Parameters: {"authenticity_token"=>"cQPiyt4koCIFPKKH6Fe0dDzeNA3KODjxDL96p6tHY5S583rruup03NghZSslwvLP4aVuw0LkGccWgTxG625//Q==", "id"=>"18"}
+  [1m[36mResource Load (0.2ms)[0m  [1m[34mSELECT  "resources".* FROM "resources" WHERE "resources"."id" = ? LIMIT ?[0m  [["id", 18], ["LIMIT", 1]]
+  Rendering text template
+  Rendered text template (0.0ms)
+Sent data Super Mario Bros (E).nes (2.5ms)
+Completed 200 OK in 7ms (Views: 2.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/electrical" for 127.0.0.1 at 2018-05-11 14:03:21 -0400
+Processing by ElectricalController#electrical as HTML
+  Rendering electrical/electrical.html.erb within layouts/application
+  [1m[36mResource Load (0.5ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered electrical/electrical.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 49ms (Views: 46.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/awards" for 127.0.0.1 at 2018-05-13 16:36:28 -0400
+Processing by AwardsController#awards as HTML
+  Rendering awards/awards.html.erb within layouts/application
+  [1m[36mResource Load (6.5ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered awards/awards.html.erb within layouts/application (44.9ms)
+Completed 200 OK in 223ms (Views: 199.5ms | ActiveRecord: 6.5ms)
+
+
+Started GET "/upload" for 127.0.0.1 at 2018-05-13 16:36:29 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 45ms (Views: 42.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/upload" for 127.0.0.1 at 2018-05-13 16:44:02 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (21.4ms)
+Completed 200 OK in 91ms (Views: 89.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/upload" for 127.0.0.1 at 2018-05-13 16:45:14 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (2.7ms)
+Completed 500 Internal Server Error in 14ms (ActiveRecord: 0.0ms)
+
+
+  
+SyntaxError (/Users/lukecrum/Documents/FullCircle/FullCircle-backend/FullCircle/app/views/upload/upload.html.erb:33: syntax error, unexpected ')', expecting =>
+...ogramming'], ['Electrical']]) );@output_buffer.safe_append='
+...                              ^
+/Users/lukecrum/Documents/FullCircle/FullCircle-backend/FullCircle/app/views/upload/upload.html.erb:40: syntax error, unexpected keyword_end, expecting ')'
+'.freeze; end 
+          ^~~
+/Users/lukecrum/Documents/FullCircle/FullCircle-backend/FullCircle/app/views/upload/upload.html.erb:45: syntax error, unexpected keyword_ensure, expecting ')'
+          ensure
+          ^~~~~~
+/Users/lukecrum/Documents/FullCircle/FullCircle-backend/FullCircle/app/views/upload/upload.html.erb:47: syntax error, unexpected keyword_end, expecting ')'
+          end
+          ^~~):
+  
+app/views/upload/upload.html.erb:33: syntax error, unexpected ')', expecting =>
+app/views/upload/upload.html.erb:40: syntax error, unexpected keyword_end, expecting ')'
+app/views/upload/upload.html.erb:45: syntax error, unexpected keyword_ensure, expecting ')'
+app/views/upload/upload.html.erb:47: syntax error, unexpected keyword_end, expecting ')'
+Started GET "/upload" for 127.0.0.1 at 2018-05-13 16:45:45 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (153.7ms)
+Completed 200 OK in 264ms (Views: 259.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/upload" for 127.0.0.1 at 2018-05-13 16:48:37 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (30.9ms)
+Completed 200 OK in 78ms (Views: 76.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/mechanical" for 127.0.0.1 at 2018-05-13 16:49:13 -0400
+Processing by MechanicalController#mechanical as HTML
+  Rendering mechanical/mechanical.html.erb within layouts/application
+  [1m[36mResource Load (0.2ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered mechanical/mechanical.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 36ms (Views: 31.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/upload" for 127.0.0.1 at 2018-05-13 16:49:31 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (7.5ms)
+Completed 200 OK in 53ms (Views: 46.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/upload" for 127.0.0.1 at 2018-05-13 16:53:43 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (27.1ms)
+Completed 200 OK in 70ms (Views: 68.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/process" for 127.0.0.1 at 2018-05-13 16:56:13 -0400
+Processing by ProcessController#process_resource as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XvnYAg9XU5GkJKiffVJDocohP4tFVIeecf3/mFLoz8z9PkpnPJaqMQcNrZgd2fd+c68hpW4FCpsSufaJ2eXG5Q==", "Resource"=>{"file"=>#<ActionDispatch::Http::UploadedFile:0x00007f90a468ccc0 @tempfile=#<Tempfile:/var/folders/pl/tmjmh5wn1519b1hrgy9z5k2m0000gn/T/RackMultipart20180513-44447-1a64eyu.jpg>, @original_filename="awards.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"Resource[file]\"; filename=\"awards.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "type_of_resource"=>"Awards", "description"=>"test file for awards", "commit"=>"Submit"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "resources" ("filename", "content_type", "data", "created_at", "updated_at", "type_of_resource", "description") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["filename", "awards.jpg"], ["content_type", "image/jpeg"], ["data", "<89930 bytes of binary data>"], ["created_at", "2018-05-13 20:56:13.469714"], ["updated_at", "2018-05-13 20:56:13.469714"], ["type_of_resource", "Awards"], ["description", "test file for awards"]]
+  [1m[35m (1.0ms)[0m  [1m[36mcommit transaction[0m
+Completed 406 Not Acceptable in 18ms (ActiveRecord: 2.9ms)
+
+
+  
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  
+app/controllers/process_controller.rb:12:in `process_resource'
+Started PUT "/__web_console/repl_sessions/edd140f7ec3877337f4d9cce04abb244" for 127.0.0.1 at 2018-05-13 16:56:26 -0400
+Started PUT "/__web_console/repl_sessions/edd140f7ec3877337f4d9cce04abb244" for 127.0.0.1 at 2018-05-13 16:56:26 -0400
+Started POST "/process" for 127.0.0.1 at 2018-05-13 18:18:59 -0400
+Processing by ProcessController#process_resource as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XvnYAg9XU5GkJKiffVJDocohP4tFVIeecf3/mFLoz8z9PkpnPJaqMQcNrZgd2fd+c68hpW4FCpsSufaJ2eXG5Q==", "Resource"=>{"file"=>#<ActionDispatch::Http::UploadedFile:0x00007f90a0717478 @tempfile=#<Tempfile:/var/folders/pl/tmjmh5wn1519b1hrgy9z5k2m0000gn/T/RackMultipart20180513-44447-gq5x8w.jpg>, @original_filename="awards.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"Resource[file]\"; filename=\"awards.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "type_of_resource"=>"Awards", "description"=>"test file for awards", "commit"=>"Submit"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "resources" ("filename", "content_type", "data", "created_at", "updated_at", "type_of_resource", "description") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["filename", "awards.jpg"], ["content_type", "image/jpeg"], ["data", "<89930 bytes of binary data>"], ["created_at", "2018-05-13 22:18:59.535363"], ["updated_at", "2018-05-13 22:18:59.535363"], ["type_of_resource", "Awards"], ["description", "test file for awards"]]
+  [1m[35m (1.3ms)[0m  [1m[36mcommit transaction[0m
+No template found for ProcessController#process_resource, rendering head :no_content
+Completed 204 No Content in 162ms (ActiveRecord: 4.0ms)
+
+
+Started POST "/process" for 127.0.0.1 at 2018-05-13 18:19:02 -0400
+Processing by ProcessController#process_resource as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XvnYAg9XU5GkJKiffVJDocohP4tFVIeecf3/mFLoz8z9PkpnPJaqMQcNrZgd2fd+c68hpW4FCpsSufaJ2eXG5Q==", "Resource"=>{"file"=>#<ActionDispatch::Http::UploadedFile:0x00007f90a5381958 @tempfile=#<Tempfile:/var/folders/pl/tmjmh5wn1519b1hrgy9z5k2m0000gn/T/RackMultipart20180513-44447-hktfpb.jpg>, @original_filename="awards.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"Resource[file]\"; filename=\"awards.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "type_of_resource"=>"Awards", "description"=>"test file for awards", "commit"=>"Submit"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  [1m[32mINSERT INTO "resources" ("filename", "content_type", "data", "created_at", "updated_at", "type_of_resource", "description") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["filename", "awards.jpg"], ["content_type", "image/jpeg"], ["data", "<89930 bytes of binary data>"], ["created_at", "2018-05-13 22:19:02.931675"], ["updated_at", "2018-05-13 22:19:02.931675"], ["type_of_resource", "Awards"], ["description", "test file for awards"]]
+  [1m[35m (2.4ms)[0m  [1m[36mcommit transaction[0m
+No template found for ProcessController#process_resource, rendering head :no_content
+Completed 204 No Content in 116ms (ActiveRecord: 3.0ms)
+
+
+Started POST "/process" for 127.0.0.1 at 2018-05-13 18:19:07 -0400
+Processing by ProcessController#process_resource as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"XvnYAg9XU5GkJKiffVJDocohP4tFVIeecf3/mFLoz8z9PkpnPJaqMQcNrZgd2fd+c68hpW4FCpsSufaJ2eXG5Q==", "Resource"=>{"file"=>#<ActionDispatch::Http::UploadedFile:0x00007f909fce9a28 @tempfile=#<Tempfile:/var/folders/pl/tmjmh5wn1519b1hrgy9z5k2m0000gn/T/RackMultipart20180513-44447-1ubdtjp.jpg>, @original_filename="awards.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"Resource[file]\"; filename=\"awards.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "type_of_resource"=>"Awards", "description"=>"test file for awards", "commit"=>"Submit"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.0ms)[0m  [1m[32mINSERT INTO "resources" ("filename", "content_type", "data", "created_at", "updated_at", "type_of_resource", "description") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["filename", "awards.jpg"], ["content_type", "image/jpeg"], ["data", "<89930 bytes of binary data>"], ["created_at", "2018-05-13 22:19:07.460147"], ["updated_at", "2018-05-13 22:19:07.460147"], ["type_of_resource", "Awards"], ["description", "test file for awards"]]
+  [1m[35m (7.0ms)[0m  [1m[36mcommit transaction[0m
+No template found for ProcessController#process_resource, rendering head :no_content
+Completed 204 No Content in 117ms (ActiveRecord: 8.0ms)
+
+
+Started GET "/awards" for 127.0.0.1 at 2018-05-13 18:19:18 -0400
+Processing by AwardsController#awards as HTML
+  Rendering awards/awards.html.erb within layouts/application
+  [1m[36mResource Load (0.7ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered awards/awards.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 31ms (Views: 27.1ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/awards" for 127.0.0.1 at 2018-05-13 18:22:49 -0400
+Processing by AwardsController#awards as HTML
+  Rendering awards/awards.html.erb within layouts/application
+  [1m[36mResource Load (0.5ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered awards/awards.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 32ms (Views: 30.1ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/download?id=20" for 127.0.0.1 at 2018-05-13 18:22:52 -0400
+Processing by DownloadController#download_file as HTML
+  Parameters: {"authenticity_token"=>"RJYSueamsaHq+ak1gSlkBcJPxS4ADsFRu6VyaoVl/3nnUYDc1WdIAUnQrDLhotDae8HbACtfTFTY4Xt7Dmj2UA==", "id"=>"20"}
+  [1m[36mResource Load (0.3ms)[0m  [1m[34mSELECT  "resources".* FROM "resources" WHERE "resources"."id" = ? LIMIT ?[0m  [["id", 20], ["LIMIT", 1]]
+  Rendering text template
+  Rendered text template (0.0ms)
+Sent data awards.jpg (0.8ms)
+Completed 200 OK in 4ms (Views: 0.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/awards" for 127.0.0.1 at 2018-05-13 18:22:56 -0400
+Processing by AwardsController#awards as HTML
+  Rendering awards/awards.html.erb within layouts/application
+  [1m[36mResource Load (0.8ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered awards/awards.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 26ms (Views: 24.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/awards" for 127.0.0.1 at 2018-05-13 18:22:57 -0400
+Processing by AwardsController#awards as HTML
+  Rendering awards/awards.html.erb within layouts/application
+  [1m[36mResource Load (0.7ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered awards/awards.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 50ms (Views: 45.6ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/awards" for 127.0.0.1 at 2018-05-13 18:23:36 -0400
+Processing by AwardsController#awards as HTML
+  Rendering awards/awards.html.erb within layouts/application
+  [1m[36mResource Load (0.4ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered awards/awards.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 29ms (Views: 27.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/awards" for 127.0.0.1 at 2018-05-13 18:24:25 -0400
+Processing by AwardsController#awards as HTML
+  Rendering awards/awards.html.erb within layouts/application
+  [1m[36mResource Load (0.5ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered awards/awards.html.erb within layouts/application (12.8ms)
+Completed 200 OK in 38ms (Views: 36.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/awards" for 127.0.0.1 at 2018-05-13 18:25:13 -0400
+Processing by AwardsController#awards as HTML
+  Rendering awards/awards.html.erb within layouts/application
+  [1m[36mResource Load (0.6ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered awards/awards.html.erb within layouts/application (12.6ms)
+Completed 200 OK in 41ms (Views: 38.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/awards" for 127.0.0.1 at 2018-05-13 18:25:27 -0400
+Processing by AwardsController#awards as HTML
+  Rendering awards/awards.html.erb within layouts/application
+  [1m[36mResource Load (0.9ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered awards/awards.html.erb within layouts/application (14.8ms)
+Completed 200 OK in 60ms (Views: 57.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/awards" for 127.0.0.1 at 2018-05-13 18:25:41 -0400
+Processing by AwardsController#awards as HTML
+  Rendering awards/awards.html.erb within layouts/application
+  [1m[36mResource Load (0.8ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered awards/awards.html.erb within layouts/application (14.3ms)
+Completed 200 OK in 44ms (Views: 41.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/upload" for 127.0.0.1 at 2018-05-13 18:29:55 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 33ms (Views: 28.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/awards" for 127.0.0.1 at 2018-05-13 18:29:59 -0400
+Processing by AwardsController#awards as HTML
+  Rendering awards/awards.html.erb within layouts/application
+  [1m[36mResource Load (0.6ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered awards/awards.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 43ms (Views: 38.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/upload" for 127.0.0.1 at 2018-05-13 18:30:00 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 54ms (Views: 50.5ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/process" for 127.0.0.1 at 2018-05-13 18:30:31 -0400
+Processing by ProcessController#process_resource as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"86iVly9bdLYTAYTVz8LnC9BVcdTgTTPmYQ1+IaLJ60d3sHoh0BPkcSf5rf8lnzoitqKf/7kvy8BXRBsz10+Yxg==", "Resource"=>{"file"=>#<ActionDispatch::Http::UploadedFile:0x00007f90a4752bc8 @tempfile=#<Tempfile:/var/folders/pl/tmjmh5wn1519b1hrgy9z5k2m0000gn/T/RackMultipart20180513-44447-65hjtb.nes>, @original_filename="Super Mario Bros (E) (1).nes", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"Resource[file]\"; filename=\"Super Mario Bros (E) (1).nes\"\r\nContent-Type: application/octet-stream\r\n">}, "type_of_resource"=>"Programming", "description"=>"this is supa mario for the nintendo entertainment system.", "commit"=>"Submit"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.5ms)[0m  [1m[32mINSERT INTO "resources" ("filename", "content_type", "data", "created_at", "updated_at", "type_of_resource", "description") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["filename", "Super Mario Bros (E) (1).nes"], ["content_type", "application/octet-stream"], ["data", "<40976 bytes of binary data>"], ["created_at", "2018-05-13 22:30:31.155667"], ["updated_at", "2018-05-13 22:30:31.155667"], ["type_of_resource", "Programming"], ["description", "this is supa mario for the nintendo entertainment system."]]
+  [1m[35m (2.4ms)[0m  [1m[36mcommit transaction[0m
+No template found for ProcessController#process_resource, rendering head :no_content
+Completed 204 No Content in 85ms (ActiveRecord: 4.0ms)
+
+
+Started GET "/programming" for 127.0.0.1 at 2018-05-13 18:30:33 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  [1m[36mResource Load (0.5ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered programming/programming.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 30ms (Views: 27.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/awards" for 127.0.0.1 at 2018-05-13 18:30:38 -0400
+Processing by AwardsController#awards as HTML
+  Rendering awards/awards.html.erb within layouts/application
+  [1m[36mResource Load (0.3ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered awards/awards.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 40ms (Views: 37.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/programming" for 127.0.0.1 at 2018-05-13 18:31:09 -0400
+Processing by ProgrammingController#programming as HTML
+  Rendering programming/programming.html.erb within layouts/application
+  [1m[36mResource Load (0.5ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered programming/programming.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 42ms (Views: 38.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/awards" for 127.0.0.1 at 2018-05-13 18:32:39 -0400
+Processing by AwardsController#awards as HTML
+  Rendering awards/awards.html.erb within layouts/application
+  [1m[36mResource Load (0.3ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered awards/awards.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 42ms (Views: 38.2ms | ActiveRecord: 0.3ms)
+
+
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.1ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  [1m[35m (0.1ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddBasename (20180513224653)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.6ms)[0m  [1m[35mALTER TABLE "resouces" ADD "basename" varchar[0m
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Migrating to AddBasename (20180513224653)
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.7ms)[0m  [1m[35mALTER TABLE "resources" ADD "basename" varchar[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "schema_migrations" ("version") VALUES (?)[0m  [["version", "20180513224653"]]
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+  [1m[36mActiveRecord::InternalMetadata Load (0.3ms)[0m  [1m[34mSELECT  "ar_internal_metadata".* FROM "ar_internal_metadata" WHERE "ar_internal_metadata"."key" = ? LIMIT ?[0m  [["key", "environment"], ["LIMIT", 1]]
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  [1m[36mcommit transaction[0m
+  [1m[35m (0.3ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Started GET "/awards" for 127.0.0.1 at 2018-05-13 18:48:59 -0400
+  [1m[35m (0.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by AwardsController#awards as HTML
+  Rendering awards/awards.html.erb within layouts/application
+  [1m[36mResource Load (0.9ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered awards/awards.html.erb within layouts/application (228.6ms)
+Completed 200 OK in 298ms (Views: 284.7ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/upload" for 127.0.0.1 at 2018-05-13 18:49:01 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (22.1ms)
+Completed 200 OK in 69ms (Views: 66.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/process" for 127.0.0.1 at 2018-05-13 18:49:15 -0400
+Processing by ProcessController#process_resource as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ESMHeCw/AL+fD6iKjjXpvBENGFIJqYZs1W+jDq76hzGVO+jO03eQeKv3gaBkaDSVd/r2eVDLfkrjJsYc23z0sA==", "Resource"=>{"file"=>#<ActionDispatch::Http::UploadedFile:0x00007fb5b2ca1470 @tempfile=#<Tempfile:/var/folders/pl/tmjmh5wn1519b1hrgy9z5k2m0000gn/T/RackMultipart20180513-45673-lt4m5u.jpg>, @original_filename="awards.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"Resource[file]\"; filename=\"awards.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "type_of_resource"=>"Awards", "description"=>"awards test with basename", "commit"=>"Submit"}
+Completed 500 Internal Server Error in 2ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `path' for nil:NilClass):
+  
+app/controllers/process_controller.rb:11:in `process_resource'
+Started POST "/process" for 127.0.0.1 at 2018-05-13 18:49:59 -0400
+Started GET "/upload" for 127.0.0.1 at 2018-05-13 18:50:10 -0400
+Processing by ProcessController#process_resource as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OjhiC74HsNMQ9CL4dsqlmxf2PpKM6HakFc9rjQYosjqZ//BujcZJc7PdJ/8WQRFErnggvKe5+6F2i2KcjSW7Ew==", "Resource"=>{"file"=>#<ActionDispatch::Http::UploadedFile:0x00007fb5b2d9af70 @tempfile=#<Tempfile:/var/folders/pl/tmjmh5wn1519b1hrgy9z5k2m0000gn/T/RackMultipart20180513-45673-1eogs43.jpg>, @original_filename="awards.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"Resource[file]\"; filename=\"awards.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "type_of_resource"=>"Awards", "description"=>"awards test with basename", "commit"=>"Submit"}
+Completed 500 Internal Server Error in 19ms (ActiveRecord: 0.8ms)
+
+
+  
+NoMethodError (undefined method `path' for nil:NilClass):
+  
+app/controllers/process_controller.rb:11:in `process_resource'
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (84.5ms)
+Completed 200 OK in 215ms (Views: 210.4ms)
+
+
+Started GET "/upload" for 127.0.0.1 at 2018-05-13 18:50:44 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 44ms (Views: 41.9ms)
+
+
+Started GET "/upload" for 127.0.0.1 at 2018-05-13 18:50:45 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 60ms (Views: 58.2ms)
+
+
+Started POST "/process" for 127.0.0.1 at 2018-05-13 18:50:52 -0400
+Processing by ProcessController#process_resource as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cWJaY7/oyHycwKPduKKb1ieqC3izGQBVBIbZNEtekdD1erXVQKBYu6g4ivdS/0b/QV3lU+p7+HMyz7wmPtjiUQ==", "Resource"=>{"file"=>#<ActionDispatch::Http::UploadedFile:0x00007fb5affb8850 @tempfile=#<Tempfile:/var/folders/pl/tmjmh5wn1519b1hrgy9z5k2m0000gn/T/RackMultipart20180513-45673-5fgnm3.jpg>, @original_filename="awards.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"Resource[file]\"; filename=\"awards.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "type_of_resource"=>"Awards", "description"=>"more tsts", "commit"=>"Submit"}
+Completed 500 Internal Server Error in 21ms (ActiveRecord: 1.5ms)
+
+
+  
+NoMethodError (undefined method `tempfile' for nil:NilClass):
+  
+app/controllers/process_controller.rb:11:in `process_resource'
+Started POST "/process" for 127.0.0.1 at 2018-05-13 18:51:12 -0400
+Processing by ProcessController#process_resource as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"cWJaY7/oyHycwKPduKKb1ieqC3izGQBVBIbZNEtekdD1erXVQKBYu6g4ivdS/0b/QV3lU+p7+HMyz7wmPtjiUQ==", "Resource"=>{"file"=>#<ActionDispatch::Http::UploadedFile:0x00007fb5b3caba00 @tempfile=#<Tempfile:/var/folders/pl/tmjmh5wn1519b1hrgy9z5k2m0000gn/T/RackMultipart20180513-45673-i5atx1.jpg>, @original_filename="awards.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"Resource[file]\"; filename=\"awards.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "type_of_resource"=>"Awards", "description"=>"more tsts", "commit"=>"Submit"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.4ms)[0m  [1m[32mINSERT INTO "resources" ("filename", "content_type", "data", "created_at", "updated_at", "type_of_resource", "description", "basename") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["filename", "awards.jpg"], ["content_type", "image/jpeg"], ["data", "<89930 bytes of binary data>"], ["created_at", "2018-05-13 22:51:12.247589"], ["updated_at", "2018-05-13 22:51:12.247589"], ["type_of_resource", "Awards"], ["description", "more tsts"], ["basename", "RackMultipart20180513-45673-i5atx1"]]
+  [1m[35m (1.7ms)[0m  [1m[36mcommit transaction[0m
+No template found for ProcessController#process_resource, rendering head :no_content
+Completed 204 No Content in 99ms (ActiveRecord: 5.7ms)
+
+
+Started POST "/process" for 127.0.0.1 at 2018-05-13 18:51:15 -0400
+Processing by ProcessController#process_resource as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2Svw2W27c2hTMztMqzfuVEahbMOjU1YeZKVcVYIOSpR67GK8XnqKyPAaPkvLvFqL/y9y7YgC2xsH4VVECQNDvQ==", "Resource"=>{"file"=>#<ActionDispatch::Http::UploadedFile:0x00007fb5b2a5ae50 @tempfile=#<Tempfile:/var/folders/pl/tmjmh5wn1519b1hrgy9z5k2m0000gn/T/RackMultipart20180513-45673-18j3k8k.jpg>, @original_filename="awards.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"Resource[file]\"; filename=\"awards.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "type_of_resource"=>"Awards", "description"=>"more tsts", "commit"=>"Submit"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.9ms)[0m  [1m[32mINSERT INTO "resources" ("filename", "content_type", "data", "created_at", "updated_at", "type_of_resource", "description", "basename") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["filename", "awards.jpg"], ["content_type", "image/jpeg"], ["data", "<89930 bytes of binary data>"], ["created_at", "2018-05-13 22:51:15.228748"], ["updated_at", "2018-05-13 22:51:15.228748"], ["type_of_resource", "Awards"], ["description", "more tsts"], ["basename", "RackMultipart20180513-45673-18j3k8k"]]
+  [1m[35m (4.7ms)[0m  [1m[36mcommit transaction[0m
+No template found for ProcessController#process_resource, rendering head :no_content
+Completed 204 No Content in 141ms (ActiveRecord: 6.8ms)
+
+
+Started GET "/upload" for 127.0.0.1 at 2018-05-13 18:51:41 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 59ms (Views: 55.6ms)
+
+
+Started POST "/process" for 127.0.0.1 at 2018-05-13 18:51:42 -0400
+Processing by ProcessController#process_resource as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qXPYXOycA+BeUMsh4PWvpQRgfs4pQ6RXLBdnH4a3GPUKtEo53136QP15ziaAfht6ve5g4AISKVJPU24ODboR3A==", "type_of_resource"=>"Awards", "description"=>"", "commit"=>"Submit"}
+Completed 500 Internal Server Error in 31ms (ActiveRecord: 1.8ms)
+
+
+  
+NoMethodError (undefined method `[]' for nil:NilClass):
+  
+app/controllers/process_controller.rb:4:in `process_resource'
+Started POST "/process" for 127.0.0.1 at 2018-05-13 18:51:49 -0400
+Processing by ProcessController#process_resource as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qXPYXOycA+BeUMsh4PWvpQRgfs4pQ6RXLBdnH4a3GPUKtEo53136QP15ziaAfht6ve5g4AISKVJPU24ODboR3A==", "Resource"=>{"file"=>#<ActionDispatch::Http::UploadedFile:0x00007fb5afda65f8 @tempfile=#<Tempfile:/var/folders/pl/tmjmh5wn1519b1hrgy9z5k2m0000gn/T/RackMultipart20180513-45673-mrg4zf.nes>, @original_filename="Super Mario Bros (E) (1).nes", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"Resource[file]\"; filename=\"Super Mario Bros (E) (1).nes\"\r\nContent-Type: application/octet-stream\r\n">}, "type_of_resource"=>"Awards", "description"=>"hjgb,nm", "commit"=>"Submit"}
+Completed 500 Internal Server Error in 7ms (ActiveRecord: 0.0ms)
+
+
+  
+NoMethodError (undefined method `sav' for #<Resource:0x00007fb5afd9e6c8>
+Did you mean?  save):
+  
+app/controllers/process_controller.rb:12:in `process_resource'
+Started POST "/process" for 127.0.0.1 at 2018-05-13 18:52:32 -0400
+Processing by ProcessController#process_resource as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qXPYXOycA+BeUMsh4PWvpQRgfs4pQ6RXLBdnH4a3GPUKtEo53136QP15ziaAfht6ve5g4AISKVJPU24ODboR3A==", "Resource"=>{"file"=>#<ActionDispatch::Http::UploadedFile:0x00007fb5afbd9298 @tempfile=#<Tempfile:/var/folders/pl/tmjmh5wn1519b1hrgy9z5k2m0000gn/T/RackMultipart20180513-45673-2aenea.nes>, @original_filename="Super Mario Bros (E) (1).nes", @content_type="application/octet-stream", @headers="Content-Disposition: form-data; name=\"Resource[file]\"; filename=\"Super Mario Bros (E) (1).nes\"\r\nContent-Type: application/octet-stream\r\n">}, "type_of_resource"=>"Awards", "description"=>"hjgb,nm", "commit"=>"Submit"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  [1m[32mINSERT INTO "resources" ("filename", "content_type", "data", "created_at", "updated_at", "type_of_resource", "description", "basename") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["filename", "Super Mario Bros (E) (1).nes"], ["content_type", "application/octet-stream"], ["data", "<40976 bytes of binary data>"], ["created_at", "2018-05-13 22:52:32.196965"], ["updated_at", "2018-05-13 22:52:32.196965"], ["type_of_resource", "Awards"], ["description", "hjgb,nm"], ["basename", "RackMultipart20180513-45673-2aenea"]]
+  [1m[35m (2.9ms)[0m  [1m[36mcommit transaction[0m
+No template found for ProcessController#process_resource, rendering head :no_content
+Completed 204 No Content in 117ms (ActiveRecord: 4.8ms)
+
+
+Started GET "/upload" for 127.0.0.1 at 2018-05-13 18:52:47 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (12.4ms)
+Completed 200 OK in 35ms (Views: 33.0ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/process" for 127.0.0.1 at 2018-05-13 18:53:08 -0400
+Processing by ProcessController#process_resource as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"aAumVotlqMMyqJlQuQEQOuW/PJY/MbMuuI/WGWCj7G3LzDQzuKRRY5GBnFfZiqTlXDEiuBRgPivby98I667lRA==", "Resource"=>{"file"=>#<ActionDispatch::Http::UploadedFile:0x00007fb5afedeee8 @tempfile=#<Tempfile:/var/folders/pl/tmjmh5wn1519b1hrgy9z5k2m0000gn/T/RackMultipart20180513-45673-1txc3er.jpg>, @original_filename="outreach.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"Resource[file]\"; filename=\"outreach.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "type_of_resource"=>"Outreach", "description"=>"test for outreach", "commit"=>"Submit"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (2.1ms)[0m  [1m[32mINSERT INTO "resources" ("filename", "content_type", "data", "created_at", "updated_at", "type_of_resource", "description", "basename") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["filename", "outreach.jpg"], ["content_type", "image/jpeg"], ["data", "<89930 bytes of binary data>"], ["created_at", "2018-05-13 22:53:08.709332"], ["updated_at", "2018-05-13 22:53:08.709332"], ["type_of_resource", "Outreach"], ["description", "test for outreach"], ["basename", "RackMultipart20180513-45673-1txc3er"]]
+  [1m[35m (4.8ms)[0m  [1m[36mcommit transaction[0m
+No template found for ProcessController#process_resource, rendering head :no_content
+Completed 204 No Content in 114ms (ActiveRecord: 6.9ms)
+
+
+Started GET "/upload" for 127.0.0.1 at 2018-05-13 18:53:19 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (12.5ms)
+Completed 200 OK in 53ms (Views: 50.9ms)
+
+
+Started POST "/process" for 127.0.0.1 at 2018-05-13 18:53:25 -0400
+Processing by ProcessController#process_resource as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4n99LnM5lLA4MSHKsmhRq8yuvY8KDUoFGyVRy4ZTs1BBuO9LQPhtEJsYJM3S4+V0dSCjoSFcxwB4YVjaDV66eQ==", "Resource"=>{"file"=>#<ActionDispatch::Http::UploadedFile:0x00007fb5aed08ca0 @tempfile=#<Tempfile:/var/folders/pl/tmjmh5wn1519b1hrgy9z5k2m0000gn/T/RackMultipart20180513-45673-modhxd.docx>, @original_filename="Battle of Stalingrad.docx", @content_type="application/vnd.openxmlformats-officedocument.wordprocessingml.document", @headers="Content-Disposition: form-data; name=\"Resource[file]\"; filename=\"Battle of Stalingrad.docx\"\r\nContent-Type: application/vnd.openxmlformats-officedocument.wordprocessingml.document\r\n">}, "type_of_resource"=>"Awards", "description"=>"fjhg", "commit"=>"Submit"}
+Completed 500 Internal Server Error in 33ms (ActiveRecord: 2.0ms)
+
+
+  
+NoMethodError (undefined method `sav' for #<Resource:0x00007fb5b2bef068>
+Did you mean?  save):
+  
+app/controllers/process_controller.rb:12:in `process_resource'
+Started POST "/process" for 127.0.0.1 at 2018-05-13 18:54:24 -0400
+Processing by ProcessController#process_resource as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"4n99LnM5lLA4MSHKsmhRq8yuvY8KDUoFGyVRy4ZTs1BBuO9LQPhtEJsYJM3S4+V0dSCjoSFcxwB4YVjaDV66eQ==", "Resource"=>{"file"=>#<ActionDispatch::Http::UploadedFile:0x00007fb5b3e28248 @tempfile=#<Tempfile:/var/folders/pl/tmjmh5wn1519b1hrgy9z5k2m0000gn/T/RackMultipart20180513-45673-1ccoawl.jpg>, @original_filename="awards.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"Resource[file]\"; filename=\"awards.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "type_of_resource"=>"Awards", "description"=>"test for awards", "commit"=>"Submit"}
+No template found for ProcessController#process_resource, rendering head :no_content
+Completed 204 No Content in 67ms (ActiveRecord: 1.1ms)
+
+
+Started GET "/upload" for 127.0.0.1 at 2018-05-13 18:55:42 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 33ms (Views: 27.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/upload" for 127.0.0.1 at 2018-05-13 18:58:59 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 30ms (Views: 27.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/upload" for 127.0.0.1 at 2018-05-13 18:59:00 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 60ms (Views: 55.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/awards" for 127.0.0.1 at 2018-05-13 18:59:03 -0400
+Processing by AwardsController#awards as HTML
+  Rendering awards/awards.html.erb within layouts/application
+  [1m[36mResource Load (0.4ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered awards/awards.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 34ms (Views: 31.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/upload" for 127.0.0.1 at 2018-05-13 18:59:04 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (7.6ms)
+Completed 200 OK in 54ms (Views: 50.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/awards" for 127.0.0.1 at 2018-05-13 19:03:38 -0400
+Processing by AwardsController#awards as HTML
+  Rendering awards/awards.html.erb within layouts/application
+  [1m[36mResource Load (0.2ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered awards/awards.html.erb within layouts/application (5.9ms)
+Completed 200 OK in 44ms (Views: 40.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/upload" for 127.0.0.1 at 2018-05-13 19:03:40 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 53ms (Views: 49.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/process" for 127.0.0.1 at 2018-05-13 19:03:53 -0400
+Processing by ProcessController#process_resource as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"HJWlXGpILIa2xPhbc98y9TGLAVYEFEm4fx4WT544aCOYjUrqlQC8QYI80XGZgu/cV3zvfV12sZ5JV3Nd674bog==", "Resource"=>{"file"=>#<ActionDispatch::Http::UploadedFile:0x00007fb5b3da7d50 @tempfile=#<Tempfile:/var/folders/pl/tmjmh5wn1519b1hrgy9z5k2m0000gn/T/RackMultipart20180513-45673-1wour3z.jpg>, @original_filename="awards.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"Resource[file]\"; filename=\"awards.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "type_of_resource"=>"Awards", "description"=>"Test file for awards section.", "commit"=>"Submit"}
+No template found for ProcessController#process_resource, rendering head :no_content
+Completed 204 No Content in 75ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/awards" for 127.0.0.1 at 2018-05-13 19:03:55 -0400
+Processing by AwardsController#awards as HTML
+  Rendering awards/awards.html.erb within layouts/application
+  [1m[36mResource Load (0.3ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered awards/awards.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 38ms (Views: 33.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/awards" for 127.0.0.1 at 2018-05-13 19:03:56 -0400
+Processing by AwardsController#awards as HTML
+  Rendering awards/awards.html.erb within layouts/application
+  [1m[36mResource Load (0.2ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered awards/awards.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 23ms (Views: 21.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/upload" for 127.0.0.1 at 2018-05-13 19:03:57 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 47ms (Views: 44.7ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/process" for 127.0.0.1 at 2018-05-13 19:04:28 -0400
+Processing by ProcessController#process_resource as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"r2xhL/j3ScdMFq2xPTEdFDjHSPKJuTGrAiQJt/mJ918rdI6ZB7/ZAHjuhJvXbMA9XjCm2dDbyY00bWyljA+E3g==", "Resource"=>{"file"=>#<ActionDispatch::Http::UploadedFile:0x00007fb5b2951a18 @tempfile=#<Tempfile:/var/folders/pl/tmjmh5wn1519b1hrgy9z5k2m0000gn/T/RackMultipart20180513-45673-sd5qcn.jpg>, @original_filename="awards.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"Resource[file]\"; filename=\"awards.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "type_of_resource"=>"Awards", "description"=>"test file for the awards section.", "commit"=>"Submit"}
+Completed 500 Internal Server Error in 18ms (ActiveRecord: 1.2ms)
+
+
+  
+NoMethodError (undefined method `save' for nil:NilClass):
+  
+app/controllers/process_controller.rb:12:in `process_resource'
+Started POST "/process" for 127.0.0.1 at 2018-05-13 19:04:36 -0400
+Processing by ProcessController#process_resource as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"KxDIAFe3IMIjLMHxnMhfCZEHbAiQB2PfATpJBkSoQH6I11plZHbZYoAFxPb8Q+vWKIlyJrtW7tpifkAXz6VJVw==", "Resource"=>{"file"=>#<ActionDispatch::Http::UploadedFile:0x00007fb5b2c7c288 @tempfile=#<Tempfile:/var/folders/pl/tmjmh5wn1519b1hrgy9z5k2m0000gn/T/RackMultipart20180513-45673-qdc57w.jpg>, @original_filename="awards.jpg", @content_type="image/jpeg", @headers="Content-Disposition: form-data; name=\"Resource[file]\"; filename=\"awards.jpg\"\r\nContent-Type: image/jpeg\r\n">}, "type_of_resource"=>"Awards", "description"=>"test file for the awards section.", "commit"=>"Submit"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  [1m[35mSQL (1.3ms)[0m  [1m[32mINSERT INTO "resources" ("filename", "content_type", "data", "created_at", "updated_at", "type_of_resource", "description", "basename") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["filename", "awards.jpg"], ["content_type", "image/jpeg"], ["data", "<89930 bytes of binary data>"], ["created_at", "2018-05-13 23:04:36.290457"], ["updated_at", "2018-05-13 23:04:36.290457"], ["type_of_resource", "Awards"], ["description", "test file for the awards section."], ["basename", "awards"]]
+  [1m[35m (3.0ms)[0m  [1m[36mcommit transaction[0m
+No template found for ProcessController#process_resource, rendering head :no_content
+Completed 204 No Content in 121ms (ActiveRecord: 5.9ms)
+
+
+Started GET "/awards" for 127.0.0.1 at 2018-05-13 19:04:38 -0400
+Processing by AwardsController#awards as HTML
+  Rendering awards/awards.html.erb within layouts/application
+  [1m[36mResource Load (0.5ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered awards/awards.html.erb within layouts/application (6.1ms)
+Completed 200 OK in 56ms (Views: 53.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/awards" for 127.0.0.1 at 2018-05-13 19:05:21 -0400
+Processing by AwardsController#awards as HTML
+  Rendering awards/awards.html.erb within layouts/application
+  [1m[36mResource Load (0.5ms)[0m  [1m[34mSELECT "resources".* FROM "resources"[0m
+  Rendered awards/awards.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 39ms (Views: 36.5ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/download?id=28" for 127.0.0.1 at 2018-05-13 19:06:08 -0400
+Processing by DownloadController#download_file as HTML
+  Parameters: {"authenticity_token"=>"SIms5b1Z5Ef5A4/ISGw+flQXBtWYHXOONqb/rlpydNrrTj6Ajpgd51oqis8o54qh7ZkY+7NM/otV4va/0X998w==", "id"=>"28"}
+  [1m[36mResource Load (0.8ms)[0m  [1m[34mSELECT  "resources".* FROM "resources" WHERE "resources"."id" = ? LIMIT ?[0m  [["id", 28], ["LIMIT", 1]]
+  Rendering text template
+  Rendered text template (0.0ms)
+Sent data awards.jpg (2.4ms)
+Completed 200 OK in 11ms (Views: 2.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/upload" for 127.0.0.1 at 2018-05-13 19:06:41 -0400
+Processing by UploadController#upload as HTML
+  Rendering upload/upload.html.erb within layouts/application
+  Rendered upload/upload.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 45ms (Views: 41.3ms | ActiveRecord: 0.0ms)
+
+

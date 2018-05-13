@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180511130659) do
+ActiveRecord::Schema.define(version: 20180513224653) do
 
   create_table "resources", force: :cascade do |t|
     t.string "filename"
@@ -20,6 +20,7 @@ ActiveRecord::Schema.define(version: 20180511130659) do
     t.datetime "updated_at", null: false
     t.string "type_of_resource"
     t.string "description"
+    t.string "basename"
   end
 
 end

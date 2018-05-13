@@ -2,6 +2,9 @@
 <%= stylesheet_link_tag "upload", :media => "all" %>
 <%= stylesheet_link_tag "application", :media => "all" %>
 <head>
+  <div>
+    <%= image_tag "fullcircle.png", :class => "logo" %>
+  </div>
   <nav>
     <li class="dropdown">
       <a href="javascript:void(0)" class="dropbtn">Team Building</a>
@@ -25,15 +28,15 @@
 <body>
 <%= form_tag '/process', multipart: true do %>
   <p></p>
-  <%= file_field 'Resource', :file %>
+  <%= file_field 'Resource', :file ,class: "formbutton" %>
   <p>Type of Resource: </p>
-  <%= select_tag :type_of_resource, options_for_select([['Awards'], ['Fundraising'], ['Outreach'], ['Mechanical'], ['Programming'], ['Electrical']]) %>
+  <%= select_tag :type_of_resource ,options_for_select([['Awards'], ['Fundraising'], ['Outreach'], ['Mechanical'], ['Programming'], ['Electrical']]) %>
   <p></p>
   Descripton:
   <p></p>
   <%= text_area_tag :description %>
   <p></p>
-  <%= submit_tag "Submit", class: "submit" %>
+  <%= submit_tag "Submit", class: "formbutton" %>
 <% end %>
 </body>
 </html>
