@@ -28,7 +28,7 @@
 <body>
   <% Resource.all.each do |resource| %>
   <% if resource.type_of_resource == 'Programming' %>
-      <%= button_to resource.filename, "/download?id=#{resource.id}" %>
+      <%= button_to resource.basename, "/download?id=#{resource.id}", class: "download" %>
       <%= resource.description %>
      <% end %>
     <p>
