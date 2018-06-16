@@ -1,30 +1,30 @@
 head {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  /*font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;*/
 }
 body {
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  /*font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;*/
 }
 nav {
-  list-style-type: none;
+  /*list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
   background-color: #452D5B;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  font-weight: 400;
+  font-weight: 400;*/
 }
 
 li {
     float: left;
 }
 li a {
-  display: block;
+  /*display: block;
   color: white;
   text-align: center;
   padding: 18px 20px;
   text-decoration: none;
   font-size: 16pt;
-  border-right: 1px solid #FFFFFF;
+  border-right: 1px solid #FFFFFF;*/
 }
 li a:hover {
     background-color: #7C51A5;
@@ -62,4 +62,13 @@ li:last-child {
   color: white;
   background-color: #7C51A5;
   padding: 10px 12px;
+}
+
+.pic {
+  height: 7%;
+  width: 7%;
+}
+.person {
+  margin: auto;
+  width: 50%;
 }

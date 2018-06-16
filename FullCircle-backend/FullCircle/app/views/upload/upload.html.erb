@@ -2,28 +2,7 @@
 <%= stylesheet_link_tag "upload", :media => "all" %>
 <%= stylesheet_link_tag "application", :media => "all" %>
 <head>
-  <div>
-    <%= image_tag "fullcircle.png", :class => "logo" %>
-  </div>
-  <nav>
-    <li class="dropdown">
-      <a href="javascript:void(0)" class="dropbtn">Team Building</a>
-      <div class="dropdown-content">
-        <a href="awards">Awards</a>
-        <a href="fundraising">Fundraising</a>
-        <a href="outreach">Outreach</a>
-      </div>
-    </li>
-    <li class="dropdown">
-    <a href="javascript:void(0)" class="dropbtn">Resources</a>
-    <div class="dropdown-content">
-      <a href="mechanical">Mechanical</a>
-      <a href="programming">Programming</a>
-      <a href="electrical">Electrical</a>
-    </div>
-    <li><a href="about_us">About Us</a></li>
-    <li><a href="upload">Upload A Resource</a></li>
-  </nav>
+  <a href="home">Back to the main site</a>
 </head>
 <body>
 <%= form_tag '/process', multipart: true do %>

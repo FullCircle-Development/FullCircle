@@ -1,39 +1,114 @@
-<!DOCTYPE HTML>
-<html>
-<%= stylesheet_link_tag "application", :media => "all" %>
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-  <div>
-    <%= image_tag "fullcircle.png", :class => "logo" %>
-  </div>
-  <nav>
-    <li class="dropdown">
-      <a href="javascript:void(0)" class="dropbtn">Team Building</a>
-      <div class="dropdown-content">
-        <a href="awards">Awards</a>
-        <a href="fundraising">Fundraising</a>
-        <a href="outreach">Outreach</a>
-      </div>
-    </li>
-    <li class="dropdown">
-    <a href="javascript:void(0)" class="dropbtn">Resources</a>
-    <div class="dropdown-content">
-      <a href="mechanical">Mechanical</a>
-      <a href="programming">Programming</a>
-      <a href="electrical">Electrical</a>
-    </div>
-    <li><a href="about_us">About Us</a></li>
-    <li><a href="upload">Upload A Resource</a></li>
-  </nav>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Luke Crum">
+
+    <title>FullCircle</title>
+    <%= stylesheet_link_tag "bootstrap2.css", :media => "all" %>
+    <%= stylesheet_link_tag "1-col-portfolio.css", :media => "all" %>
+
 </head>
+
 <body>
-  <p></p>
-  <% Resource.all.each do |resource| %>
-  <% if resource.type_of_resource == 'Awards' %>
-      <%= button_to resource.basename, "/download?id=#{resource.id}", class: "download" %>
-      <%= resource.description %>
-     <% end %>
-    <p>
-    </p>
-  <% end %>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <a class="navbar-brand" href="#">FullCircle</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="home">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="technical">Technical</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="team_building">Team Building</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about_us">About Us</a>
+                </li>
+              </ul>
+            </div>
+        </div>
+    </nav>
+
+<div class="container">
+<div class="row">
+  <div class="col-lg-4 col-sm-6 portfolio-item">
+    <div class="card h-100">
+      <a href="#"><%= image_tag "awards.jpeg", :class => "card-img-top"%></a>
+      <div class="card-body">
+        <h4 class="card-title">
+          <a>Awards</a>
+        </h4>
+        <% Resource.all.each do |resource| %>
+        <% if resource.type_of_resource == 'Awards' %>
+        <div class="col-md-10">
+            <h6 class="card-title"><b><%= resource.basename %></b></h6>
+            <p><%= resource.description %></p>
+            <%= button_to "Download", "/download?id=#{resource.id}", class: "btn btn-primary" %>
+        </div>
+        <p></p>
+          <% end %>
+        <% end %>
+      </div>
+
+    </div>
+  </div>
+  <div class="col-lg-4 col-sm-6 portfolio-item">
+    <div class="card h-100">
+      <a href="#"><%= image_tag "fundraising.jpg", :class => "card-img-top"%></a>
+      <div class="card-body">
+        <h4 class="card-title">
+          <a>Fundraising</a>
+        </h4>
+        <% Resource.all.each do |resource| %>
+        <% if resource.type_of_resource == 'Fundraising' %>
+        <div class="col-md-10">
+            <h6 class="card-title"><b><%= resource.basename %></b></h6>
+            <p><%= resource.description %></p>
+            <%= button_to "Download", "/download?id=#{resource.id}", class: "btn btn-primary" %>
+        </div>
+        <p></p>
+          <% end %>
+        <% end %>
+        </div>
+    </div>
+  </div>
+  <div class="col-lg-4 col-sm-6 portfolio-item">
+    <div class="card h-100">
+      <a href="#"><%= image_tag "outreach.jpg", :class => "card-img-top"%></a>
+      <div class="card-body">
+        <h4 class="card-title">
+          <a>Outreach</a>
+        </h4>
+        <% Resource.all.each do |resource| %>
+        <% if resource.type_of_resource == 'Outreach' %>
+        <div class="col-md-10">
+            <h6 class="card-title"><b><%= resource.basename %></b></h6>
+            <p><%= resource.description %></p>
+            <%= button_to "Download", "/download?id=#{resource.id}", class: "btn btn-primary" %>
+        </div>
+        <p></p>
+          <% end %>
+        <% end %>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
 </body>
+
 </html>
