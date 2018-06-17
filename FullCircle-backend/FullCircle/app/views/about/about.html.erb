@@ -9,43 +9,46 @@
     <title>FullCircle</title>
     <%= stylesheet_link_tag "bootstrap2.css", :media => "all" %>
     <%= stylesheet_link_tag "1-col-portfolio.css", :media => "all" %>
+    <%= stylesheet_link_tag 'application.css', :media => "all"  %>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400" rel="stylesheet">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" role="navigation">
-        <div class="container">
-            <a class="navbar-brand" href="#">FullCircle</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-              <ul class="navbar-nav ml-auto">
-                <li class="nav-item">
-                  <a class="nav-link" href="home">Home</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="technical">Technical</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="team_building">Team Building</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="about_us">About Us</a>
-                </li>
-              </ul>
-            </div>
-        </div>
-    </nav>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" role="navigation">
+      <div class="container">
+          <!-- Brand and toggle get grouped for better mobile display -->
+          <a class="navbar-brand title" href="#">FullCircle</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link title" href="home"><b>Home</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link title" href="technical"><b>Technical</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link title" href="team_building"><b>Team Building</b></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link title" href="about_us"><b>About Us</b></a>
+              </li>
+            </ul>
+          </div>
+      </div>
+  </nav>
     <div class="container">
-      <h1 class="my-4">About Us</h1>
+      <h1 class="my-4 title">About Us</h1>
       <div class="row">
         <div class="col-lg-4 col-sm-6 portfolio-item">
           <div class="card h-100">
             <a href="#"><%= image_tag "Bryce.jpg", :class => "card-img-top"%></a>
             <div class="card-body">
-              <h4 class="card-title">
-                <a>Bryce Hanson</a>
+              <h4 class="card-title title">
+                <a><b>Bryce Hanson</b></a>
               </h4>
-              <p class="card-text">"Heya! I'm Bryce Hanson, founder and captain of Ellipse 6814 and founder of FullCircle. I've only been involved in FIRST for one year, but dove in headfirst and took my team to Houston Championships. I focus on communications, outreach, awards, organization, team culture, leadership, and anything Rookie All-Star related."</p>
+              <p class="card-text body_text">"Heya! I'm Bryce Hanson, founder and captain of Ellipse 6814 and founder of FullCircle. I've only been involved in FIRST for one year, but dove in headfirst and took my team to Houston Championships. I focus on communications, outreach, awards, organization, team culture, leadership, and anything Rookie All-Star related."</p>
             </div>
           </div>
         </div>
@@ -53,10 +56,10 @@
           <div class="card h-100">
             <a href="#"><%= image_tag "Matt.png", :class => "card-img-top"%></a>
             <div class="card-body">
-              <h4 class="card-title">
-                <a>Matt Esser</a>
+              <h4 class="card-title title">
+                <a><b>Matt Esser</b></a>
               </h4>
-              <p class="card-text">“I’m Matt, I am an alumni from FRC 5740 the Trojanators. I founded my team in 2014 and started and mentored nearly 15 other FIRST teams along the way. I am proficient in CAD design and have been apart of drive team for 4 years. I have also been recognized as a 2017 Deans List Finalist for my work in the community and on my team.”</p>
+              <p class="card-text body_text">“I’m Matt, I am an alumni from FRC 5740 the Trojanators. I founded my team in 2014 and started and mentored nearly 15 other FIRST teams along the way. I am proficient in CAD design and have been apart of drive team for 4 years. I have also been recognized as a 2017 Deans List Finalist for my work in the community and on my team.”</p>
             </div>
           </div>
         </div>
@@ -64,10 +67,10 @@
           <div class="card h-100">
             <a href="#"><%= image_tag "Luke.jpg", :class => "card-img-top"%></a>
             <div class="card-body">
-              <h4 class="card-title">
-                <a>Luke Crum</a>
+              <h4 class="card-title title">
+                <a><b>Luke Crum</b></a>
               </h4>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos quisquam, error quod sed cumque, odio distinctio velit nostrum temporibus necessitatibus et facere atque iure perspiciatis mollitia recusandae vero vel quam!</p>
+              <p class="card-text body_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos quisquam, error quod sed cumque, odio distinctio velit nostrum temporibus necessitatibus et facere atque iure perspiciatis mollitia recusandae vero vel quam!</p>
             </div>
           </div>
         </div>
@@ -75,10 +78,10 @@
           <div class="card h-100">
             <a><%= image_tag "Chris.jpg", :class => "card-img-top"%></a>
             <div class="card-body">
-              <h4 class="card-title">
-                <a>Chris Leafstrand</a>
+              <h4 class="card-title title">
+                <a><b>Chris Leafstrand</b></a>
               </h4>
-              <p class="card-text">"Hey, I'm Chris, VP of design on 1072. I have been involved with FIRST for 3 years and have worked hard to move us from not moving in 2016 to qualifying for champs and winning our division in 2018. My strong suits are CAD, design, and mechanical fabrication. I also have been the driver for 2 years and have experience in that. Looking forward to helping out!"</p>
+              <p class="card-text body_text">"Hey, I'm Chris, VP of design on 1072. I have been involved with FIRST for 3 years and have worked hard to move us from not moving in 2016 to qualifying for champs and winning our division in 2018. My strong suits are CAD, design, and mechanical fabrication. I also have been the driver for 2 years and have experience in that. Looking forward to helping out!"</p>
             </div>
           </div>
         </div>
@@ -86,10 +89,10 @@
           <div class="card h-100">
             <a href="#"><%= image_tag "Michael.jpg", :class => "card-img-top"%></a>
             <div class="card-body">
-              <h4 class="card-title">
-                <a>Michael Cao</a>
+              <h4 class="card-title title">
+                <a><b>Michael Cao</b></a>
               </h4>
-              <p class="card-text">"Hi I'm Michael, I've been in FRC three years and am an alumni and volunteer, and I do stuff. More info coming soon as I figure out what exactly I do. I'm not important enough to have people take pics of me at competition so I've attached a selfie with Frank for your viewing pleasure."</p>
+              <p class="card-text body_text">"Hi I'm Michael, I've been in FRC three years and am an alumni and volunteer, and I do stuff. More info coming soon as I figure out what exactly I do. I'm not important enough to have people take pics of me at competition so I've attached a selfie with Frank for your viewing pleasure."</p>
             </div>
           </div>
         </div>
@@ -97,10 +100,21 @@
           <div class="card h-100">
             <a href="#"><%= image_tag "Adriana.jpg", :class => "card-img-top"%></a>
             <div class="card-body">
-              <h4 class="card-title">
-                <a>Adriana Massie</a>
+              <h4 class="card-title title">
+                <a><b>Adriana Massie</b></a>
               </h4>
-              <p class="card-text">"Hello! I'm Adriana. I have been in FRC since 2016. I'm a mentor and alumni of FRC team 6201, The Highlanders. I was part of programming, awards, pit crew, safety captain,website and drive team as a student and now I mentor programming, awards, pits, website and outreach."</p>
+              <p class="card-text body_text">"Hello! I'm Adriana. I have been in FRC since 2016. I'm a mentor and alumni of FRC team 6201, The Highlanders. I was part of programming, awards, pit crew, safety captain,website and drive team as a student and now I mentor programming, awards, pits, website and outreach."</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+          <div class="card h-100">
+            <a href="#"><%= image_tag "Robert.png", :class => "card-img-top"%></a>
+            <div class="card-body">
+              <h4 class="card-title title">
+                <a><b>Robert Briggs</b></a>
+              </h4>
+              <p class="card-text body_text">"Hello! I am Robert Briggs. I have been in FRC for one year but have an undying passion to help and learn as much as I can. I am a member of FRC team 4151 SCRAP. I worked with everything this year from running attandance as historian, helping pr, business,  electrical, programming, metal fab and safety. Yet my strong suits coming in my determination, research,  and anything business."</p>
             </div>
           </div>
         </div>

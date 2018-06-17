@@ -12,7 +12,9 @@
     <title>FullCircle</title>
 
     <%= stylesheet_link_tag "bootstrap2.css", :media => "all" %>
-    <%= stylesheet_link_tag "1-col-portfolio.css", :media => "all" %>
+    <%= stylesheet_link_tag "home.css", :media => "all" %>
+    <%= stylesheet_link_tag 'application.css', :media => "all"  %>
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400" rel="stylesheet">
 
 </head>
 
@@ -22,27 +24,80 @@
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" role="navigation">
         <div class="container">
             <!-- Brand and toggle get grouped for better mobile display -->
-            <a class="navbar-brand" href="#">FullCircle</a>
+            <a class="navbar-brand title" href="#">FullCircle</a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarResponsive">
               <ul class="navbar-nav ml-auto">
-                <li class="nav-item active">
-                  <a class="nav-link" href="#">Home
-                    <span class="sr-only">(current)</span>
-                  </a>
+                <li class="nav-item">
+                  <a class="nav-link title" href="home"><b>Home</b></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="technical">Technical</a>
+                  <a class="nav-link title" href="technical"><b>Technical</b></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="team_building">Team Building</a>
+                  <a class="nav-link title" href="team_building"><b>Team Building</b></a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="about_us">About Us</a>
+                  <a class="nav-link title" href="about_us"><b>About Us</b></a>
                 </li>
               </ul>
             </div>
         </div>
     </nav>
+    <div class="container">
+
+      <!-- Jumbotron Header -->
+      <header class="jumbotron my-4">
+        <h1 class="display-3 title"><b>Welcome to FullCircle!</b></h1>
+        <p class="lead body_text">FullCircle is a program created by Ellipse 6814 and supported by other teams and students. It aims to directly support rookie teams, focusing on establishing a strong, positive culture from the beginning and helping rookies learn to manage all of the parts of FRC that they don’t immediately consider when starting a team such as awards, outreach, and fundraising. It also aims to help teams with robot-related questions, including engineering, CAD, and programming.</p>
+      </header>
+
+      <!-- Page Features -->
+      <div class="row text-center">
+
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+          <div class="card">
+            <%= image_tag "home_technical.jpg", :class => "card-img-top" %>
+            <div class="card-body">
+              <h4 class="card-title title"><b>Technical Resources</b></h4>
+              <p class="card-text body_text">Resources about the technical aspects of FRC (Programming, Electrical, Mechanical)</p>
+            </div>
+            <div class="card-footer">
+              <a href="technical" class="btn btn-primary title"><b>Technical</b></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+          <div class="card">
+            <%= image_tag "home_team_building.png", :class => "card-img-top" %>
+            <div class="card-body">
+              <h4 class="card-title title"><b>Team Building Resources</b></h4>
+              <p class="card-text body_text">Resources on how to build your team (Awards, Fundraising, and Outreach).</p>
+            </div>
+            <div class="card-footer">
+              <a href="team_building" class="btn btn-primary title"><b>Team Building</b></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+          <div class="card">
+            <%= image_tag "home_about_us.jpg", :class => "card-img-top" %>
+            <div class="card-body">
+              <h4 class="card-title title"><b>About Us</b></h4>
+              <p class="card-text body_text">Learn a little more about the team behind FullCircle</p>
+            </div>
+            <div class="card-footer">
+              <a href="about_us" class="btn btn-primary title"><b>About Us</b></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- /.row -->
+
+    </div>
+  </body>
+</html>
