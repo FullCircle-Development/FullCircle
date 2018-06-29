@@ -4,11 +4,13 @@ Rails.application.routes.draw do
   match '/technical' => 'programming#programming', via: :get
   match '/team_building' => 'awards#awards', via: :get
   match '/about_us' => 'about#about', via: :get
+  match '/' => 'home#home', via: :get
   match '/home' => 'home#home', via: :get
 
   post '/process' => 'process#process_resource'
   post '/download' => 'download#download_file'
-  match '/upload-155893305789872erwoiu54oiujk345' => 'upload#upload', via: :get
+  match '/preview' => 'download#preview_file', via: :get
 
   get '/filter/:type' => 'download#find_by'
+
 end

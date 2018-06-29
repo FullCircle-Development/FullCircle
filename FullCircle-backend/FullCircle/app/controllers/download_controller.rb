@@ -14,4 +14,15 @@ skip_before_action :verify_authenticity_token
     resource = Resource.find_by_id id
     send_data resource.data, filename: resource.filename, type: resource.content_type, disposition: 'attachment'
   end
+  def preview_file
+    id = params[:id].to_i
+    resource = Resource.find_by_id id
+    send_data resource.data, filename: resource.filename, type: resource.content_type, :disposition => 'inline'
+  end
+  def create_tmp
+    id = params[:id].to_i
+    resource = Resource.find_by_id id
+
+    tempfile = File.open("/tmp/#{resource.filename}", 'w+')
+  end
 end
