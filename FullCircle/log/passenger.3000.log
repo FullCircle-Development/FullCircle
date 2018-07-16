@@ -1,0 +1,24 @@
+[ N 2018-07-16 13:21:08.8027 71673/T1 age/Wat/WatchdogMain.cpp:1259 ]: Starting Passenger watchdog...
+[ N 2018-07-16 13:21:08.9095 71677/T1 age/Cor/CoreMain.cpp:1236 ]: Starting Passenger core...
+[ N 2018-07-16 13:21:08.9098 71677/T1 age/Cor/CoreMain.cpp:251 ]: Passenger core running in multi-application mode.
+[ N 2018-07-16 13:21:08.9593 71677/T1 age/Cor/CoreMain.cpp:971 ]: Passenger core online, PID 71677
+[ E 2018-07-16 13:21:11.7755 71677/T5 age/Cor/SecurityUpdateChecker.h:519 ]: A security update is available for your version (5.3.1) of Phusion Passenger. We strongly recommend upgrading to version 5.3.3.
+[ E 2018-07-16 13:21:11.7756 71677/T5 age/Cor/SecurityUpdateChecker.h:524 ]: Additional security update check information: 
+- [Fixed in 5.3.2] [CVE-2018-12026 - 12027 - 12028] There are local denial of service, local information disclosure and local privilege escalation vulnerabilities that could be exploited by malicious applications or malicious users on the system.
+[ E 2018-07-16 13:21:12.1706 71677/T5 Crypto.cpp:990 ]: Removing Passenger private key from keychain failed: write permissions error. Please remove the private key from the certificate labeled Phusion Passenger Open Source in your keychain.
+
+[ N 2018-07-16 13:21:33.5019 71677/T7 age/Cor/CoreMain.cpp:615 ]: Signal received. Gracefully shutting down... (send signal 2 more time(s) to force shutdown)
+[ N 2018-07-16 13:21:33.5019 71677/T1 age/Cor/CoreMain.cpp:1148 ]: Received command to shutdown gracefully. Waiting until all clients have disconnected...
+[ N 2018-07-16 13:21:33.5019 71677/T1 age/Cor/CoreMain.cpp:1062 ]: Checking whether to disconnect long-running connections for process 71731, application /Users/lukecrum/Documents/FullCircle/FullCircle (development)
+[ N 2018-07-16 13:21:33.5020 71677/T7 Ser/Server.h:902 ]: [ServerThr.1] Freed 0 spare client objects
+[ N 2018-07-16 13:21:33.5021 71677/T7 Ser/Server.h:559 ]: [ServerThr.1] Shutdown finished
+[ N 2018-07-16 13:21:33.5021 71677/T9 Ser/Server.h:902 ]: [ServerThr.2] Freed 0 spare client objects
+[ N 2018-07-16 13:21:33.5022 71677/T9 Ser/Server.h:559 ]: [ServerThr.2] Shutdown finished
+[ N 2018-07-16 13:21:33.5022 71677/Tb Ser/Server.h:902 ]: [ServerThr.3] Freed 0 spare client objects
+[ N 2018-07-16 13:21:33.5022 71677/Tb Ser/Server.h:559 ]: [ServerThr.3] Shutdown finished
+[ N 2018-07-16 13:21:33.5022 71677/Td Ser/Server.h:902 ]: [ServerThr.4] Freed 0 spare client objects
+[ N 2018-07-16 13:21:33.5023 71677/Td Ser/Server.h:559 ]: [ServerThr.4] Shutdown finished
+[ N 2018-07-16 13:21:33.5024 71677/Tf Ser/Server.h:902 ]: [ApiServer] Freed 0 spare client objects
+[ N 2018-07-16 13:21:33.5024 71677/Tf Ser/Server.h:559 ]: [ApiServer] Shutdown finished
+[ N 2018-07-16 13:21:33.5025 71677/T1 age/Cor/CoreMain.cpp:1062 ]: Checking whether to disconnect long-running connections for process 71731, application /Users/lukecrum/Documents/FullCircle/FullCircle (development)
+[ N 2018-07-16 13:21:33.8771 71677/T1 age/Cor/CoreMain.cpp:1221 ]: Passenger core shutdown finished
